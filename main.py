@@ -79,31 +79,69 @@ TIME_PERIODS = {
 
 # Major cities default fallback map (code, slug, lat, lon, geohash)
 STATIC_REGION_MAP = {
-    "mumbai":     ("MUMBAI", "mumbai",                     "19.076", "72.878", "te7"),
-    "delhi-ncr":  ("NCR",    "national-capital-region-ncr","28.613", "77.209", "ttn"),
-    "delhi":      ("NCR",    "national-capital-region-ncr","28.613", "77.209", "ttn"),
-    "ncr":        ("NCR",    "national-capital-region-ncr","28.613", "77.209", "ttn"),
-    "bengaluru":  ("BANG",   "bengaluru",                  "12.972", "77.594", "tdr"),
-    "bangalore":  ("BANG",   "bengaluru",                  "12.972", "77.594", "tdr"),
-    "bang":       ("BANG",   "bengaluru",                  "12.972", "77.594", "tdr"),
-    "hyderabad":  ("HYD",    "hyderabad",                  "17.385", "78.487", "tep"),
-    "hyd":        ("HYD",    "hyderabad",                  "17.385", "78.487", "tep"),
-    "chennai":    ("CHEN",   "chennai",                    "13.056", "80.206", "tf3"),
-    "kolkata":    ("KOLK",   "kolkata",                    "22.573", "88.364", "tun"),
-    "pune":       ("PUNE",   "pune",                       "18.520", "73.856", "te2"),
-    "ahmedabad":  ("AHD",    "ahmedabad",                  "23.039", "72.566", "ts5"),
-    "ahd":        ("AHD",    "ahmedabad",                  "23.039", "72.566", "ts5"),
-    "chandigarh": ("CHD",    "chandigarh",                 "30.733", "76.779", "ttq"),
-    "kochi":      ("KOCH",   "kochi",                      "9.932",  "76.267", "t9z"),
-    "jaipur":     ("JAIP",   "jaipur",                     "26.912", "75.787", "tsv"),
-    "lucknow":    ("LUCK",   "lucknow",                    "26.846", "80.946", "tu8"),
-    "surat":      ("SURT",   "surat",                      "21.195", "72.819", "te5"),
-    "coimbatore": ("COIM",   "coimbatore",                 "11.016", "76.955", "t9y"),
-    "indore":     ("IND",    "indore",                     "22.719", "75.857", "tsg"),
-    "nagpur":     ("NAGP",   "nagpur",                     "21.145", "79.088", "tgc"),
-    "goa":        ("GOA",    "goa",                        "15.299", "74.124", "td8"),
-    "vadodara":   ("VAD",    "vadodara",                   "22.307", "73.181", "te5"),
-    "vizag":      ("VIZ",    "visakhapatnam",              "17.686", "83.218", "tg7"),
+    # Delhi NCR & surrounding cities
+    "national-capital-region-ncr": ("NCR",    "national-capital-region-ncr", "28.6139", "77.2090", "ttn"),
+    "delhi-ncr":                   ("NCR",    "national-capital-region-ncr", "28.6139", "77.2090", "ttn"),
+    "delhi":                       ("NCR",    "national-capital-region-ncr", "28.6139", "77.2090", "ttn"),
+    "ncr":                         ("NCR",    "national-capital-region-ncr", "28.6139", "77.2090", "ttn"),
+    "nation":                      ("NCR",    "national-capital-region-ncr", "28.6139", "77.2090", "ttn"),
+    "new-delhi":                   ("NCR",    "national-capital-region-ncr", "28.6139", "77.2090", "ttn"),
+    "noida":                       ("NCR",    "national-capital-region-ncr", "28.6139", "77.2090", "ttn"),
+    "greater-noida":               ("NCR",    "national-capital-region-ncr", "28.6139", "77.2090", "ttn"),
+    "gurugram":                    ("NCR",    "delhi-ncr",                  "28.6139", "77.2090", "ttn"),
+    "gurgaon":                     ("NCR",    "delhi-ncr",                  "28.6139", "77.2090", "ttn"),
+    "ghaziabad":                   ("NCR",    "delhi-ncr",                  "28.6139", "77.2090", "ttn"),
+    "faridabad":                   ("NCR",    "delhi-ncr",                  "28.6139", "77.2090", "ttn"),
+
+    # Mumbai & MMR
+    "mumbai":                      ("MUMBAI", "mumbai",                     "19.0760", "72.8777", "te7"),
+    "navi-mumbai":                 ("MUMBAI", "mumbai",                     "19.0760", "72.8777", "te7"),
+    "thane":                       ("MUMBAI", "mumbai",                     "19.0760", "72.8777", "te7"),
+
+    # Bengaluru
+    "bengaluru":                   ("BANG",   "bengaluru",                  "12.9716", "77.5946", "tdr"),
+    "bangalore":                   ("BANG",   "bengaluru",                  "12.9716", "77.5946", "tdr"),
+    "bang":                        ("BANG",   "bengaluru",                  "12.9716", "77.5946", "tdr"),
+    "blr":                         ("BANG",   "bengaluru",                  "12.9716", "77.5946", "tdr"),
+
+    # Hyderabad
+    "hyderabad":                   ("HYD",    "hyderabad",                  "17.3850", "78.4867", "tep"),
+    "hyd":                         ("HYD",    "hyderabad",                  "17.3850", "78.4867", "tep"),
+
+    # Chennai
+    "chennai":                     ("CHEN",   "chennai",                    "13.0560", "80.2060", "tf3"),
+    "chen":                        ("CHEN",   "chennai",                    "13.0560", "80.2060", "tf3"),
+    "madras":                      ("CHEN",   "chennai",                    "13.0560", "80.2060", "tf3"),
+
+    # Kolkata
+    "kolkata":                     ("KOLK",   "kolkata",                    "22.5726", "88.3639", "tun"),
+    "kolk":                        ("KOLK",   "kolkata",                    "22.5726", "88.3639", "tun"),
+    "calcutta":                    ("KOLK",   "kolkata",                    "22.5726", "88.3639", "tun"),
+
+    # Pune
+    "pune":                        ("PUNE",   "pune",                       "18.5204", "73.8567", "te2"),
+
+    # Ahmedabad
+    "ahmedabad":                   ("AHD",    "ahmedabad",                  "23.0396", "72.5660", "ts5"),
+    "ahd":                         ("AHD",    "ahmedabad",                  "23.0396", "72.5660", "ts5"),
+
+    # Chandigarh
+    "chandigarh":                  ("CHD",    "chandigarh",                 "30.7333", "76.7794", "ttq"),
+    "chd":                         ("CHD",    "chandigarh",                 "30.7333", "76.7794", "ttq"),
+
+    # Other major cities
+    "kochi":                       ("KOCH",   "kochi",                      "9.9312",  "76.2673", "t9z"),
+    "cochin":                      ("KOCH",   "kochi",                      "9.9312",  "76.2673", "t9z"),
+    "jaipur":                      ("JAIP",   "jaipur",                     "26.9124", "75.7873", "tsv"),
+    "lucknow":                     ("LUCK",   "lucknow",                    "26.8467", "80.9462", "tu8"),
+    "surat":                       ("SURT",   "surat",                      "21.1950", "72.8190", "te5"),
+    "coimbatore":                  ("COIM",   "coimbatore",                 "11.0168", "76.9558", "t9y"),
+    "indore":                      ("IND",    "indore",                     "22.7196", "75.8577", "tsg"),
+    "nagpur":                      ("NAGP",   "nagpur",                     "21.1458", "79.0882", "tgc"),
+    "goa":                         ("GOA",    "goa",                        "15.2993", "74.1240", "td8"),
+    "vadodara":                    ("VAD",    "vadodara",                   "22.3072", "73.1812", "te5"),
+    "vizag":                       ("VIZ",    "visakhapatnam",              "17.6868", "83.2185", "tg7"),
+    "visakhapatnam":               ("VIZ",    "visakhapatnam",              "17.6868", "83.2185", "tg7"),
 }
 
 # ──────────────────────────────────────────────────────────────────────
@@ -138,11 +176,44 @@ class DateInfo:
 # ──────────────────────────────────────────────────────────────────────
 def resolve_region(slug_or_code, session=None):
     """Resolve city slug/code to BMS region tuple (code, slug, lat, lon, geohash)."""
-    key = (slug_or_code or "").lower().strip()
-    if key in STATIC_REGION_MAP:
-        return STATIC_REGION_MAP[key]
+    raw = (slug_or_code or "").strip().lower()
+    clean = re.sub(r"[^a-z0-9]+", "-", raw).strip("-")
 
-    # Check cache
+    # 1. Exact match in static region map
+    if clean in STATIC_REGION_MAP:
+        return STATIC_REGION_MAP[clean]
+    if raw in STATIC_REGION_MAP:
+        return STATIC_REGION_MAP[raw]
+
+    # 2. Heuristic keyword matches for common regions (resilient in CI without cache/network)
+    if any(k in clean for k in ("delhi", "ncr", "nation", "noida", "gurgaon", "gurugram", "ghaziabad", "faridabad")):
+        return STATIC_REGION_MAP["national-capital-region-ncr"]
+    if any(k in clean for k in ("mumbai", "bombay", "thane", "navi")):
+        return STATIC_REGION_MAP["mumbai"]
+    if any(k in clean for k in ("bengaluru", "bangalore", "bang", "blr")):
+        return STATIC_REGION_MAP["bengaluru"]
+    if any(k in clean for k in ("hyderabad", "hyd")):
+        return STATIC_REGION_MAP["hyderabad"]
+    if any(k in clean for k in ("chennai", "chen", "madras")):
+        return STATIC_REGION_MAP["chennai"]
+    if any(k in clean for k in ("kolkata", "kolk", "calcutta")):
+        return STATIC_REGION_MAP["kolkata"]
+    if "pune" in clean:
+        return STATIC_REGION_MAP["pune"]
+    if any(k in clean for k in ("ahmedabad", "ahd")):
+        return STATIC_REGION_MAP["ahmedabad"]
+    if any(k in clean for k in ("chandigarh", "chd")):
+        return STATIC_REGION_MAP["chandigarh"]
+    if "jaipur" in clean:
+        return STATIC_REGION_MAP["jaipur"]
+    if "lucknow" in clean:
+        return STATIC_REGION_MAP["lucknow"]
+    if any(k in clean for k in ("kochi", "cochin")):
+        return STATIC_REGION_MAP["kochi"]
+    if "goa" in clean:
+        return STATIC_REGION_MAP["goa"]
+
+    # 3. Check local cache file
     cached_regions = {}
     if os.path.exists(REGIONS_CACHE_FILE):
         try:
@@ -151,51 +222,59 @@ def resolve_region(slug_or_code, session=None):
         except Exception:
             pass
 
-    if key in cached_regions:
-        r = cached_regions[key]
+    if clean in cached_regions:
+        r = cached_regions[clean]
+        return (r["code"], r["slug"], r["lat"], r["lon"], r.get("geohash", ""))
+    if raw in cached_regions:
+        r = cached_regions[raw]
         return (r["code"], r["slug"], r["lat"], r["lon"], r.get("geohash", ""))
 
-    # Query BookMyShow GETREGIONS endpoint (has 2,000+ Indian cities)
+    # 4. Query BookMyShow GETREGIONS endpoint (has 2,000+ Indian cities)
     s = session or requests.Session()
     try:
         resp = s.get(
             "https://in.bookmyshow.com/serv/getData?cmd=GETREGIONS",
             headers={
                 "User-Agent": (
-                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+                    "(KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
                 )
             },
             timeout=8
         )
         if resp.status_code == 200 and "var regionlst=" in resp.text:
             idx = resp.text.find("var regionlst=")
-            raw = resp.text[idx + len("var regionlst="):]
-            data, _ = json.JSONDecoder().raw_decode(raw)
+            raw_js = resp.text[idx + len("var regionlst="):]
+            data, _ = json.JSONDecoder().raw_decode(raw_js)
 
             for code, items in data.items():
                 for item in items:
                     c = item.get("code", "")
                     sl = item.get("slug", "")
                     nm = item.get("name", "").lower()
-                    lat = str(item.get("lat", "0"))
-                    lon = str(item.get("long", "0"))
+                    lat = str(item.get("lat", "28.6139"))
+                    lon = str(item.get("long", "77.2090"))
                     info = {"code": c, "slug": sl, "lat": lat, "lon": lon, "geohash": ""}
                     cached_regions[c.lower()] = info
                     cached_regions[sl.lower()] = info
                     cached_regions[nm] = info
 
-            with open(REGIONS_CACHE_FILE, "w") as f:
-                json.dump(cached_regions, f)
+            try:
+                with open(REGIONS_CACHE_FILE, "w") as f:
+                    json.dump(cached_regions, f)
+            except Exception:
+                pass
 
-            if key in cached_regions:
-                r = cached_regions[key]
+            if clean in cached_regions:
+                r = cached_regions[clean]
                 return (r["code"], r["slug"], r["lat"], r["lon"], r.get("geohash", ""))
     except Exception as e:
         print(f"  ⚠️ Warning fetching regions list: {e}")
 
-    # Fallback default
-    return (key.upper()[:6], key, "0", "0", "")
+    # 5. Safe fallback default (never return 0, 0 as coordinates because BMS API rejects it with 403)
+    code = clean.upper()[:6] if clean else "NCR"
+    slug = clean if clean else "national-capital-region-ncr"
+    return (code, slug, "28.6139", "77.2090", "ttn")
 
 # ──────────────────────────────────────────────────────────────────────
 # URL & DATE PARSERS
@@ -337,16 +416,17 @@ def create_bms_session():
     s = requests.Session()
     s.headers.update({
         "User-Agent": (
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-            "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
         ),
         "Accept": "application/json, text/plain, */*",
         "Accept-Language": "en-US,en;q=0.9",
         "x-app-code": "WEB",
         "x-location-selection": "manual",
-        "sec-ch-ua": '"Chromium";v="124", "Not:A-Brand";v="99"',
+        "x-lsid": "",
+        "sec-ch-ua": '"Chromium";v="145", "Not:A-Brand";v="99"',
         "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": '"Windows"',
+        "sec-ch-ua-platform": '"macOS"',
     })
     return s
 
@@ -358,6 +438,8 @@ def fetch_bms(session, event_code, date_code, region_code, region_slug, lat, lon
         "x-geohash": geohash or "",
         "x-latitude": lat,
         "x-longitude": lon,
+        "x-location-selection": "manual",
+        "x-lsid": "",
         "Referer": f"https://in.bookmyshow.com/movies/{region_slug}/buytickets/{event_code}/",
     }
     params = {
@@ -372,13 +454,25 @@ def fetch_bms(session, event_code, date_code, region_code, region_slug, lat, lon
         "lat": lat,
         "lon": lon,
     }
-    try:
-        resp = session.get(API_URL, headers=headers, params=params, timeout=15)
-        if resp.status_code == 200:
-            return resp.json()
-        print(f"  HTTP {resp.status_code} for {event_code} ({date_code or 'default'})")
-    except requests.RequestException as e:
-        print(f"  Request failed: {e}")
+    for attempt in range(2):
+        try:
+            resp = session.get(API_URL, headers=headers, params=params, timeout=15)
+            if resp.status_code == 200:
+                return resp.json()
+            elif resp.status_code == 403 and attempt == 0:
+                time.sleep(1.5)
+                # Fallback user agent on 403
+                headers["User-Agent"] = (
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                )
+                continue
+            print(f"  HTTP {resp.status_code} for {event_code} ({date_code or 'default'})")
+        except requests.RequestException as e:
+            if attempt == 0:
+                time.sleep(1.0)
+                continue
+            print(f"  Request failed: {e}")
     return None
 
 # ──────────────────────────────────────────────────────────────────────

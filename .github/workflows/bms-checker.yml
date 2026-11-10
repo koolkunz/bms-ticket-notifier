@@ -2,8 +2,8 @@ name: BMS Ticket Checker
 
 on:
   schedule:
-    # Every 30 minutes
-    - cron: '*/30 * * * *'
+    # Runs every 30 minutes, but at minute 13 and 43 to avoid GitHub Actions queue spikes
+    - cron: '13,43 * * * *'
   workflow_dispatch:  # Manual trigger button
 
 jobs:

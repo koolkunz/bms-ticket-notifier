@@ -190,10 +190,10 @@ Go to **Settings → Secrets and variables → Actions → Variables tab**:
 Go to **Actions → BMS Ticket Checker → Run workflow**, or wait for it to run automatically on schedule.
 
 ### 6. Adjust Schedule Frequency (Optional)
-Edit [`.github/workflows/bms-checker.yml`](.github/workflows/bms-checker.yml) line 6:
-- Every 15 minutes: `- cron: '*/15 * * * *'`
-- Every 30 minutes: `- cron: '*/30 * * * *'`
-- Every hour: `- cron: '0 * * * *'`
+Edit [`.github/workflows/bms-checker.yml`](.github/workflows/bms-checker.yml):
+- Every 30 minutes (jittered): `- cron: '13,43 * * * *'` *(default — shifts by a few minutes to avoid global GitHub runner queue spikes)*
+- Every 15 minutes: `- cron: '7,22,37,52 * * * *'`
+- Every hour: `- cron: '17 * * * *'`
 
 ---
 

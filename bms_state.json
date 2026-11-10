@@ -1,16 +1,8 @@
 {
   "event_code": "ET00523158",
-  "movie": "Ramayana",
+  "movie": "Unknown Movie",
   "waiting_for_release": true,
-  "last_checked": "2026-11-10 16:00:47",
+  "last_checked": "2026-11-10 10:47:53",
   "shows": {},
-  "dates": {
-    "20261110": "BOOKABLE",
-    "20261111": "AVAILABLE",
-    "20261112": "AVAILABLE",
-    "20261113": "AVAILABLE",
-    "20261114": "AVAILABLE",
-    "20261115": "AVAILABLE",
-    "20261116": "NOT_OPEN"
-  }
+  "dates": {}
 }

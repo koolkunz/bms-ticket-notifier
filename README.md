@@ -10,14 +10,16 @@ Runs locally as a continuous background bot or in CI via GitHub Actions, alertin
 
 - 🚨 **Ticket Release Alerts**: Detects when bookings first open for an unreleased movie and immediately alerts you.
 - 🎯 **Multi-Format & Language Filter**: Automatically discovers all formats linked to a movie on BookMyShow (`IMAX 3D`, `3D`, `4DX`, `2D`, `Hindi`, `English`, etc.) and monitors the ones you specify (e.g. `hindi, imax`).
-- 📅 **Date Range Monitoring**: Supports flexible dates:
+- 📅 **Date Range Monitoring & Human Dates**:
+  - Readable dates in all alerts: e.g. **`Sunday, 15th November 2026`**
   - Date ranges: `20261110-20261115` or `2026-11-10 to 2026-11-15`
   - Relative dates: `today`, `today+3` (today through next 3 days)
   - Comma-separated: `20261110,20261112`
   - Auto-detection: Leave blank to automatically check all dates listed on BMS.
-- 🏛️ **Theatre Filter**: Filter by cinema chain or venue name (e.g. `PVR, INOX, Miraj`).
+- 🏛️ **Theatre Filter**: Filter by cinema chain or venue name (e.g. `PVR, INOX, Miraj, Vegas`).
 - ⏰ **Time Period Filter**: Filter by time of day (`morning`, `afternoon`, `evening`, `night`).
-- 📍 **All-India Region Resolution**: Pre-configured for all major Indian cities with automatic dynamic resolution for 2,000+ BookMyShow cities.
+- 📍 **All-India Region Resolution**: Pre-configured for major Indian cities with automatic dynamic lookup for 2,000+ BookMyShow cities.
+- 👥 **Multiple Email Recipients**: Send alerts to multiple emails separated by commas.
 - 🤖 **Local Bot Loop**: Run continuously in the background on your machine (`--loop` with custom interval).
 - 📧 **Rich HTML Email Alerts**: Grouped by theatre, with seat categories, ticket prices, availability indicators, and direct 1-click booking link.
 
@@ -65,15 +67,27 @@ BMS_SHOW_TYPE=hindi, imax
 # Optional time period (morning, afternoon, evening, night)
 BMS_TIME=evening,night
 
+# Optional city / region override (e.g. delhi-ncr, mumbai, bengaluru)
+BMS_REGION=
+
 # Bot loop interval in seconds (e.g. 60 = check every 1 minute)
 CHECK_INTERVAL=60
 
-# Optional: Resend Email setup (get a free API key at resend.com)
+# Send email with current showtimes on startup/first check (true/false)
+NOTIFY_ON_START=true
+
+# Always send email on every check, even if nothing changed (true/false)
+FORCE_EMAIL=false
+
+# Resend Email Configuration (Optional - get free API key at resend.com)
 RESEND_API_KEY=re_123456789
 # Comma-separated list of recipient emails
 RESEND_TO_EMAIL=you@example.com, friend@example.com
 RESEND_FROM_EMAIL=onboarding@resend.dev
 ```
+
+> **Note on Resend Sender (`RESEND_FROM_EMAIL`)**:
+> With Resend's free default sandbox sender (`onboarding@resend.dev`), emails can only be delivered to your own registered account email. To send alerts to other recipients, verify your custom domain at [resend.com/domains](https://resend.com/domains) and set `RESEND_FROM_EMAIL=alerts@yourdomain.com`.
 
 ### 3. Run the Bot
 
@@ -85,6 +99,11 @@ python main.py --loop --interval 60
 **Run a single check:**
 ```bash
 python main.py --once
+```
+
+**Run a single check and force an email immediately:**
+```bash
+python main.py --once --force-email
 ```
 
 **Test your email setup:**
@@ -117,11 +136,13 @@ python main.py \
 | `--show-type` | Filter by show type/format/language | `hindi, imax` or `imax` or `4dx` |
 | `--theatre` | Filter by cinema name | `PVR, INOX, Miraj` |
 | `--time` | Filter by time period | `evening,night` |
-| `--region` | Override city / region | `mumbai`, `bengaluru`, `delhi` |
+| `--region` | Override city / region | `mumbai`, `delhi-ncr`, `bengaluru` |
 | `--loop` | Run continuously in a monitoring loop | `--loop` |
 | `--interval` | Polling interval in seconds | `--interval 60` |
 | `--once` | Run a single check and exit | `--once` |
-| `--test-email` | Send a test email via Resend | `--test-email` |
+| `--force-email` | Send email with current shows even if no changes | `--force-email` |
+| `--notify-initial` | Send email notification on first baseline run | `--notify-initial` |
+| `--test-email` | Send a test email via Resend and exit | `--test-email` |
 | `--reset-state` | Clear cached watch state | `--reset-state` |
 
 ---
@@ -130,26 +151,56 @@ python main.py \
 
 To run the checker automatically on GitHub Actions every 30 minutes:
 
-1. Fork this repository.
-2. In your repo, go to **Settings → Secrets and variables → Actions**.
-3. Under **Secrets**, add:
-   - `RESEND_API_KEY`: Your Resend API key
-   - `RESEND_TO_EMAIL`: Your destination email
-   - `RESEND_FROM_EMAIL`: Sender email (`onboarding@resend.dev` or your verified domain)
-4. Under **Variables**, add:
-   - `BMS_URL`: BookMyShow movie URL
-   - `BMS_DATES`: (Optional) Date range or list
-   - `BMS_SHOW_TYPE`: (Optional) e.g. `hindi, imax`
-   - `BMS_THEATRE`: (Optional) e.g. `PVR, INOX`
-   - `BMS_TIME`: (Optional) e.g. `evening,night`
-5. Go to **Actions → BMS Ticket Checker → Run workflow**.
+### 1. Push your code to GitHub
+```bash
+git add .
+git commit -m "feat: setup ticket notifier"
+git push origin main
+```
+
+### 2. Enable Workflow Write Permissions
+GitHub Actions needs permission to commit updated state back to the repository:
+1. In your GitHub repo, go to **Settings → Actions → General**.
+2. Scroll to **Workflow permissions**.
+3. Select **"Read and write permissions"**.
+4. Click **Save**.
+
+### 3. Add GitHub Secrets
+Go to **Settings → Secrets and variables → Actions → Secrets tab**:
+
+| Secret Name | Value |
+|-------------|-------|
+| `RESEND_API_KEY` | Your Resend API key (`re_...`) |
+| `RESEND_TO_EMAIL` | Recipient email(s) (comma-separated if multiple) |
+| `RESEND_FROM_EMAIL` | `onboarding@resend.dev` (or verified custom domain) |
+
+### 4. Add GitHub Variables
+Go to **Settings → Secrets and variables → Actions → Variables tab**:
+
+| Variable Name | Description | Example |
+|---------------|-------------|---------|
+| `BMS_URL` | BookMyShow ticket page URL | `https://in.bookmyshow.com/.../ET00523158` |
+| `BMS_DATES` | (Optional) Date range or relative | `today+4` or `20261111-20261115` |
+| `BMS_SHOW_TYPE` | (Optional) Show type / format | `hindi, imax` |
+| `BMS_THEATRE` | (Optional) Cinema name filter | `PVR, INOX, Vegas` |
+| `BMS_TIME` | (Optional) Time slot | `evening,night` |
+| `BMS_REGION` | (Optional) City / region | `delhi-ncr`, `mumbai` |
+
+### 5. Trigger the Workflow
+Go to **Actions → BMS Ticket Checker → Run workflow**, or wait for it to run automatically on schedule.
+
+### 6. Adjust Schedule Frequency (Optional)
+Edit [`.github/workflows/bms-checker.yml`](.github/workflows/bms-checker.yml) line 6:
+- Every 15 minutes: `- cron: '*/15 * * * *'`
+- Every 30 minutes: `- cron: '*/30 * * * *'`
+- Every hour: `- cron: '0 * * * *'`
 
 ---
 
 ## How It Works
 
 1. **Movie & Format Discovery**: Queries BookMyShow's API with desktop browser headers. It discovers all languages and screen formats for the title (2D, 3D, IMAX 3D, 4DX, ScreenX, ICE, etc.) and isolates the exact event codes matching your criteria.
-2. **Date Range Checking**: Iterates across your requested dates or auto-detects all available booking dates on the schedule.
+2. **Date Range Checking**: Iterates across your requested dates, resolving relative dates (`today`, `today+3`) into human-readable dates (`Sunday, 15th November 2026`).
 3. **Filtering**: Matches showtimes against theatre names, time slots, and formats.
 4. **State Tracking**: Compares the results against `bms_state.json`:
    - If bookings were not open and now are → **🚨 BOOKINGS OPENED ALERT!**

@@ -6,6 +6,7 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
+# Virtual environments & local files
 .venv
 .env
+bms_regions_cache.json

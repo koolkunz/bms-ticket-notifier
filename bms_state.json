@@ -1,8 +1,287 @@
 {
   "event_code": "ET00523158",
-  "movie": "Unknown Movie",
-  "waiting_for_release": true,
-  "last_checked": "2026-11-10 10:47:53",
-  "shows": {},
-  "dates": {}
+  "movie": "Ramayana",
+  "waiting_for_release": false,
+  "last_checked": "2026-11-10 11:55:38",
+  "shows": {
+    "PTCW|36144|20261115|RECLINER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:50 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "1350.00",
+      "status": "3"
+    },
+    "PTCW|36144|20261115|XTRA LEGROOM": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:50 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "780.00",
+      "status": "3"
+    },
+    "PTCW|36144|20261115|PICTURE PERFECT": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:50 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "780.00",
+      "status": "3"
+    },
+    "PTCW|36144|20261115|LOUNGER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:50 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "LOUNGER",
+      "price": "740.00",
+      "status": "3"
+    },
+    "PTCW|36144|20261115|SOFA SLIDER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:50 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SOFA SLIDER",
+      "price": "680.00",
+      "status": "3"
+    },
+    "PTCW|36144|20261115|CLASSIC NORMAL": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:50 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC NORMAL",
+      "price": "650.00",
+      "status": "3"
+    },
+    "PTCW|36145|20261115|RECLINER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:30 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "1350.00",
+      "status": "3"
+    },
+    "PTCW|36145|20261115|XTRA LEGROOM": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:30 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "780.00",
+      "status": "3"
+    },
+    "PTCW|36145|20261115|PICTURE PERFECT": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:30 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "780.00",
+      "status": "3"
+    },
+    "PTCW|36145|20261115|LOUNGER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:30 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "LOUNGER",
+      "price": "740.00",
+      "status": "3"
+    },
+    "PTCW|36145|20261115|SOFA SLIDER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:30 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SOFA SLIDER",
+      "price": "680.00",
+      "status": "3"
+    },
+    "PTCW|36145|20261115|CLASSIC NORMAL": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:30 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC NORMAL",
+      "price": "650.00",
+      "status": "3"
+    },
+    "PTCW|36146|20261115|RECLINER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "03:35 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "1600.00",
+      "status": "3"
+    },
+    "PTCW|36146|20261115|XTRA LEGROOM": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "03:35 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "880.00",
+      "status": "3"
+    },
+    "PTCW|36146|20261115|PICTURE PERFECT": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "03:35 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "880.00",
+      "status": "3"
+    },
+    "PTCW|36146|20261115|LOUNGER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "03:35 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "LOUNGER",
+      "price": "840.00",
+      "status": "3"
+    },
+    "PTCW|36146|20261115|SOFA SLIDER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "03:35 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SOFA SLIDER",
+      "price": "780.00",
+      "status": "3"
+    },
+    "PTCW|36146|20261115|CLASSIC NORMAL": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "03:35 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC NORMAL",
+      "price": "750.00",
+      "status": "3"
+    },
+    "PTCW|36147|20261115|RECLINER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:40 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "1600.00",
+      "status": "3"
+    },
+    "PTCW|36147|20261115|XTRA LEGROOM": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:40 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "880.00",
+      "status": "3"
+    },
+    "PTCW|36147|20261115|PICTURE PERFECT": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:40 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "880.00",
+      "status": "3"
+    },
+    "PTCW|36147|20261115|LOUNGER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:40 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "LOUNGER",
+      "price": "840.00",
+      "status": "3"
+    },
+    "PTCW|36147|20261115|SOFA SLIDER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:40 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SOFA SLIDER",
+      "price": "780.00",
+      "status": "3"
+    },
+    "PTCW|36147|20261115|CLASSIC NORMAL": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:40 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC NORMAL",
+      "price": "750.00",
+      "status": "3"
+    },
+    "PTCW|36148|20261115|RECLINER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:45 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "1600.00",
+      "status": "3"
+    },
+    "PTCW|36148|20261115|XTRA LEGROOM": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:45 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "880.00",
+      "status": "3"
+    },
+    "PTCW|36148|20261115|PICTURE PERFECT": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:45 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "880.00",
+      "status": "3"
+    },
+    "PTCW|36148|20261115|LOUNGER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:45 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "LOUNGER",
+      "price": "840.00",
+      "status": "3"
+    },
+    "PTCW|36148|20261115|SOFA SLIDER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:45 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SOFA SLIDER",
+      "price": "780.00",
+      "status": "3"
+    },
+    "PTCW|36148|20261115|CLASSIC NORMAL": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:45 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC NORMAL",
+      "price": "750.00",
+      "status": "3"
+    }
+  },
+  "dates": {
+    "20261110": "BOOKABLE",
+    "20261111": "AVAILABLE",
+    "20261112": "AVAILABLE",
+    "20261113": "AVAILABLE",
+    "20261114": "AVAILABLE",
+    "20261115": "AVAILABLE",
+    "20261116": "NOT_OPEN"
+  }
 }

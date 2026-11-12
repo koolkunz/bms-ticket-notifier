@@ -1,16 +1,1241 @@
 {
   "event_code": "ET00523158",
   "movie": "Ramayana",
-  "waiting_for_release": true,
-  "last_checked": "2026-11-11 15:09:54",
-  "shows": {},
+  "waiting_for_release": false,
+  "last_checked": "2026-11-12 02:56:54",
+  "shows": {
+    "DTYN|37298|20261115|PICTURE PERFECT": {
+      "venue": "PVR: Superplex Mall Of India, Noida",
+      "time": "11:15 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "1224.00",
+      "status": "1"
+    },
+    "DTYN|37298|20261115|XTRA LEGROOM": {
+      "venue": "PVR: Superplex Mall Of India, Noida",
+      "time": "11:15 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "1224.00",
+      "status": "0"
+    },
+    "DTYN|37298|20261115|PRIME": {
+      "venue": "PVR: Superplex Mall Of India, Noida",
+      "time": "11:15 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PRIME",
+      "price": "920.00",
+      "status": "0"
+    },
+    "DTYN|37298|20261115|CLASSIC": {
+      "venue": "PVR: Superplex Mall Of India, Noida",
+      "time": "11:15 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC",
+      "price": "900.00",
+      "status": "3"
+    },
+    "DTYN|37299|20261115|PICTURE PERFECT": {
+      "venue": "PVR: Superplex Mall Of India, Noida",
+      "time": "03:20 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "1224.00",
+      "status": "1"
+    },
+    "DTYN|37299|20261115|XTRA LEGROOM": {
+      "venue": "PVR: Superplex Mall Of India, Noida",
+      "time": "03:20 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "1224.00",
+      "status": "0"
+    },
+    "DTYN|37299|20261115|PRIME": {
+      "venue": "PVR: Superplex Mall Of India, Noida",
+      "time": "03:20 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PRIME",
+      "price": "1020.00",
+      "status": "0"
+    },
+    "DTYN|37299|20261115|CLASSIC": {
+      "venue": "PVR: Superplex Mall Of India, Noida",
+      "time": "03:20 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC",
+      "price": "1000.00",
+      "status": "3"
+    },
+    "DTYN|37300|20261115|PICTURE PERFECT": {
+      "venue": "PVR: Superplex Mall Of India, Noida",
+      "time": "07:25 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "1224.00",
+      "status": "1"
+    },
+    "DTYN|37300|20261115|XTRA LEGROOM": {
+      "venue": "PVR: Superplex Mall Of India, Noida",
+      "time": "07:25 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "1224.00",
+      "status": "0"
+    },
+    "DTYN|37300|20261115|PRIME": {
+      "venue": "PVR: Superplex Mall Of India, Noida",
+      "time": "07:25 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PRIME",
+      "price": "1020.00",
+      "status": "1"
+    },
+    "DTYN|37300|20261115|CLASSIC": {
+      "venue": "PVR: Superplex Mall Of India, Noida",
+      "time": "07:25 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC",
+      "price": "960.00",
+      "status": "3"
+    },
+    "DTYN|37301|20261115|PICTURE PERFECT": {
+      "venue": "PVR: Superplex Mall Of India, Noida",
+      "time": "11:30 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "1176.00",
+      "status": "3"
+    },
+    "DTYN|37301|20261115|XTRA LEGROOM": {
+      "venue": "PVR: Superplex Mall Of India, Noida",
+      "time": "11:30 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "1176.00",
+      "status": "3"
+    },
+    "DTYN|37301|20261115|PRIME": {
+      "venue": "PVR: Superplex Mall Of India, Noida",
+      "time": "11:30 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PRIME",
+      "price": "980.00",
+      "status": "2"
+    },
+    "DTYN|37301|20261115|CLASSIC": {
+      "venue": "PVR: Superplex Mall Of India, Noida",
+      "time": "11:30 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC",
+      "price": "960.00",
+      "status": "3"
+    },
+    "PVLE|79892|20261115|RECLINER": {
+      "venue": "PVR: Superplex Logix, Noida",
+      "time": "08:00 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "1270.00",
+      "status": "1"
+    },
+    "PVLE|79892|20261115|CLASSIC": {
+      "venue": "PVR: Superplex Logix, Noida",
+      "time": "08:00 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC",
+      "price": "650.00",
+      "status": "2"
+    },
+    "PVLE|79893|20261115|RECLINER": {
+      "venue": "PVR: Superplex Logix, Noida",
+      "time": "11:40 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "1830.00",
+      "status": "1"
+    },
+    "PVLE|79893|20261115|CLASSIC": {
+      "venue": "PVR: Superplex Logix, Noida",
+      "time": "11:40 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC",
+      "price": "1000.00",
+      "status": "2"
+    },
+    "PVLE|79894|20261115|RECLINER": {
+      "venue": "PVR: Superplex Logix, Noida",
+      "time": "03:45 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "2030.00",
+      "status": "1"
+    },
+    "PVLE|79894|20261115|CLASSIC": {
+      "venue": "PVR: Superplex Logix, Noida",
+      "time": "03:45 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC",
+      "price": "1160.00",
+      "status": "2"
+    },
+    "PVLE|79895|20261115|RECLINER": {
+      "venue": "PVR: Superplex Logix, Noida",
+      "time": "07:50 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "2030.00",
+      "status": "0"
+    },
+    "PVLE|79895|20261115|CLASSIC": {
+      "venue": "PVR: Superplex Logix, Noida",
+      "time": "07:50 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC",
+      "price": "1100.00",
+      "status": "2"
+    },
+    "PVLE|79896|20261115|RECLINER": {
+      "venue": "PVR: Superplex Logix, Noida",
+      "time": "11:55 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "1930.00",
+      "status": "3"
+    },
+    "PVLE|79896|20261115|CLASSIC": {
+      "venue": "PVR: Superplex Logix, Noida",
+      "time": "11:55 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC",
+      "price": "1100.00",
+      "status": "3"
+    },
+    "PAEG|59039|20261115|PICTURE PERFECT": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "07:45 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "1050.00",
+      "status": "2"
+    },
+    "PAEG|59039|20261115|XTRA LEGROOM": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "07:45 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "850.00",
+      "status": "3"
+    },
+    "PAEG|59039|20261115|SOFA SLIDER": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "07:45 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SOFA SLIDER",
+      "price": "820.00",
+      "status": "2"
+    },
+    "PAEG|59039|20261115|LOUNGER": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "07:45 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "LOUNGER",
+      "price": "710.00",
+      "status": "3"
+    },
+    "PAEG|59039|20261115|CLASSIC": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "07:45 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC",
+      "price": "600.00",
+      "status": "3"
+    },
+    "PAEG|59040|20261115|XTRA LEGROOM": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "11:25 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "1050.00",
+      "status": "0"
+    },
+    "PAEG|59040|20261115|PICTURE PERFECT": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "11:25 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "1050.00",
+      "status": "1"
+    },
+    "PAEG|59040|20261115|SOFA SLIDER": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "11:25 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SOFA SLIDER",
+      "price": "920.00",
+      "status": "1"
+    },
+    "PAEG|59040|20261115|LOUNGER": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "11:25 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "LOUNGER",
+      "price": "710.00",
+      "status": "3"
+    },
+    "PAEG|59040|20261115|CLASSIC": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "11:25 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC",
+      "price": "600.00",
+      "status": "3"
+    },
+    "PAEG|59041|20261115|PICTURE PERFECT": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "03:30 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "1299.00",
+      "status": "1"
+    },
+    "PAEG|59041|20261115|SOFA SLIDER": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "03:30 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SOFA SLIDER",
+      "price": "1299.00",
+      "status": "1"
+    },
+    "PAEG|59041|20261115|XTRA LEGROOM": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "03:30 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "1299.00",
+      "status": "0"
+    },
+    "PAEG|59041|20261115|LOUNGER": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "03:30 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "LOUNGER",
+      "price": "1100.00",
+      "status": "3"
+    },
+    "PAEG|59041|20261115|CLASSIC": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "03:30 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC",
+      "price": "1100.00",
+      "status": "3"
+    },
+    "PAEG|59042|20261115|SOFA SLIDER": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "07:35 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SOFA SLIDER",
+      "price": "1299.00",
+      "status": "1"
+    },
+    "PAEG|59042|20261115|XTRA LEGROOM": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "07:35 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "1299.00",
+      "status": "2"
+    },
+    "PAEG|59042|20261115|PICTURE PERFECT": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "07:35 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "1299.00",
+      "status": "1"
+    },
+    "PAEG|59042|20261115|CLASSIC": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "07:35 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC",
+      "price": "1100.00",
+      "status": "3"
+    },
+    "PAEG|59042|20261115|LOUNGER": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "07:35 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "LOUNGER",
+      "price": "1100.00",
+      "status": "3"
+    },
+    "PAEG|59043|20261115|PICTURE PERFECT": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "11:40 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "1100.00",
+      "status": "3"
+    },
+    "PAEG|59043|20261115|SOFA SLIDER": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "11:40 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SOFA SLIDER",
+      "price": "1100.00",
+      "status": "3"
+    },
+    "PAEG|59043|20261115|CLASSIC": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "11:40 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC",
+      "price": "1100.00",
+      "status": "3"
+    },
+    "PAEG|59043|20261115|XTRA LEGROOM": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "11:40 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "1100.00",
+      "status": "3"
+    },
+    "PAEG|59043|20261115|LOUNGER": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "11:40 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "LOUNGER",
+      "price": "1100.00",
+      "status": "3"
+    },
+    "PTCW|36144|20261115|RECLINER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:50 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "1600.00",
+      "status": "1"
+    },
+    "PTCW|36144|20261115|XTRA LEGROOM": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:50 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "830.00",
+      "status": "3"
+    },
+    "PTCW|36144|20261115|PICTURE PERFECT": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:50 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "830.00",
+      "status": "3"
+    },
+    "PTCW|36144|20261115|LOUNGER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:50 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "LOUNGER",
+      "price": "740.00",
+      "status": "3"
+    },
+    "PTCW|36144|20261115|SOFA SLIDER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:50 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SOFA SLIDER",
+      "price": "680.00",
+      "status": "3"
+    },
+    "PTCW|36144|20261115|CLASSIC NORMAL": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:50 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC NORMAL",
+      "price": "650.00",
+      "status": "3"
+    },
+    "PTCW|36145|20261115|RECLINER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:30 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "1600.00",
+      "status": "0"
+    },
+    "PTCW|36145|20261115|XTRA LEGROOM": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:30 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "880.00",
+      "status": "0"
+    },
+    "PTCW|36145|20261115|PICTURE PERFECT": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:30 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "880.00",
+      "status": "1"
+    },
+    "PTCW|36145|20261115|SOFA SLIDER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:30 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SOFA SLIDER",
+      "price": "780.00",
+      "status": "1"
+    },
+    "PTCW|36145|20261115|LOUNGER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:30 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "LOUNGER",
+      "price": "740.00",
+      "status": "3"
+    },
+    "PTCW|36145|20261115|CLASSIC NORMAL": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:30 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC NORMAL",
+      "price": "650.00",
+      "status": "3"
+    },
+    "PTCW|36146|20261115|RECLINER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "03:35 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "2250.00",
+      "status": "1"
+    },
+    "PTCW|36146|20261115|XTRA LEGROOM": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "03:35 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "1010.00",
+      "status": "1"
+    },
+    "PTCW|36146|20261115|PICTURE PERFECT": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "03:35 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "1010.00",
+      "status": "1"
+    },
+    "PTCW|36146|20261115|SOFA SLIDER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "03:35 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SOFA SLIDER",
+      "price": "910.00",
+      "status": "1"
+    },
+    "PTCW|36146|20261115|LOUNGER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "03:35 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "LOUNGER",
+      "price": "840.00",
+      "status": "3"
+    },
+    "PTCW|36146|20261115|CLASSIC NORMAL": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "03:35 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC NORMAL",
+      "price": "750.00",
+      "status": "3"
+    },
+    "PTCW|36147|20261115|RECLINER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:40 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "2250.00",
+      "status": "1"
+    },
+    "PTCW|36147|20261115|XTRA LEGROOM": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:40 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "1010.00",
+      "status": "0"
+    },
+    "PTCW|36147|20261115|PICTURE PERFECT": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:40 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "1010.00",
+      "status": "1"
+    },
+    "PTCW|36147|20261115|SOFA SLIDER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:40 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SOFA SLIDER",
+      "price": "910.00",
+      "status": "2"
+    },
+    "PTCW|36147|20261115|LOUNGER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:40 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "LOUNGER",
+      "price": "840.00",
+      "status": "3"
+    },
+    "PTCW|36147|20261115|CLASSIC NORMAL": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:40 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC NORMAL",
+      "price": "750.00",
+      "status": "3"
+    },
+    "PTCW|36148|20261115|RECLINER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:45 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "1600.00",
+      "status": "3"
+    },
+    "PTCW|36148|20261115|XTRA LEGROOM": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:45 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "880.00",
+      "status": "3"
+    },
+    "PTCW|36148|20261115|PICTURE PERFECT": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:45 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "880.00",
+      "status": "3"
+    },
+    "PTCW|36148|20261115|LOUNGER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:45 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "LOUNGER",
+      "price": "840.00",
+      "status": "3"
+    },
+    "PTCW|36148|20261115|SOFA SLIDER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:45 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SOFA SLIDER",
+      "price": "780.00",
+      "status": "3"
+    },
+    "PTCW|36148|20261115|CLASSIC NORMAL": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:45 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC NORMAL",
+      "price": "750.00",
+      "status": "3"
+    },
+    "PVPU|6262|20261115|RECLINER": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "07:35 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "1800.00",
+      "status": "3"
+    },
+    "PVPU|6262|20261115|XTRA LEGROOM": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "07:35 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "790.00",
+      "status": "1"
+    },
+    "PVPU|6262|20261115|PICTURE PERFECT": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "07:35 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "790.00",
+      "status": "0"
+    },
+    "PVPU|6262|20261115|SUPERIOR": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "07:35 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SUPERIOR",
+      "price": "700.00",
+      "status": "1"
+    },
+    "PVPU|6262|20261115|PRIME": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "07:35 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PRIME",
+      "price": "670.00",
+      "status": "2"
+    },
+    "PVPU|6262|20261115|CLASSIC": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "07:35 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC",
+      "price": "520.00",
+      "status": "3"
+    },
+    "PVPU|6263|20261115|RECLINER": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "11:15 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "2300.00",
+      "status": "0"
+    },
+    "PVPU|6263|20261115|PICTURE PERFECT": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "11:15 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "790.00",
+      "status": "0"
+    },
+    "PVPU|6263|20261115|XTRA LEGROOM": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "11:15 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "790.00",
+      "status": "0"
+    },
+    "PVPU|6263|20261115|SUPERIOR": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "11:15 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SUPERIOR",
+      "price": "760.00",
+      "status": "0"
+    },
+    "PVPU|6263|20261115|PRIME": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "11:15 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PRIME",
+      "price": "730.00",
+      "status": "2"
+    },
+    "PVPU|6263|20261115|CLASSIC": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "11:15 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC",
+      "price": "620.00",
+      "status": "3"
+    },
+    "PVPU|6264|20261115|RECLINER": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "03:20 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "2400.00",
+      "status": "1"
+    },
+    "PVPU|6264|20261115|XTRA LEGROOM": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "03:20 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "1450.00",
+      "status": "1"
+    },
+    "PVPU|6264|20261115|PICTURE PERFECT": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "03:20 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "1450.00",
+      "status": "1"
+    },
+    "PVPU|6264|20261115|SUPERIOR": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "03:20 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SUPERIOR",
+      "price": "1250.00",
+      "status": "1"
+    },
+    "PVPU|6264|20261115|PRIME": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "03:20 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PRIME",
+      "price": "1200.00",
+      "status": "2"
+    },
+    "PVPU|6264|20261115|CLASSIC": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "03:20 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC",
+      "price": "1050.00",
+      "status": "3"
+    },
+    "PVPU|6265|20261115|RECLINER": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "07:25 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "2400.00",
+      "status": "1"
+    },
+    "PVPU|6265|20261115|XTRA LEGROOM": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "07:25 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "1450.00",
+      "status": "1"
+    },
+    "PVPU|6265|20261115|PICTURE PERFECT": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "07:25 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "1450.00",
+      "status": "0"
+    },
+    "PVPU|6265|20261115|SUPERIOR": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "07:25 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SUPERIOR",
+      "price": "1250.00",
+      "status": "1"
+    },
+    "PVPU|6265|20261115|PRIME": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "07:25 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PRIME",
+      "price": "1100.00",
+      "status": "3"
+    },
+    "PVPU|6265|20261115|CLASSIC": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "07:25 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC",
+      "price": "1050.00",
+      "status": "3"
+    },
+    "PVPU|6266|20261115|RECLINER": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "11:30 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "RECLINER",
+      "price": "2400.00",
+      "status": "3"
+    },
+    "PVPU|6266|20261115|PICTURE PERFECT": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "11:30 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "1250.00",
+      "status": "3"
+    },
+    "PVPU|6266|20261115|XTRA LEGROOM": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "11:30 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "1200.00",
+      "status": "3"
+    },
+    "PVPU|6266|20261115|SUPERIOR": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "11:30 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "SUPERIOR",
+      "price": "1150.00",
+      "status": "3"
+    },
+    "PVPU|6266|20261115|PRIME": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "11:30 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PRIME",
+      "price": "1100.00",
+      "status": "3"
+    },
+    "PVPU|6266|20261115|CLASSIC": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "11:30 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "CLASSIC",
+      "price": "1050.00",
+      "status": "3"
+    },
+    "IZOP|7125|20261115|XTRA LEGROOM": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "07:00 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "600.00",
+      "status": "3"
+    },
+    "IZOP|7125|20261115|PICTURE PERFECT": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "07:00 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "600.00",
+      "status": "3"
+    },
+    "IZOP|7125|20261115|Royal": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "07:00 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "Royal",
+      "price": "500.00",
+      "status": "3"
+    },
+    "IZOP|7125|20261115|Club": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "07:00 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "Club",
+      "price": "450.00",
+      "status": "3"
+    },
+    "IZOP|7125|20261115|Executive": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "07:00 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "Executive",
+      "price": "400.00",
+      "status": "3"
+    },
+    "IZOP|7126|20261115|PICTURE PERFECT": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "10:40 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "800.00",
+      "status": "1"
+    },
+    "IZOP|7126|20261115|XTRA LEGROOM": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "10:40 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "700.00",
+      "status": "3"
+    },
+    "IZOP|7126|20261115|Royal": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "10:40 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "Royal",
+      "price": "610.00",
+      "status": "2"
+    },
+    "IZOP|7126|20261115|Club": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "10:40 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "Club",
+      "price": "550.00",
+      "status": "3"
+    },
+    "IZOP|7126|20261115|Executive": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "10:40 AM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "Executive",
+      "price": "500.00",
+      "status": "3"
+    },
+    "IZOP|7127|20261115|PICTURE PERFECT": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "02:45 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "1100.00",
+      "status": "1"
+    },
+    "IZOP|7127|20261115|XTRA LEGROOM": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "02:45 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "1000.00",
+      "status": "3"
+    },
+    "IZOP|7127|20261115|Royal": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "02:45 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "Royal",
+      "price": "900.00",
+      "status": "2"
+    },
+    "IZOP|7127|20261115|Club": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "02:45 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "Club",
+      "price": "750.00",
+      "status": "3"
+    },
+    "IZOP|7127|20261115|Executive": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "02:45 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "Executive",
+      "price": "700.00",
+      "status": "3"
+    },
+    "IZOP|7128|20261115|XTRA LEGROOM": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "06:50 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "900.00",
+      "status": "3"
+    },
+    "IZOP|7128|20261115|PICTURE PERFECT": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "06:50 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "900.00",
+      "status": "3"
+    },
+    "IZOP|7128|20261115|Royal": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "06:50 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "Royal",
+      "price": "800.00",
+      "status": "3"
+    },
+    "IZOP|7128|20261115|Club": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "06:50 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "Club",
+      "price": "750.00",
+      "status": "3"
+    },
+    "IZOP|7128|20261115|Executive": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "06:50 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "Executive",
+      "price": "700.00",
+      "status": "3"
+    },
+    "IZOP|7129|20261115|PICTURE PERFECT": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "10:55 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "PICTURE PERFECT",
+      "price": "900.00",
+      "status": "3"
+    },
+    "IZOP|7129|20261115|XTRA LEGROOM": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "10:55 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "XTRA LEGROOM",
+      "price": "900.00",
+      "status": "3"
+    },
+    "IZOP|7129|20261115|Royal": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "10:55 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "Royal",
+      "price": "800.00",
+      "status": "3"
+    },
+    "IZOP|7129|20261115|Club": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "10:55 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "Club",
+      "price": "750.00",
+      "status": "3"
+    },
+    "IZOP|7129|20261115|Executive": {
+      "venue": "INOX: COCA-COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "10:55 PM",
+      "date": "20261115",
+      "format": "IMAX 3D",
+      "cat": "Executive",
+      "price": "700.00",
+      "status": "3"
+    }
+  },
   "dates": {
-    "20261111": "BOOKABLE",
-    "20261112": "AVAILABLE",
+    "20261112": "BOOKABLE",
     "20261113": "AVAILABLE",
     "20261114": "AVAILABLE",
     "20261115": "AVAILABLE",
     "20261116": "NOT_OPEN",
-    "20261117": "NOT_OPEN"
+    "20261117": "NOT_OPEN",
+    "20261118": "NOT_OPEN"
   }
 }

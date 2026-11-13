@@ -51,6 +51,25 @@ def load_dotenv(filepath=".env"):
 
 load_dotenv()
 
+def clean_val(val):
+    """
+    Sanitize configuration and environment values.
+    Treats 'NULL', 'null', 'none', 'NONE', 'nil', 'undefined', 'empty', or empty strings as empty "".
+    """
+    if val is None:
+        return ""
+    s = str(val).strip()
+    if len(s) >= 2 and ((s[0] == '"' and s[-1] == '"') or (s[0] == "'" and s[-1] == "'")):
+        s = s[1:-1].strip()
+    if s.lower() in ("null", "none", "nil", "undefined", "empty"):
+        return ""
+    return s
+
+
+def get_clean_env(key, default=""):
+    """Fetch an environment variable and sanitize NULL/none/empty values."""
+    return clean_val(os.getenv(key, default))
+
 # ──────────────────────────────────────────────────────────────────────
 # CONSTANTS & MAPS
 # ──────────────────────────────────────────────────────────────────────
@@ -353,9 +372,10 @@ def parse_date_range(raw_dates_str):
     - '20261110-20261115' or '2026-11-10 to 2026-11-15' (date ranges)
     - '20261110,20261112' (comma-separated list)
     """
-    if not raw_dates_str:
+    cleaned = clean_val(raw_dates_str)
+    if not cleaned:
         return []
-    s = raw_dates_str.strip().lower()
+    s = cleaned.lower()
     now = datetime.now()
 
     if s == "today":
@@ -549,13 +569,17 @@ def match_target_formats(available_formats, base_event_code, show_type_filter=""
     if not available_formats:
         return [{"event_code": base_event_code, "language": "", "format": "", "display": "Default"}]
 
+    show_type_filter = clean_val(show_type_filter)
+    format_filter = clean_val(format_filter)
+    lang_filter = clean_val(lang_filter)
+
     tokens = []
     if show_type_filter:
-        tokens.extend([t.strip().lower() for t in re.split(r"[,;]+", show_type_filter) if t.strip()])
+        tokens.extend([t.strip().lower() for t in re.split(r"[,;]+", show_type_filter) if t.strip() and clean_val(t)])
     if format_filter:
-        tokens.extend([t.strip().lower() for t in re.split(r"[,;]+", format_filter) if t.strip()])
+        tokens.extend([t.strip().lower() for t in re.split(r"[,;]+", format_filter) if t.strip() and clean_val(t)])
     if lang_filter:
-        tokens.extend([t.strip().lower() for t in re.split(r"[,;]+", lang_filter) if t.strip()])
+        tokens.extend([t.strip().lower() for t in re.split(r"[,;]+", lang_filter) if t.strip() and clean_val(t)])
 
     if not tokens:
         # If no filter specified, track the base event code format if found, otherwise all
@@ -652,10 +676,13 @@ def parse_shows(data, language="", format_title=""):
 # ──────────────────────────────────────────────────────────────────────
 def filter_shows(shows, theatre_filter="", time_periods="", allowed_dates=None, show_type_filter=""):
     result = []
-    theatre_kws = [k.strip().lower() for k in re.split(r"[,;]+", theatre_filter) if k.strip()]
-    periods = [p.strip().lower() for p in re.split(r"[,;]+", time_periods) if p.strip()]
+    theatre_filter = clean_val(theatre_filter)
+    time_periods = clean_val(time_periods)
+    show_type_filter = clean_val(show_type_filter)
+    theatre_kws = [k.strip().lower() for k in re.split(r"[,;]+", theatre_filter) if k.strip() and clean_val(k)]
+    periods = [p.strip().lower() for p in re.split(r"[,;]+", time_periods) if p.strip() and clean_val(p)]
     dates_set = set(allowed_dates) if allowed_dates else set()
-    type_tokens = [t.strip().lower() for t in re.split(r"[,;]+", show_type_filter) if t.strip()]
+    type_tokens = [t.strip().lower() for t in re.split(r"[,;]+", show_type_filter) if t.strip() and clean_val(t)]
 
     for s in shows:
         # Theatre filter
@@ -1094,15 +1121,15 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description="BookMyShow Ticket Notifier Bot — Monitors ticket releases, shows, and availability."
     )
-    parser.add_argument("--url", default=os.getenv("BMS_URL"), help="BookMyShow movie URL or Event Code")
-    parser.add_argument("--dates", default=os.getenv("BMS_DATES", ""), help="Dates or range (e.g. 20261110-20261115, today+3)")
-    parser.add_argument("--theatre", default=os.getenv("BMS_THEATRE", ""), help="Theatre name filter (e.g. PVR, INOX)")
-    parser.add_argument("--show-type", default=os.getenv("BMS_SHOW_TYPE", ""), help="Show type filter (e.g. 'hindi, imax', 'imax')")
-    parser.add_argument("--format", default=os.getenv("BMS_FORMAT", ""), help="Format filter (e.g. imax, 3d, 4dx)")
-    parser.add_argument("--lang", default=os.getenv("BMS_LANG", ""), help="Language filter (e.g. hindi, english)")
-    parser.add_argument("--time", default=os.getenv("BMS_TIME", ""), help="Time period (morning, afternoon, evening, night)")
-    parser.add_argument("--region", default=os.getenv("BMS_REGION", ""), help="City/region override (e.g. mumbai, bengaluru)")
-    parser.add_argument("--interval", type=int, default=int(os.getenv("CHECK_INTERVAL", "0")), help="Polling interval in seconds")
+    parser.add_argument("--url", default=get_clean_env("BMS_URL"), help="BookMyShow movie URL or Event Code")
+    parser.add_argument("--dates", default=get_clean_env("BMS_DATES"), help="Dates or range (e.g. 20261110-20261115, today+3)")
+    parser.add_argument("--theatre", default=get_clean_env("BMS_THEATRE"), help="Theatre name filter (e.g. PVR, INOX)")
+    parser.add_argument("--show-type", default=get_clean_env("BMS_SHOW_TYPE"), help="Show type filter (e.g. 'hindi, imax', 'imax')")
+    parser.add_argument("--format", default=get_clean_env("BMS_FORMAT"), help="Format filter (e.g. imax, 3d, 4dx)")
+    parser.add_argument("--lang", default=get_clean_env("BMS_LANG"), help="Language filter (e.g. hindi, english)")
+    parser.add_argument("--time", default=get_clean_env("BMS_TIME"), help="Time period (morning, afternoon, evening, night)")
+    parser.add_argument("--region", default=get_clean_env("BMS_REGION"), help="City/region override (e.g. mumbai, bengaluru)")
+    parser.add_argument("--interval", type=int, default=int(get_clean_env("CHECK_INTERVAL", "0") or "0"), help="Polling interval in seconds")
     parser.add_argument("--loop", action="store_true", help="Run continuously in a loop")
     parser.add_argument("--once", action="store_true", help="Run once and exit (default if interval=0)")
     parser.add_argument("--force-email", action="store_true", help="Send email notification with current showtimes even if no changes occurred")
@@ -1122,21 +1149,21 @@ def main():
         print("  State reset.")
         return
 
-    url = args.url or os.getenv("BMS_URL")
+    url = clean_val(args.url or get_clean_env("BMS_URL"))
     config = {
         "url": url,
-        "dates": args.dates,
-        "theatre": args.theatre,
-        "show_type": args.show_type,
-        "format": args.format,
-        "lang": args.lang,
-        "time_period": args.time,
-        "region": args.region,
-        "force_email": args.force_email or os.getenv("FORCE_EMAIL", "").lower() in ("true", "1", "yes"),
-        "notify_initial": args.notify_initial or os.getenv("NOTIFY_ON_START", "true").lower() in ("true", "1", "yes"),
-        "resend_api_key": os.getenv("RESEND_API_KEY", ""),
-        "resend_to_email": os.getenv("RESEND_TO_EMAIL", ""),
-        "resend_from_email": os.getenv("RESEND_FROM_EMAIL", "onboarding@resend.dev"),
+        "dates": clean_val(args.dates),
+        "theatre": clean_val(args.theatre),
+        "show_type": clean_val(args.show_type),
+        "format": clean_val(args.format),
+        "lang": clean_val(args.lang),
+        "time_period": clean_val(args.time),
+        "region": clean_val(args.region),
+        "force_email": args.force_email or get_clean_env("FORCE_EMAIL").lower() in ("true", "1", "yes"),
+        "notify_initial": args.notify_initial or get_clean_env("NOTIFY_ON_START", "true").lower() in ("true", "1", "yes"),
+        "resend_api_key": get_clean_env("RESEND_API_KEY"),
+        "resend_to_email": get_clean_env("RESEND_TO_EMAIL"),
+        "resend_from_email": get_clean_env("RESEND_FROM_EMAIL", "onboarding@resend.dev"),
     }
 
     if args.test_email:

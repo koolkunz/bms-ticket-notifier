@@ -582,11 +582,8 @@ def match_target_formats(available_formats, base_event_code, show_type_filter=""
         tokens.extend([t.strip().lower() for t in re.split(r"[,;]+", lang_filter) if t.strip() and clean_val(t)])
 
     if not tokens:
-        # If no filter specified, track the base event code format if found, otherwise all
-        for f in available_formats:
-            if f["event_code"] == base_event_code:
-                return [f]
-        return available_formats
+        # If no filter specified, monitor ALL available formats
+        return available_formats or [{"event_code": base_event_code, "language": "", "format": "", "display": "Default"}]
 
     matched = []
     for f in available_formats:

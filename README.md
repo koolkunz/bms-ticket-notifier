@@ -186,6 +186,9 @@ Go to **Settings → Secrets and variables → Actions → Variables tab**:
 | `BMS_TIME` | (Optional) Time slot | `evening,night` |
 | `BMS_REGION` | (Optional) City / region | `delhi-ncr`, `mumbai` |
 
+> [!TIP]
+> In GitHub Actions, if you want to leave an optional variable blank (e.g. to monitor **all dates**, **all formats**, or **all theatres**), you can set its value to `NULL` (or `none`), or simply delete the variable. The bot automatically treats `NULL` as empty.
+
 ### 5. Trigger the Workflow
 Go to **Actions → BMS Ticket Checker → Run workflow**, or wait for it to run automatically on schedule.
 

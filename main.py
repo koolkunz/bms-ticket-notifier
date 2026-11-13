@@ -450,23 +450,51 @@ def create_bms_session():
     s = requests.Session()
     s.headers.update({
         "User-Agent": (
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
-            "(KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
         ),
-        "Accept": "application/json, text/plain, */*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "x-app-code": "WEB",
-        "x-location-selection": "manual",
-        "x-lsid": "",
-        "sec-ch-ua": '"Chromium";v="145", "Not:A-Brand";v="99"',
-        "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": '"macOS"',
+        "Accept-Language": "en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7",
     })
     return s
 
 
-def fetch_bms(session, event_code, date_code, region_code, region_slug, lat, lon, geohash=""):
+def warm_up_bms_session(session, region_slug="national-capital-region-ncr", event_code="", force=False):
+    """
+    Visit BookMyShow's frontend HTML page to establish valid Cloudflare Bot Management
+    cookies (__cf_bm, _cfuvid) and guest session cookies (bmsId) before making API calls.
+    Prevents Cloudflare 403 blocks on cloud runners (GitHub Actions / datacenter IPs).
+    """
+    if not force and ("__cf_bm" in session.cookies or "bmsId" in session.cookies):
+        return
+
+    warm_urls = []
+    if event_code:
+        warm_urls.append(f"https://in.bookmyshow.com/movies/{region_slug}/buytickets/{event_code}/")
+    warm_urls.append(f"https://in.bookmyshow.com/explore/movies-{region_slug}")
+    warm_urls.append("https://in.bookmyshow.com/")
+
     headers = {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+    }
+
+    for url in warm_urls:
+        try:
+            r = session.get(url, headers=headers, timeout=8)
+            if r.status_code in (200, 301, 302):
+                break
+        except Exception:
+            continue
+
+
+def fetch_bms(session, event_code, date_code, region_code, region_slug, lat, lon, geohash=""):
+    base_headers = {
+        "Accept": "application/json, text/plain, */*",
+        "x-app-code": "WEB",
         "x-region-code": region_code,
         "x-region-slug": region_slug,
         "x-geohash": geohash or "",
@@ -475,6 +503,9 @@ def fetch_bms(session, event_code, date_code, region_code, region_slug, lat, lon
         "x-location-selection": "manual",
         "x-lsid": "",
         "Referer": f"https://in.bookmyshow.com/movies/{region_slug}/buytickets/{event_code}/",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Dest": "empty",
     }
     params = {
         "eventCode": event_code,
@@ -488,25 +519,48 @@ def fetch_bms(session, event_code, date_code, region_code, region_slug, lat, lon
         "lat": lat,
         "lon": lon,
     }
-    for attempt in range(2):
+
+    # Browser header profiles for resilience against datacenter bot detection
+    profiles = [
+        # Profile 1: Modern Windows 11 Chrome with exact matching Client Hints
+        {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "sec-ch-ua": '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": '"Windows"',
+        },
+        # Profile 2: Modern Firefox (does NOT send sec-ch-ua Client Hints, effectively bypassing Chromium fingerprinting)
+        {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0",
+        },
+        # Profile 3: macOS Safari
+        {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+        },
+    ]
+
+    last_status = None
+    for attempt, prof in enumerate(profiles):
+        req_headers = dict(base_headers)
+        req_headers.update(prof)
         try:
-            resp = session.get(API_URL, headers=headers, params=params, timeout=15)
+            resp = session.get(API_URL, headers=req_headers, params=params, timeout=15)
+            last_status = resp.status_code
             if resp.status_code == 200:
                 return resp.json()
-            elif resp.status_code == 403 and attempt == 0:
-                time.sleep(1.5)
-                # Fallback user agent on 403
-                headers["User-Agent"] = (
-                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                )
+            elif resp.status_code in (403, 429) and attempt < len(profiles) - 1:
+                # Re-warm cookies and wait with exponential backoff
+                time.sleep(1.5 * (attempt + 1))
+                warm_up_bms_session(session, region_slug, event_code, force=True)
                 continue
-            print(f"  HTTP {resp.status_code} for {event_code} ({date_code or 'default'})")
         except requests.RequestException as e:
-            if attempt == 0:
+            if attempt < len(profiles) - 1:
                 time.sleep(1.0)
                 continue
             print(f"  Request failed: {e}")
+
+    if last_status is not None:
+        print(f"  HTTP {last_status} for {event_code} ({date_code or 'default'})")
     return None
 
 # ──────────────────────────────────────────────────────────────────────
@@ -973,6 +1027,9 @@ def run_check(config, session, is_loop=False):
 
     region_code, region_slug_r, lat, lon, geohash = resolve_region(region_slug, session)
     print(f"  📍 Region: {region_code} ({region_slug_r}) | Event: {event_code}")
+
+    # Ensure session has valid Cloudflare Bot Management cookies (__cf_bm, bmsId)
+    warm_up_bms_session(session, region_slug_r, event_code)
 
     # Step 1: Initial fetch to discover movie info, formats, and available dates
     initial_data = fetch_bms(session, event_code, "", region_code, region_slug_r, lat, lon, geohash)

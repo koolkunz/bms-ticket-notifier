@@ -285,7 +285,7 @@ def parse_bms_url(url):
     Supports /movies/... /buytickets/... direct event code, etc.
     """
     url = (url or "").strip()
-    result = {"event_code": None, "date_code": None, "region_slug": None}
+    result = {"event_code": None, "date_code": None, "region_slug": None, "movie_name": None}
 
     if not url:
         return result
@@ -326,6 +326,20 @@ def parse_bms_url(url):
         first = parts[0].lower()
         if first in STATIC_REGION_MAP:
             result["region_slug"] = first
+
+    # Movie name heuristic from URL slug
+    for p in parts:
+        clean_p = p.lower()
+        if (
+            not re.search(r"ET\d{8,}", p, re.I)
+            and not re.match(r"^\d{8}$", p)
+            and clean_p not in ("movies", "buytickets", "explore")
+            and clean_p != (result.get("region_slug") or "").lower()
+            and clean_p not in STATIC_REGION_MAP
+        ):
+            name_candidate = re.sub(r"^movie-", "", p, flags=re.I)
+            result["movie_name"] = name_candidate.replace("-", " ").title()
+            break
 
     return result
 
@@ -943,6 +957,9 @@ def run_check(config, session, is_loop=False):
         return False
 
     movie_info = extract_movie_info(initial_data)
+    if movie_info.get("name") in ("Unknown Movie", "Unknown", "") and parsed.get("movie_name"):
+        movie_info["name"] = parsed["movie_name"]
+
     available_formats = extract_available_formats(initial_data, event_code)
     available_dates_info = parse_dates(initial_data)
 

@@ -1003,8 +1003,14 @@ def run_check(config, session, is_loop=False):
         format_filter=config.get("format", ""),
         lang_filter=config.get("lang", ""),
     )
-    target_names = [f["display"] for f in target_formats]
-    print(f"  🎯 Monitoring Formats ({len(target_formats)}): {', '.join(target_names)}")
+    is_all_formats = not clean_val(config.get("show_type", "")) and not clean_val(config.get("format", "")) and not clean_val(config.get("lang", ""))
+    is_all_dates = not clean_val(config.get("dates", ""))
+
+    if is_all_formats and not available_formats:
+        print("  🎯 Monitoring Formats: All Formats (IMAX, 3D, 2D, 4DX — auto-detect all on release)")
+    else:
+        target_names = [f["display"] for f in target_formats]
+        print(f"  🎯 Monitoring Formats ({len(target_formats)}): {', '.join(target_names)}")
 
     # Step 3: Determine target dates
     target_dates = parse_date_range(config.get("dates", ""))
@@ -1015,10 +1021,13 @@ def run_check(config, session, is_loop=False):
         target_dates = [d.date_code for d in available_dates_info if d.date_code]
 
     if not target_dates:
-        target_dates = [""]  # Default/today
+        target_dates = [""]  # Primary/landing endpoint
 
-    dates_display = ', '.join(format_date_human(d) for d in target_dates) if target_dates != [''] else '(Default/Today)'
-    print(f"  📅 Monitoring Dates ({len(target_dates)}): {dates_display}")
+    if is_all_dates and target_dates == [""]:
+        print("  📅 Monitoring Dates: All Dates (auto-detect all dates on release)")
+    else:
+        dates_display = ', '.join(format_date_human(d) for d in target_dates) if target_dates != [''] else '(Default / Primary Date)'
+        print(f"  📅 Monitoring Dates ({len(target_dates)}): {dates_display}")
     if config.get("theatre"):
         print(f"  🏛️ Theatre Filter: '{config['theatre']}'")
     if config.get("time_period"):

@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-16 19:30:38",
+  "last_checked": "2026-11-16 19:45:28",
   "shows": {
     "PCSN|29769|20261218|RECLINER ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -13,6 +13,15 @@
       "price": "1170.00",
       "status": "0"
     },
+    "PCSN|29769|20261218|PRIME ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "820.00",
+      "status": "3"
+    },
     "PCSN|29769|20261218|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "05:05 PM",
@@ -20,16 +29,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
       "price": "720.00",
-      "status": "2"
-    },
-    "PCSN|29769|20261218|PRIME ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "05:05 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "720.00",
-      "status": "3"
+      "status": "1"
     },
     "PCSN|29769|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -85,6 +85,15 @@
       "price": "1370.00",
       "status": "0"
     },
+    "PCSN|29771|20261218|PRIME PLUS ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "11:55 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME PLUS ROWS",
+      "price": "920.00",
+      "status": "1"
+    },
     "PCSN|29771|20261218|PRIME ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "11:55 PM",
@@ -93,15 +102,6 @@
       "cat": "PRIME ROWS",
       "price": "820.00",
       "status": "3"
-    },
-    "PCSN|29771|20261218|PRIME PLUS ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "11:55 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME PLUS ROWS",
-      "price": "820.00",
-      "status": "1"
     },
     "PCSN|29771|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -434,7 +434,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
       "price": "780.00",
-      "status": "2"
+      "status": "1"
     },
     "PECD|16618|20261218|PRIME ROWS": {
       "venue": "PVR: ECX Chanakyapuri, Delhi",
@@ -532,7 +532,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "NORMAL",
-      "price": "500.00",
+      "price": "600.00",
       "status": "3"
     },
     "CNVG|9362|20261218|EXECUTIVE": {
@@ -541,7 +541,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "EXECUTIVE",
-      "price": "560.00",
+      "price": "650.00",
       "status": "3"
     },
     "CNVG|9362|20261218|PREMIUM": {
@@ -550,7 +550,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM",
-      "price": "620.00",
+      "price": "700.00",
       "status": "3"
     },
     "CNVG|9362|20261218|PREMIUM XL": {
@@ -559,7 +559,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM XL",
-      "price": "680.00",
+      "price": "750.00",
       "status": "3"
     },
     "CNVG|9362|20261218|RECLINER": {
@@ -568,7 +568,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER",
-      "price": "1200.00",
+      "price": "1500.00",
       "status": "3"
     },
     "CNVG|9363|20261218|NORMAL": {
@@ -577,7 +577,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "NORMAL",
-      "price": "500.00",
+      "price": "600.00",
       "status": "3"
     },
     "CNVG|9363|20261218|EXECUTIVE": {
@@ -586,7 +586,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "EXECUTIVE",
-      "price": "560.00",
+      "price": "650.00",
       "status": "3"
     },
     "CNVG|9363|20261218|PREMIUM": {
@@ -595,7 +595,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM",
-      "price": "620.00",
+      "price": "700.00",
       "status": "3"
     },
     "CNVG|9363|20261218|PREMIUM XL": {
@@ -604,7 +604,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM XL",
-      "price": "680.00",
+      "price": "750.00",
       "status": "3"
     },
     "CNVG|9363|20261218|RECLINER": {
@@ -613,7 +613,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER",
-      "price": "1200.00",
+      "price": "1500.00",
       "status": "3"
     },
     "CNVG|9364|20261218|NORMAL": {
@@ -622,7 +622,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "NORMAL",
-      "price": "500.00",
+      "price": "550.00",
       "status": "3"
     },
     "CNVG|9364|20261218|EXECUTIVE": {
@@ -631,7 +631,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "EXECUTIVE",
-      "price": "560.00",
+      "price": "600.00",
       "status": "3"
     },
     "CNVG|9364|20261218|PREMIUM": {
@@ -640,7 +640,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM",
-      "price": "620.00",
+      "price": "650.00",
       "status": "3"
     },
     "CNVG|9364|20261218|PREMIUM XL": {
@@ -649,7 +649,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM XL",
-      "price": "680.00",
+      "price": "700.00",
       "status": "3"
     },
     "CNVG|9364|20261218|RECLINER": {
@@ -658,7 +658,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER",
-      "price": "1200.00",
+      "price": "1400.00",
       "status": "3"
     }
   },

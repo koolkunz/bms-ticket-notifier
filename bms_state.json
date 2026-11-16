@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-16 17:30:39",
+  "last_checked": "2026-11-16 17:45:32",
   "shows": {
     "PCSN|29769|20261218|RECLINER ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -13,15 +13,6 @@
       "price": "1170.00",
       "status": "0"
     },
-    "PCSN|29769|20261218|PRIME ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "05:05 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "720.00",
-      "status": "3"
-    },
     "PCSN|29769|20261218|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "05:05 PM",
@@ -30,6 +21,15 @@
       "cat": "PRIME PLUS ROWS",
       "price": "720.00",
       "status": "1"
+    },
+    "PCSN|29769|20261218|PRIME ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "720.00",
+      "status": "3"
     },
     "PCSN|29769|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -55,7 +55,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
-      "price": "820.00",
+      "price": "920.00",
       "status": "1"
     },
     "PCSN|29770|20261218|PRIME ROWS": {
@@ -83,7 +83,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER ROWS",
       "price": "1370.00",
-      "status": "1"
+      "status": "0"
     },
     "PCSN|29771|20261218|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -146,6 +146,60 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
       "price": "590.00",
+      "status": "3"
+    },
+    "CRGM|16674|20261218|NORMAL": {
+      "venue": "Cinepolis: Airia Mall, Sohna Road, Gurgaon",
+      "time": "08:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "NORMAL",
+      "price": "560.00",
+      "status": "3"
+    },
+    "CRGM|16674|20261218|EXECUTIVE": {
+      "venue": "Cinepolis: Airia Mall, Sohna Road, Gurgaon",
+      "time": "08:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXECUTIVE",
+      "price": "580.00",
+      "status": "3"
+    },
+    "CRGM|16674|20261218|EXECUTIVE XL": {
+      "venue": "Cinepolis: Airia Mall, Sohna Road, Gurgaon",
+      "time": "08:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXECUTIVE XL",
+      "price": "620.00",
+      "status": "3"
+    },
+    "CRGM|16674|20261218|PREMIUM": {
+      "venue": "Cinepolis: Airia Mall, Sohna Road, Gurgaon",
+      "time": "08:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PREMIUM",
+      "price": "600.00",
+      "status": "3"
+    },
+    "CRGM|16674|20261218|PREMIUM XL": {
+      "venue": "Cinepolis: Airia Mall, Sohna Road, Gurgaon",
+      "time": "08:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PREMIUM XL",
+      "price": "640.00",
+      "status": "3"
+    },
+    "CRGM|16674|20261218|PREMIUM PLUS": {
+      "venue": "Cinepolis: Airia Mall, Sohna Road, Gurgaon",
+      "time": "08:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PREMIUM PLUS",
+      "price": "620.00",
       "status": "3"
     },
     "FNSD|6951|20261218|NORMAL": {
@@ -474,13 +528,6 @@
     }
   },
   "dates": {
-    "20261116": "NOT_OPEN",
-    "20261117": "NOT_OPEN",
-    "20261118": "NOT_OPEN",
-    "20261119": "NOT_OPEN",
-    "20261120": "NOT_OPEN",
-    "20261121": "NOT_OPEN",
-    "20261122": "NOT_OPEN",
     "20261217": "BOOKABLE",
     "20261218": "AVAILABLE",
     "20261219": "AVAILABLE",

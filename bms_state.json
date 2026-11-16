@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-16 16:01:02",
+  "last_checked": "2026-11-16 16:15:32",
   "shows": {
     "PCSN|29760|20261217|RECLINER ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -13,6 +13,15 @@
       "price": "930.00",
       "status": "0"
     },
+    "PCSN|29760|20261217|PRIME ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "07:15 AM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "650.00",
+      "status": "2"
+    },
     "PCSN|29760|20261217|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "07:15 AM",
@@ -20,16 +29,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
       "price": "650.00",
-      "status": "1"
-    },
-    "PCSN|29760|20261217|PRIME ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "07:15 AM",
-      "date": "20261217",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "550.00",
-      "status": "2"
+      "status": "0"
     },
     "PCSN|29760|20261217|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -65,7 +65,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
       "price": "650.00",
-      "status": "3"
+      "status": "2"
     },
     "PCSN|29761|20261217|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -91,8 +91,8 @@
       "date": "20261217",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
-      "price": "720.00",
-      "status": "0"
+      "price": "820.00",
+      "status": "1"
     },
     "PCSN|29762|20261217|PRIME ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -100,7 +100,7 @@
       "date": "20261217",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
-      "price": "720.00",
+      "price": "820.00",
       "status": "3"
     },
     "PCSN|29762|20261217|CLASSIC ROWS": {
@@ -127,7 +127,7 @@
       "date": "20261217",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
-      "price": "720.00",
+      "price": "820.00",
       "status": "1"
     },
     "PCSN|29763|20261217|PRIME ROWS": {
@@ -200,7 +200,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
       "price": "820.00",
-      "status": "1"
+      "status": "2"
     },
     "PCSN|29765|20261217|PRIME ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -310,6 +310,114 @@
       "price": "590.00",
       "status": "3"
     },
+    "PECD|16611|20261217|PRIME PLUS ROWS": {
+      "venue": "PVR: ECX Chanakyapuri, Delhi",
+      "time": "01:40 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME PLUS ROWS",
+      "price": "740.00",
+      "status": "3"
+    },
+    "PECD|16611|20261217|PRIME ROWS": {
+      "venue": "PVR: ECX Chanakyapuri, Delhi",
+      "time": "01:40 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "690.00",
+      "status": "3"
+    },
+    "PECD|16611|20261217|CLASSIC ROWS": {
+      "venue": "PVR: ECX Chanakyapuri, Delhi",
+      "time": "01:40 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC ROWS",
+      "price": "640.00",
+      "status": "2"
+    },
+    "PECD|16612|20261217|PRIME PLUS ROWS": {
+      "venue": "PVR: ECX Chanakyapuri, Delhi",
+      "time": "05:05 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME PLUS ROWS",
+      "price": "740.00",
+      "status": "3"
+    },
+    "PECD|16612|20261217|PRIME ROWS": {
+      "venue": "PVR: ECX Chanakyapuri, Delhi",
+      "time": "05:05 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "690.00",
+      "status": "3"
+    },
+    "PECD|16612|20261217|CLASSIC ROWS": {
+      "venue": "PVR: ECX Chanakyapuri, Delhi",
+      "time": "05:05 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC ROWS",
+      "price": "640.00",
+      "status": "2"
+    },
+    "PECD|16613|20261217|PRIME PLUS ROWS": {
+      "venue": "PVR: ECX Chanakyapuri, Delhi",
+      "time": "08:30 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME PLUS ROWS",
+      "price": "740.00",
+      "status": "3"
+    },
+    "PECD|16613|20261217|PRIME ROWS": {
+      "venue": "PVR: ECX Chanakyapuri, Delhi",
+      "time": "08:30 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "690.00",
+      "status": "3"
+    },
+    "PECD|16613|20261217|CLASSIC ROWS": {
+      "venue": "PVR: ECX Chanakyapuri, Delhi",
+      "time": "08:30 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC ROWS",
+      "price": "640.00",
+      "status": "2"
+    },
+    "PECD|16614|20261217|PRIME PLUS ROWS": {
+      "venue": "PVR: ECX Chanakyapuri, Delhi",
+      "time": "11:55 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME PLUS ROWS",
+      "price": "740.00",
+      "status": "3"
+    },
+    "PECD|16614|20261217|PRIME ROWS": {
+      "venue": "PVR: ECX Chanakyapuri, Delhi",
+      "time": "11:55 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "690.00",
+      "status": "3"
+    },
+    "PECD|16614|20261217|CLASSIC ROWS": {
+      "venue": "PVR: ECX Chanakyapuri, Delhi",
+      "time": "11:55 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC ROWS",
+      "price": "640.00",
+      "status": "2"
+    },
     "IOTG|11778|20261217|Recliners": {
       "venue": "PVR: Opulent, Ghaziabad",
       "time": "12:40 PM",
@@ -317,7 +425,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "Recliners",
       "price": "875.00",
-      "status": "2"
+      "status": "1"
     },
     "IOTG|11778|20261217|Prime": {
       "venue": "PVR: Opulent, Ghaziabad",
@@ -344,7 +452,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "Recliners",
       "price": "875.00",
-      "status": "2"
+      "status": "1"
     },
     "IOTG|11779|20261217|Prime": {
       "venue": "PVR: Opulent, Ghaziabad",

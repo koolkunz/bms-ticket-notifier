@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-16 16:30:39",
+  "last_checked": "2026-11-16 16:45:43",
   "shows": {
     "PCSN|29760|20261217|RECLINER ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -29,7 +29,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
       "price": "650.00",
-      "status": "1"
+      "status": "2"
     },
     "PCSN|29760|20261217|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -56,7 +56,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
       "price": "650.00",
-      "status": "1"
+      "status": "0"
     },
     "PCSN|29761|20261217|PRIME ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -92,7 +92,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
       "price": "820.00",
-      "status": "0"
+      "status": "1"
     },
     "PCSN|29762|20261217|PRIME ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -101,7 +101,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
       "price": "820.00",
-      "status": "3"
+      "status": "2"
     },
     "PCSN|29762|20261217|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -200,7 +200,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
       "price": "820.00",
-      "status": "2"
+      "status": "1"
     },
     "PCSN|29765|20261217|PRIME ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -308,6 +308,114 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
       "price": "590.00",
+      "status": "3"
+    },
+    "ISMG|46132|20261217|LOUNGE": {
+      "venue": "INOX: Shipra Mall, Ghaziabad",
+      "time": "12:40 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "LOUNGE",
+      "price": "920.00",
+      "status": "3"
+    },
+    "ISMG|46132|20261217|EXECUTIVE": {
+      "venue": "INOX: Shipra Mall, Ghaziabad",
+      "time": "12:40 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXECUTIVE",
+      "price": "480.00",
+      "status": "3"
+    },
+    "ISMG|46132|20261217|CLASSIC": {
+      "venue": "INOX: Shipra Mall, Ghaziabad",
+      "time": "12:40 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC",
+      "price": "450.00",
+      "status": "3"
+    },
+    "ISMG|46133|20261217|LOUNGE": {
+      "venue": "INOX: Shipra Mall, Ghaziabad",
+      "time": "04:05 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "LOUNGE",
+      "price": "920.00",
+      "status": "3"
+    },
+    "ISMG|46133|20261217|EXECUTIVE": {
+      "venue": "INOX: Shipra Mall, Ghaziabad",
+      "time": "04:05 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXECUTIVE",
+      "price": "480.00",
+      "status": "3"
+    },
+    "ISMG|46133|20261217|CLASSIC": {
+      "venue": "INOX: Shipra Mall, Ghaziabad",
+      "time": "04:05 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC",
+      "price": "450.00",
+      "status": "3"
+    },
+    "ISMG|46134|20261217|LOUNGE": {
+      "venue": "INOX: Shipra Mall, Ghaziabad",
+      "time": "07:30 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "LOUNGE",
+      "price": "920.00",
+      "status": "3"
+    },
+    "ISMG|46134|20261217|EXECUTIVE": {
+      "venue": "INOX: Shipra Mall, Ghaziabad",
+      "time": "07:30 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXECUTIVE",
+      "price": "480.00",
+      "status": "3"
+    },
+    "ISMG|46134|20261217|CLASSIC": {
+      "venue": "INOX: Shipra Mall, Ghaziabad",
+      "time": "07:30 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC",
+      "price": "450.00",
+      "status": "3"
+    },
+    "ISMG|46135|20261217|LOUNGE": {
+      "venue": "INOX: Shipra Mall, Ghaziabad",
+      "time": "10:55 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "LOUNGE",
+      "price": "920.00",
+      "status": "3"
+    },
+    "ISMG|46135|20261217|EXECUTIVE": {
+      "venue": "INOX: Shipra Mall, Ghaziabad",
+      "time": "10:55 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXECUTIVE",
+      "price": "480.00",
+      "status": "3"
+    },
+    "ISMG|46135|20261217|CLASSIC": {
+      "venue": "INOX: Shipra Mall, Ghaziabad",
+      "time": "10:55 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC",
+      "price": "450.00",
       "status": "3"
     },
     "PECD|16611|20261217|PRIME PLUS ROWS": {
@@ -452,7 +560,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "Recliners",
       "price": "875.00",
-      "status": "0"
+      "status": "2"
     },
     "IOTG|11779|20261217|Prime": {
       "venue": "PVR: Opulent, Ghaziabad",

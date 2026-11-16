@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-16 15:01:02",
+  "last_checked": "2026-11-16 15:15:35",
   "shows": {
     "PCSN|29760|20261217|RECLINER ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -11,7 +11,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER ROWS",
       "price": "930.00",
-      "status": "1"
+      "status": "0"
     },
     "PCSN|29760|20261217|PRIME ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -47,6 +47,15 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER ROWS",
       "price": "930.00",
+      "status": "0"
+    },
+    "PCSN|29761|20261217|PRIME PLUS ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "10:15 AM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME PLUS ROWS",
+      "price": "550.00",
       "status": "1"
     },
     "PCSN|29761|20261217|PRIME ROWS": {
@@ -57,15 +66,6 @@
       "cat": "PRIME ROWS",
       "price": "550.00",
       "status": "3"
-    },
-    "PCSN|29761|20261217|PRIME PLUS ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "10:15 AM",
-      "date": "20261217",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME PLUS ROWS",
-      "price": "550.00",
-      "status": "1"
     },
     "PCSN|29761|20261217|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -85,15 +85,6 @@
       "price": "1170.00",
       "status": "0"
     },
-    "PCSN|29762|20261217|PRIME ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "01:40 PM",
-      "date": "20261217",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "720.00",
-      "status": "3"
-    },
     "PCSN|29762|20261217|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "01:40 PM",
@@ -102,6 +93,15 @@
       "cat": "PRIME PLUS ROWS",
       "price": "720.00",
       "status": "1"
+    },
+    "PCSN|29762|20261217|PRIME ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "01:40 PM",
+      "date": "20261217",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "720.00",
+      "status": "3"
     },
     "PCSN|29762|20261217|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -164,7 +164,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
       "price": "820.00",
-      "status": "2"
+      "status": "1"
     },
     "PCSN|29764|20261217|PRIME ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -220,35 +220,35 @@
       "price": "770.00",
       "status": "3"
     },
-    "PPDA|32155|20261217|PRIME ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22463|20261217|PRIME ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "06:50 AM",
       "date": "20261217",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
-      "price": "520.00",
-      "status": "2"
+      "price": "540.00",
+      "status": "3"
     },
-    "PPDA|32155|20261217|CLASSIC ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22463|20261217|CLASSIC ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "06:50 AM",
       "date": "20261217",
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
-      "price": "470.00",
+      "price": "490.00",
       "status": "3"
     },
-    "PPDA|32156|20261217|PRIME ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22464|20261217|PRIME ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "09:50 AM",
       "date": "20261217",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
       "price": "540.00",
-      "status": "2"
+      "status": "3"
     },
-    "PPDA|32156|20261217|CLASSIC ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22464|20261217|CLASSIC ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "09:50 AM",
       "date": "20261217",
       "format": "MS-Infinity Vsn 3d",
@@ -256,58 +256,58 @@
       "price": "490.00",
       "status": "3"
     },
-    "PPDA|32157|20261217|PRIME ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22465|20261217|PRIME ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "01:15 PM",
       "date": "20261217",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
-      "price": "540.00",
-      "status": "2"
+      "price": "620.00",
+      "status": "3"
     },
-    "PPDA|32157|20261217|CLASSIC ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22465|20261217|CLASSIC ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "01:15 PM",
       "date": "20261217",
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
-      "price": "490.00",
+      "price": "570.00",
       "status": "3"
     },
-    "PPDA|32159|20261217|PRIME ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22467|20261217|PRIME ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "08:05 PM",
       "date": "20261217",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
-      "price": "540.00",
-      "status": "2"
+      "price": "640.00",
+      "status": "3"
     },
-    "PPDA|32159|20261217|CLASSIC ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22467|20261217|CLASSIC ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "08:05 PM",
       "date": "20261217",
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
-      "price": "490.00",
+      "price": "590.00",
       "status": "3"
     },
-    "PPDA|32160|20261217|PRIME ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22468|20261217|PRIME ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "11:30 PM",
       "date": "20261217",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
-      "price": "540.00",
+      "price": "640.00",
       "status": "3"
     },
-    "PPDA|32160|20261217|CLASSIC ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22468|20261217|CLASSIC ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "11:30 PM",
       "date": "20261217",
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
-      "price": "490.00",
+      "price": "590.00",
       "status": "3"
     },
     "IOTG|11778|20261217|Recliners": {
@@ -407,16 +407,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER ROWS",
       "price": "930.00",
-      "status": "1"
-    },
-    "PCSN|29767|20261218|PRIME PLUS ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "10:15 AM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME PLUS ROWS",
-      "price": "550.00",
-      "status": "2"
+      "status": "0"
     },
     "PCSN|29767|20261218|PRIME ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -426,6 +417,15 @@
       "cat": "PRIME ROWS",
       "price": "550.00",
       "status": "3"
+    },
+    "PCSN|29767|20261218|PRIME PLUS ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "10:15 AM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME PLUS ROWS",
+      "price": "550.00",
+      "status": "2"
     },
     "PCSN|29767|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -481,15 +481,6 @@
       "price": "1170.00",
       "status": "0"
     },
-    "PCSN|29769|20261218|PRIME ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "05:05 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "720.00",
-      "status": "3"
-    },
     "PCSN|29769|20261218|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "05:05 PM",
@@ -498,6 +489,15 @@
       "cat": "PRIME PLUS ROWS",
       "price": "720.00",
       "status": "2"
+    },
+    "PCSN|29769|20261218|PRIME ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "720.00",
+      "status": "3"
     },
     "PCSN|29769|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -517,15 +517,6 @@
       "price": "1370.00",
       "status": "1"
     },
-    "PCSN|29770|20261218|PRIME ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "820.00",
-      "status": "3"
-    },
     "PCSN|29770|20261218|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "08:30 PM",
@@ -534,6 +525,15 @@
       "cat": "PRIME PLUS ROWS",
       "price": "820.00",
       "status": "2"
+    },
+    "PCSN|29770|20261218|PRIME ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "820.00",
+      "status": "3"
     },
     "PCSN|29770|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -580,26 +580,26 @@
       "price": "770.00",
       "status": "3"
     },
-    "PPDA|32161|20261218|PRIME ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22469|20261218|PRIME ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "06:50 AM",
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
-      "price": "520.00",
+      "price": "540.00",
       "status": "3"
     },
-    "PPDA|32161|20261218|CLASSIC ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22469|20261218|CLASSIC ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "06:50 AM",
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
-      "price": "470.00",
+      "price": "490.00",
       "status": "3"
     },
-    "PPDA|32162|20261218|PRIME ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22470|20261218|PRIME ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "09:50 AM",
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
@@ -607,8 +607,8 @@
       "price": "540.00",
       "status": "3"
     },
-    "PPDA|32162|20261218|CLASSIC ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22470|20261218|CLASSIC ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "09:50 AM",
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
@@ -616,58 +616,58 @@
       "price": "490.00",
       "status": "3"
     },
-    "PPDA|32163|20261218|PRIME ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22471|20261218|PRIME ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "01:15 PM",
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
-      "price": "540.00",
+      "price": "620.00",
       "status": "3"
     },
-    "PPDA|32163|20261218|CLASSIC ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22471|20261218|CLASSIC ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "01:15 PM",
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
-      "price": "490.00",
+      "price": "570.00",
       "status": "3"
     },
-    "PPDA|32165|20261218|PRIME ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22473|20261218|PRIME ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "08:05 PM",
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
-      "price": "540.00",
+      "price": "640.00",
       "status": "3"
     },
-    "PPDA|32165|20261218|CLASSIC ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22473|20261218|CLASSIC ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "08:05 PM",
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
-      "price": "490.00",
+      "price": "590.00",
       "status": "3"
     },
-    "PPDA|32166|20261218|PRIME ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22474|20261218|PRIME ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "11:30 PM",
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
-      "price": "540.00",
+      "price": "640.00",
       "status": "3"
     },
-    "PPDA|32166|20261218|CLASSIC ROWS": {
-      "venue": "PVR: Pacific, Dwarka",
+    "PMMS|22474|20261218|CLASSIC ROWS": {
+      "venue": "PVR: Shalimar Bagh",
       "time": "11:30 PM",
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
-      "price": "490.00",
+      "price": "590.00",
       "status": "3"
     },
     "IOTG|11784|20261218|Recliners": {
@@ -803,7 +803,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER ROWS",
       "price": "1170.00",
-      "status": "1"
+      "status": "0"
     },
     "PCSN|29774|20261219|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -841,15 +841,6 @@
       "price": "1170.00",
       "status": "1"
     },
-    "PCSN|29775|20261219|PRIME PLUS ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "05:05 PM",
-      "date": "20261219",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME PLUS ROWS",
-      "price": "720.00",
-      "status": "2"
-    },
     "PCSN|29775|20261219|PRIME ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "05:05 PM",
@@ -858,6 +849,15 @@
       "cat": "PRIME ROWS",
       "price": "720.00",
       "status": "3"
+    },
+    "PCSN|29775|20261219|PRIME PLUS ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "05:05 PM",
+      "date": "20261219",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME PLUS ROWS",
+      "price": "720.00",
+      "status": "2"
     },
     "PCSN|29775|20261219|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -913,15 +913,6 @@
       "price": "1370.00",
       "status": "1"
     },
-    "PCSN|29777|20261219|PRIME ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "11:55 PM",
-      "date": "20261219",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "820.00",
-      "status": "3"
-    },
     "PCSN|29777|20261219|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "11:55 PM",
@@ -930,6 +921,15 @@
       "cat": "PRIME PLUS ROWS",
       "price": "820.00",
       "status": "2"
+    },
+    "PCSN|29777|20261219|PRIME ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "11:55 PM",
+      "date": "20261219",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "820.00",
+      "status": "3"
     },
     "PCSN|29777|20261219|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -1093,15 +1093,6 @@
       "price": "930.00",
       "status": "0"
     },
-    "PCSN|29778|20261220|PRIME ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "07:15 AM",
-      "date": "20261220",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "550.00",
-      "status": "3"
-    },
     "PCSN|29778|20261220|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "07:15 AM",
@@ -1110,6 +1101,15 @@
       "cat": "PRIME PLUS ROWS",
       "price": "550.00",
       "status": "2"
+    },
+    "PCSN|29778|20261220|PRIME ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "07:15 AM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "550.00",
+      "status": "3"
     },
     "PCSN|29778|20261220|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -1273,15 +1273,6 @@
       "price": "1370.00",
       "status": "1"
     },
-    "PCSN|29783|20261220|PRIME PLUS ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "11:55 PM",
-      "date": "20261220",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME PLUS ROWS",
-      "price": "820.00",
-      "status": "2"
-    },
     "PCSN|29783|20261220|PRIME ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "11:55 PM",
@@ -1290,6 +1281,15 @@
       "cat": "PRIME ROWS",
       "price": "820.00",
       "status": "3"
+    },
+    "PCSN|29783|20261220|PRIME PLUS ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "11:55 PM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME PLUS ROWS",
+      "price": "820.00",
+      "status": "2"
     },
     "PCSN|29783|20261220|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -1397,7 +1397,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "Recliners",
       "price": "875.00",
-      "status": "3"
+      "status": "2"
     },
     "IOTG|11794|20261220|Prime": {
       "venue": "PVR: Opulent, Ghaziabad",

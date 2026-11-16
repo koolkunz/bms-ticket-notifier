@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-16 17:00:47",
+  "last_checked": "2026-11-16 17:15:31",
   "shows": {
     "PCSN|29769|20261218|RECLINER ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -92,7 +92,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
       "price": "820.00",
-      "status": "2"
+      "status": "1"
     },
     "PCSN|29771|20261218|PRIME ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -335,7 +335,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
       "price": "740.00",
-      "status": "3"
+      "status": "2"
     },
     "PECD|16618|20261218|PRIME ROWS": {
       "venue": "PVR: ECX Chanakyapuri, Delhi",
@@ -380,7 +380,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
       "price": "640.00",
-      "status": "2"
+      "status": "3"
     },
     "IOTG|11786|20261218|Recliners": {
       "venue": "PVR: Opulent, Ghaziabad",

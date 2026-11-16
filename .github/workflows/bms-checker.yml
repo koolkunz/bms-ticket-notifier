@@ -4,6 +4,13 @@ on:
   schedule:
     # Runs every 30 minutes, but at minute 13 and 43 to avoid GitHub Actions queue spikes
     - cron: '13,43 * * * *'
+  push:
+    branches:
+      - main
+    paths:
+      - 'main.py'
+      - 'requirements.txt'
+      - '.github/workflows/**'
   workflow_dispatch:  # Manual trigger button
 
 jobs:
@@ -38,6 +45,7 @@ jobs:
           BMS_SHOW_TYPE: ${{ vars.BMS_SHOW_TYPE }}
           BMS_TIME: ${{ vars.BMS_TIME }}
           BMS_REGION: ${{ vars.BMS_REGION }}
+          BMS_PROXY: ${{ secrets.BMS_PROXY }}
         run: python main.py --once
 
       - name: Commit updated state

@@ -27,6 +27,13 @@ from dataclasses import dataclass, field
 from urllib.parse import urlparse
 import requests
 
+try:
+    from curl_cffi import requests as cffi_requests
+    HAS_CURL_CFFI = True
+except ImportError:
+    cffi_requests = None
+    HAS_CURL_CFFI = False
+
 # ──────────────────────────────────────────────────────────────────────
 # .ENV FILE LOADER (Built-in, zero dependencies)
 # ──────────────────────────────────────────────────────────────────────
@@ -446,8 +453,17 @@ def format_date_human(date_str):
 # ──────────────────────────────────────────────────────────────────────
 API_URL = "https://in.bookmyshow.com/api/movies-data/v4/showtimes-by-event/primary-dynamic"
 
-def create_bms_session():
-    s = requests.Session()
+def create_bms_session(proxy=None):
+    proxy = proxy or get_clean_env("BMS_PROXY") or get_clean_env("HTTPS_PROXY") or get_clean_env("HTTP_PROXY")
+    proxies = {"http": proxy, "https": proxy} if proxy else None
+
+    if HAS_CURL_CFFI:
+        s = cffi_requests.Session(impersonate="chrome131", proxies=proxies)
+    else:
+        s = requests.Session()
+        if proxies:
+            s.proxies = proxies
+
     s.headers.update({
         "User-Agent": (
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -474,7 +490,11 @@ def warm_up_bms_session(session, region_slug="national-capital-region-ncr", even
     warm_urls.append("https://in.bookmyshow.com/")
 
     headers = {
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Accept-Language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7",
+        "Sec-Ch-Ua": '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": '"Windows"',
         "Sec-Fetch-Dest": "document",
         "Sec-Fetch-Mode": "navigate",
         "Sec-Fetch-Site": "none",
@@ -484,7 +504,10 @@ def warm_up_bms_session(session, region_slug="national-capital-region-ncr", even
 
     for url in warm_urls:
         try:
-            r = session.get(url, headers=headers, timeout=8)
+            kwargs = {"headers": headers, "timeout": 10}
+            if HAS_CURL_CFFI:
+                kwargs["impersonate"] = "chrome131"
+            r = session.get(url, **kwargs)
             if r.status_code in (200, 301, 302):
                 break
         except Exception:
@@ -494,6 +517,7 @@ def warm_up_bms_session(session, region_slug="national-capital-region-ncr", even
 def fetch_bms(session, event_code, date_code, region_code, region_slug, lat, lon, geohash=""):
     base_headers = {
         "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7",
         "x-app-code": "WEB",
         "x-region-code": region_code,
         "x-region-slug": region_slug,
@@ -503,10 +527,14 @@ def fetch_bms(session, event_code, date_code, region_code, region_slug, lat, lon
         "x-location-selection": "manual",
         "x-lsid": "",
         "Referer": f"https://in.bookmyshow.com/movies/{region_slug}/buytickets/{event_code}/",
+        "Origin": "https://in.bookmyshow.com",
         "Sec-Fetch-Site": "same-origin",
         "Sec-Fetch-Mode": "cors",
         "Sec-Fetch-Dest": "empty",
     }
+    if "bmsId" in session.cookies:
+        base_headers["x-bms-id"] = session.cookies["bmsId"]
+
     params = {
         "eventCode": event_code,
         "dateCode": date_code or "",
@@ -520,31 +548,47 @@ def fetch_bms(session, event_code, date_code, region_code, region_slug, lat, lon
         "lon": lon,
     }
 
-    # Browser header profiles for resilience against datacenter bot detection
+    # Browser header & TLS impersonation profiles
     profiles = [
-        # Profile 1: Modern Windows 11 Chrome with exact matching Client Hints
+        # Profile 1: Modern Windows 11 Chrome 131
         {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-            "sec-ch-ua": '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
-            "sec-ch-ua-mobile": "?0",
-            "sec-ch-ua-platform": '"Windows"',
+            "impersonate": "chrome131",
+            "headers": {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                "sec-ch-ua": '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": '"Windows"',
+            },
         },
-        # Profile 2: Modern Firefox (does NOT send sec-ch-ua Client Hints, effectively bypassing Chromium fingerprinting)
+        # Profile 2: Modern macOS Safari 17
         {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0",
+            "impersonate": "safari17_0",
+            "headers": {
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+            },
         },
-        # Profile 3: macOS Safari
+        # Profile 3: Chromium 124
         {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+            "impersonate": "chrome124",
+            "headers": {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+                "sec-ch-ua": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": '"Windows"',
+            },
         },
     ]
 
     last_status = None
     for attempt, prof in enumerate(profiles):
         req_headers = dict(base_headers)
-        req_headers.update(prof)
+        req_headers.update(prof["headers"])
+        kwargs = {"headers": req_headers, "params": params, "timeout": 15}
+        if HAS_CURL_CFFI:
+            kwargs["impersonate"] = prof["impersonate"]
+
         try:
-            resp = session.get(API_URL, headers=req_headers, params=params, timeout=15)
+            resp = session.get(API_URL, **kwargs)
             last_status = resp.status_code
             if resp.status_code == 200:
                 return resp.json()
@@ -553,7 +597,7 @@ def fetch_bms(session, event_code, date_code, region_code, region_slug, lat, lon
                 time.sleep(1.5 * (attempt + 1))
                 warm_up_bms_session(session, region_slug, event_code, force=True)
                 continue
-        except requests.RequestException as e:
+        except Exception as e:
             if attempt < len(profiles) - 1:
                 time.sleep(1.0)
                 continue
@@ -1241,6 +1285,7 @@ def parse_args():
     parser.add_argument("--lang", default=get_clean_env("BMS_LANG"), help="Language filter (e.g. hindi, english)")
     parser.add_argument("--time", default=get_clean_env("BMS_TIME"), help="Time period (morning, afternoon, evening, night)")
     parser.add_argument("--region", default=get_clean_env("BMS_REGION"), help="City/region override (e.g. mumbai, bengaluru)")
+    parser.add_argument("--proxy", default=get_clean_env("BMS_PROXY") or get_clean_env("HTTPS_PROXY") or get_clean_env("HTTP_PROXY"), help="HTTP/HTTPS proxy URL")
     parser.add_argument("--interval", type=int, default=int(get_clean_env("CHECK_INTERVAL", "0") or "0"), help="Polling interval in seconds")
     parser.add_argument("--loop", action="store_true", help="Run continuously in a loop")
     parser.add_argument("--once", action="store_true", help="Run once and exit (default if interval=0)")
@@ -1271,6 +1316,7 @@ def main():
         "lang": clean_val(args.lang),
         "time_period": clean_val(args.time),
         "region": clean_val(args.region),
+        "proxy": clean_val(args.proxy),
         "force_email": args.force_email or get_clean_env("FORCE_EMAIL").lower() in ("true", "1", "yes"),
         "notify_initial": args.notify_initial or get_clean_env("NOTIFY_ON_START", "true").lower() in ("true", "1", "yes"),
         "resend_api_key": get_clean_env("RESEND_API_KEY"),
@@ -1296,7 +1342,7 @@ def main():
     interval = args.interval
     is_loop = args.loop or interval > 0
 
-    session = create_bms_session()
+    session = create_bms_session(proxy=config.get("proxy"))
 
     if not is_loop or args.once:
         run_check(config, session, is_loop=False)

@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-16 23:30:48",
+  "last_checked": "2026-11-16 23:45:28",
   "shows": {
     "PCSN|29769|20261218|RECLINER ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -49,15 +49,6 @@
       "price": "1370.00",
       "status": "0"
     },
-    "PCSN|29770|20261218|PRIME PLUS ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME PLUS ROWS",
-      "price": "920.00",
-      "status": "1"
-    },
     "PCSN|29770|20261218|PRIME ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "08:30 PM",
@@ -66,6 +57,15 @@
       "cat": "PRIME ROWS",
       "price": "920.00",
       "status": "3"
+    },
+    "PCSN|29770|20261218|PRIME PLUS ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME PLUS ROWS",
+      "price": "920.00",
+      "status": "1"
     },
     "PCSN|29770|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -452,7 +452,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
       "price": "640.00",
-      "status": "3"
+      "status": "2"
     },
     "PECD|16619|20261218|PRIME PLUS ROWS": {
       "venue": "PVR: ECX Chanakyapuri, Delhi",
@@ -461,7 +461,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
       "price": "740.00",
-      "status": "3"
+      "status": "2"
     },
     "PECD|16619|20261218|PRIME ROWS": {
       "venue": "PVR: ECX Chanakyapuri, Delhi",
@@ -479,7 +479,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
       "price": "640.00",
-      "status": "3"
+      "status": "2"
     },
     "IOTG|11786|20261218|Recliners": {
       "venue": "PVR: Opulent, Ghaziabad",
@@ -488,7 +488,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "Recliners",
       "price": "875.00",
-      "status": "2"
+      "status": "1"
     },
     "IOTG|11786|20261218|Prime": {
       "venue": "PVR: Opulent, Ghaziabad",

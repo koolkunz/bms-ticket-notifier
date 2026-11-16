@@ -1058,7 +1058,6 @@ def run_check(config, session, is_loop=False):
         lang_filter=config.get("lang", ""),
     )
     is_all_formats = not clean_val(config.get("show_type", "")) and not clean_val(config.get("format", "")) and not clean_val(config.get("lang", ""))
-    is_all_dates = not clean_val(config.get("dates", ""))
 
     if is_all_formats and not available_formats:
         print("  🎯 Monitoring Formats: All Formats (IMAX, 3D, 2D, 4DX — auto-detect all on release)")
@@ -1067,21 +1066,15 @@ def run_check(config, session, is_loop=False):
         print(f"  🎯 Monitoring Formats ({len(target_formats)}): {', '.join(target_names)}")
 
     # Step 3: Determine target dates
-    target_dates = parse_date_range(config.get("dates", ""))
-    if not target_dates and url_date:
-        target_dates = [url_date]
-    if not target_dates and available_dates_info:
-        # Auto-detect all dates from BookMyShow
-        target_dates = [d.date_code for d in available_dates_info if d.date_code]
+    user_dates = parse_date_range(config.get("dates", ""))
+    if not user_dates and url_date:
+        user_dates = [url_date]
 
-    if not target_dates:
-        target_dates = [""]  # Primary/landing endpoint
-
-    if is_all_dates and target_dates == [""]:
-        print("  📅 Monitoring Dates: All Dates (auto-detect all dates on release)")
+    if not user_dates:
+        print("  📅 Monitoring Dates: All Dates (auto-detect all open dates on release)")
     else:
-        dates_display = ', '.join(format_date_human(d) for d in target_dates) if target_dates != [''] else '(Default / Primary Date)'
-        print(f"  📅 Monitoring Dates ({len(target_dates)}): {dates_display}")
+        dates_display = ', '.join(format_date_human(d) for d in user_dates)
+        print(f"  📅 Monitoring Dates ({len(user_dates)}): {dates_display}")
     if config.get("theatre"):
         print(f"  🏛️ Theatre Filter: '{config['theatre']}'")
     if config.get("time_period"):
@@ -1090,33 +1083,89 @@ def run_check(config, session, is_loop=False):
     # Step 4: Fetch showtimes for each format and date
     all_shows = []
     all_dates = list(available_dates_info)
+    existing_dc_map = {d.date_code: d for d in all_dates}
 
+    def merge_dates(new_dates):
+        for d in new_dates:
+            if not d.date_code:
+                continue
+            if d.date_code not in existing_dc_map:
+                all_dates.append(d)
+                existing_dc_map[d.date_code] = d
+            else:
+                existing_d = existing_dc_map[d.date_code]
+                if existing_d.status == "NOT_OPEN" and d.status in ("BOOKABLE", "AVAILABLE"):
+                    existing_d.status = d.status
+
+    seen_sessions = set()
     for tf in target_formats:
         f_code = tf["event_code"]
         f_lang = tf.get("language", "")
         f_fmt = tf.get("format", "")
 
-        for dc in target_dates:
-            data = fetch_bms(session, f_code, dc, region_code, region_slug_r, lat, lon, geohash)
+        if user_dates:
+            for dc in user_dates:
+                data = fetch_bms(session, f_code, dc, region_code, region_slug_r, lat, lon, geohash)
+                if not data:
+                    continue
+
+                merge_dates(parse_dates(data))
+                shows = parse_shows(data, language=f_lang, format_title=f_fmt)
+                for s in shows:
+                    sess_key = (s.venue_code, s.session_id or f"{s.time}_{s.format_title}", s.date_code)
+                    if sess_key not in seen_sessions:
+                        seen_sessions.add(sess_key)
+                        all_shows.append(s)
+        else:
+            # All Dates Mode: auto-detect open/bookable dates for this format
+            # 1. Fetch primary / landing date (dc="")
+            data = initial_data if f_code == event_code else fetch_bms(session, f_code, "", region_code, region_slug_r, lat, lon, geohash)
             if not data:
                 continue
 
             date_objs = parse_dates(data)
-            existing_dc = {d.date_code for d in all_dates}
-            for d in date_objs:
-                if d.date_code not in existing_dc:
-                    all_dates.append(d)
-                    existing_dc.add(d.date_code)
+            merge_dates(date_objs)
 
-            shows = parse_shows(data, language=f_lang, format_title=f_fmt)
-            all_shows.extend(shows)
+            primary_shows = parse_shows(data, language=f_lang, format_title=f_fmt)
+            for s in primary_shows:
+                sess_key = (s.venue_code, s.session_id or f"{s.time}_{s.format_title}", s.date_code)
+                if sess_key not in seen_sessions:
+                    seen_sessions.add(sess_key)
+                    all_shows.append(s)
+
+            fetched_dates = {s.date_code for s in primary_shows if s.date_code}
+            other_open_dates = [
+                d.date_code for d in date_objs
+                if d.status in ("BOOKABLE", "AVAILABLE") and d.date_code and d.date_code not in fetched_dates
+            ]
+
+            # 2. Fetch any other bookable / open dates for this format
+            for dc in other_open_dates:
+                sub_data = fetch_bms(session, f_code, dc, region_code, region_slug_r, lat, lon, geohash)
+                if not sub_data:
+                    continue
+                merge_dates(parse_dates(sub_data))
+                sub_shows = parse_shows(sub_data, language=f_lang, format_title=f_fmt)
+                for s in sub_shows:
+                    sess_key = (s.venue_code, s.session_id or f"{s.time}_{s.format_title}", s.date_code)
+                    if sess_key not in seen_sessions:
+                        seen_sessions.add(sess_key)
+                        all_shows.append(s)
+                fetched_dates.add(dc)
+
+    # Discovered open dates summary (when in all dates mode)
+    if not user_dates:
+        active_dates = sorted(list({s.date_code for s in all_shows if s.date_code}))
+        if active_dates:
+            dates_display = ', '.join(format_date_human(d) for d in active_dates)
+            print(f"  📅 Open Dates Found ({len(active_dates)}): {dates_display}")
 
     # Step 5: Filter shows
     filtered_shows = filter_shows(
         all_shows,
         theatre_filter=config.get("theatre", ""),
         time_periods=config.get("time_period", ""),
-        allowed_dates=target_dates if target_dates != [""] else None,
+        allowed_dates=user_dates if user_dates else None,
         show_type_filter=config.get("show_type", ""),
     )
 

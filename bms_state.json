@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-16 16:52:30",
+  "last_checked": "2026-11-16 17:00:47",
   "shows": {
     "PCSN|29769|20261218|RECLINER ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -146,6 +146,78 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
       "price": "590.00",
+      "status": "3"
+    },
+    "FNSD|6951|20261218|NORMAL": {
+      "venue": "Cinepolis: Cross River Mall, Shahdara",
+      "time": "04:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "NORMAL",
+      "price": "440.00",
+      "status": "3"
+    },
+    "FNSD|6951|20261218|EXECUTIVE": {
+      "venue": "Cinepolis: Cross River Mall, Shahdara",
+      "time": "04:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXECUTIVE",
+      "price": "460.00",
+      "status": "3"
+    },
+    "FNSD|6951|20261218|PREMIUM": {
+      "venue": "Cinepolis: Cross River Mall, Shahdara",
+      "time": "04:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PREMIUM",
+      "price": "480.00",
+      "status": "3"
+    },
+    "FNSD|6951|20261218|RECLINER": {
+      "venue": "Cinepolis: Cross River Mall, Shahdara",
+      "time": "04:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "RECLINER",
+      "price": "960.00",
+      "status": "3"
+    },
+    "FNSD|6953|20261218|NORMAL": {
+      "venue": "Cinepolis: Cross River Mall, Shahdara",
+      "time": "11:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "NORMAL",
+      "price": "440.00",
+      "status": "3"
+    },
+    "FNSD|6953|20261218|EXECUTIVE": {
+      "venue": "Cinepolis: Cross River Mall, Shahdara",
+      "time": "11:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXECUTIVE",
+      "price": "460.00",
+      "status": "3"
+    },
+    "FNSD|6953|20261218|PREMIUM": {
+      "venue": "Cinepolis: Cross River Mall, Shahdara",
+      "time": "11:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PREMIUM",
+      "price": "480.00",
+      "status": "3"
+    },
+    "FNSD|6953|20261218|RECLINER": {
+      "venue": "Cinepolis: Cross River Mall, Shahdara",
+      "time": "11:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "RECLINER",
+      "price": "960.00",
       "status": "3"
     },
     "ISMG|46139|20261218|LOUNGE": {
@@ -335,6 +407,24 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "Classic",
       "price": "460.00",
+      "status": "3"
+    },
+    "EDMP|16802|20261218|PRIME": {
+      "venue": "PVR: Edm Ghaziabad (Audi 1-All New 3D Projection)",
+      "time": "07:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME",
+      "price": "460.00",
+      "status": "3"
+    },
+    "EDMP|16802|20261218|CLASSIC": {
+      "venue": "PVR: Edm Ghaziabad (Audi 1-All New 3D Projection)",
+      "time": "07:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC",
+      "price": "440.00",
       "status": "3"
     }
   },

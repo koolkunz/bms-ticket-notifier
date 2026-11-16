@@ -1,8 +1,23 @@
 {
   "event_code": "ET00439706",
-  "movie": "Avengers Doomsday",
+  "movie": "Avengers: Doomsday",
   "waiting_for_release": true,
-  "last_checked": "2026-11-16 12:00:37",
+  "last_checked": "2026-11-16 13:00:53",
   "shows": {},
-  "dates": {}
+  "dates": {
+    "20261116": "NOT_OPEN",
+    "20261117": "NOT_OPEN",
+    "20261118": "NOT_OPEN",
+    "20261119": "NOT_OPEN",
+    "20261120": "NOT_OPEN",
+    "20261121": "NOT_OPEN",
+    "20261122": "NOT_OPEN",
+    "20261217": "BOOKABLE",
+    "20261218": "AVAILABLE",
+    "20261219": "AVAILABLE",
+    "20261220": "AVAILABLE",
+    "20261221": "NOT_OPEN",
+    "20261222": "NOT_OPEN",
+    "20261223": "NOT_OPEN"
+  }
 }

@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-16 14:46:50",
+  "last_checked": "2026-11-16 14:48:27",
   "shows": {
     "PCSN|29760|20261217|RECLINER ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -137,7 +137,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
       "price": "720.00",
-      "status": "2"
+      "status": "1"
     },
     "PCSN|29763|20261217|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -407,7 +407,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER ROWS",
       "price": "930.00",
-      "status": "0"
+      "status": "1"
     },
     "PCSN|29767|20261218|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -479,7 +479,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER ROWS",
       "price": "1170.00",
-      "status": "1"
+      "status": "0"
     },
     "PCSN|29769|20261218|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -1091,7 +1091,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER ROWS",
       "price": "930.00",
-      "status": "1"
+      "status": "0"
     },
     "PCSN|29778|20261220|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -1424,7 +1424,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "Recliners",
       "price": "875.00",
-      "status": "2"
+      "status": "3"
     },
     "IOTG|11796|20261220|Prime": {
       "venue": "PVR: Opulent, Ghaziabad",

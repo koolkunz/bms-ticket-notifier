@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-17 04:15:34",
+  "last_checked": "2026-11-17 04:30:52",
   "shows": {
     "PVKS|23619|20261218|RECLINER ROWS": {
       "venue": "PVR: Anupam Saket, Delhi",
@@ -506,7 +506,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM XL",
       "price": "510.00",
-      "status": "2"
+      "status": "3"
     },
     "CUNT|7739|20261218|PREMIUM PLUS": {
       "venue": "Cinepolis: City Centre Dwarka,Delhi (Newly Opened)",
@@ -767,7 +767,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
       "price": "740.00",
-      "status": "2"
+      "status": "3"
     },
     "PECD|16619|20261218|PRIME ROWS": {
       "venue": "PVR: ECX Chanakyapuri, Delhi",
@@ -785,7 +785,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
       "price": "640.00",
-      "status": "2"
+      "status": "3"
     },
     "IOTG|11786|20261218|Recliners": {
       "venue": "PVR: Opulent, Ghaziabad",
@@ -794,7 +794,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "Recliners",
       "price": "875.00",
-      "status": "2"
+      "status": "1"
     },
     "IOTG|11786|20261218|Prime": {
       "venue": "PVR: Opulent, Ghaziabad",

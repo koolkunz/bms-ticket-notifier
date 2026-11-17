@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-17 09:15:36",
+  "last_checked": "2026-11-17 09:30:43",
   "shows": {
     "CIPS|11999|20261218|NORMAL": {
       "venue": "Cinepolis: DLF Avenue, Saket",
@@ -11,7 +11,7 @@
       "format": "MS - Inf Vsn 4DX 3D",
       "cat": "NORMAL",
       "price": "1000.00",
-      "status": "3"
+      "status": "2"
     },
     "CIPS|12000|20261218|NORMAL": {
       "venue": "Cinepolis: DLF Avenue, Saket",
@@ -94,15 +94,6 @@
       "price": "740.00",
       "status": "3"
     },
-    "PAEG|59261|20261218|XTRA LEGROOM": {
-      "venue": "Gurugram Pepsi PVR Ambience",
-      "time": "11:55 PM",
-      "date": "20261218",
-      "format": "MS - Infinity Vision",
-      "cat": "XTRA LEGROOM",
-      "price": "980.00",
-      "status": "3"
-    },
     "PAEG|59261|20261218|PICTURE PERFECT": {
       "venue": "Gurugram Pepsi PVR Ambience",
       "time": "11:55 PM",
@@ -111,6 +102,15 @@
       "cat": "PICTURE PERFECT",
       "price": "980.00",
       "status": "2"
+    },
+    "PAEG|59261|20261218|XTRA LEGROOM": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "11:55 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "XTRA LEGROOM",
+      "price": "980.00",
+      "status": "3"
     },
     "PAEG|59261|20261218|SUPERIOR": {
       "venue": "Gurugram Pepsi PVR Ambience",
@@ -478,7 +478,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER",
-      "price": "1300.00",
+      "price": "1500.00",
       "status": "2"
     },
     "DTYN|37483|20261218|XTRA LEGROOM": {
@@ -586,8 +586,8 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER",
-      "price": "1300.00",
-      "status": "3"
+      "price": "1700.00",
+      "status": "1"
     },
     "PTCW|36369|20261218|CLA SUPERIOR": {
       "venue": "PVR: Select City Walk, Delhi",
@@ -776,7 +776,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
       "price": "820.00",
-      "status": "3"
+      "status": "2"
     },
     "PCSN|29769|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -796,15 +796,6 @@
       "price": "1370.00",
       "status": "0"
     },
-    "PCSN|29770|20261218|PRIME ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "1020.00",
-      "status": "2"
-    },
     "PCSN|29770|20261218|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "08:30 PM",
@@ -813,6 +804,15 @@
       "cat": "PRIME PLUS ROWS",
       "price": "1020.00",
       "status": "0"
+    },
+    "PCSN|29770|20261218|PRIME ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "1020.00",
+      "status": "2"
     },
     "PCSN|29770|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -1172,7 +1172,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM PLUS",
       "price": "600.00",
-      "status": "2"
+      "status": "1"
     },
     "CUNT|7739|20261218|RECLINER": {
       "venue": "Cinepolis: City Centre Dwarka,Delhi (Newly Opened)",
@@ -1253,7 +1253,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM XL",
       "price": "620.00",
-      "status": "3"
+      "status": "2"
     },
     "CUNT|7740|20261218|PREMIUM PLUS": {
       "venue": "Cinepolis: City Centre Dwarka,Delhi (Newly Opened)",
@@ -1334,7 +1334,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "LOUNGE",
       "price": "920.00",
-      "status": "3"
+      "status": "2"
     },
     "ISMG|46141|20261218|EXECUTIVE": {
       "venue": "INOX: Shipra Mall, Ghaziabad",
@@ -1505,7 +1505,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
       "price": "740.00",
-      "status": "2"
+      "status": "3"
     },
     "PECD|16619|20261218|PRIME ROWS": {
       "venue": "PVR: ECX Chanakyapuri, Delhi",
@@ -1523,7 +1523,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
       "price": "640.00",
-      "status": "2"
+      "status": "3"
     },
     "IOTG|11786|20261218|Recliners": {
       "venue": "PVR: Opulent, Ghaziabad",

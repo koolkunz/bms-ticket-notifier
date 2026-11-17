@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-17 11:00:53",
+  "last_checked": "2026-11-17 11:15:36",
   "shows": {
     "CIPS|11999|20261218|NORMAL": {
       "venue": "Cinepolis: DLF Avenue, Saket",
@@ -22,15 +22,6 @@
       "price": "1000.00",
       "status": "3"
     },
-    "PAEG|59259|20261218|XTRA LEGROOM": {
-      "venue": "Gurugram Pepsi PVR Ambience",
-      "time": "05:05 PM",
-      "date": "20261218",
-      "format": "MS - Infinity Vision",
-      "cat": "XTRA LEGROOM",
-      "price": "960.00",
-      "status": "3"
-    },
     "PAEG|59259|20261218|PICTURE PERFECT": {
       "venue": "Gurugram Pepsi PVR Ambience",
       "time": "05:05 PM",
@@ -39,6 +30,15 @@
       "cat": "PICTURE PERFECT",
       "price": "960.00",
       "status": "2"
+    },
+    "PAEG|59259|20261218|XTRA LEGROOM": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "XTRA LEGROOM",
+      "price": "960.00",
+      "status": "3"
     },
     "PAEG|59259|20261218|SUPERIOR": {
       "venue": "Gurugram Pepsi PVR Ambience",
@@ -58,15 +58,6 @@
       "price": "720.00",
       "status": "3"
     },
-    "PAEG|59260|20261218|XTRA LEGROOM": {
-      "venue": "Gurugram Pepsi PVR Ambience",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS - Infinity Vision",
-      "cat": "XTRA LEGROOM",
-      "price": "980.00",
-      "status": "3"
-    },
     "PAEG|59260|20261218|PICTURE PERFECT": {
       "venue": "Gurugram Pepsi PVR Ambience",
       "time": "08:30 PM",
@@ -75,6 +66,15 @@
       "cat": "PICTURE PERFECT",
       "price": "980.00",
       "status": "2"
+    },
+    "PAEG|59260|20261218|XTRA LEGROOM": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "XTRA LEGROOM",
+      "price": "980.00",
+      "status": "3"
     },
     "PAEG|59260|20261218|SUPERIOR": {
       "venue": "Gurugram Pepsi PVR Ambience",
@@ -94,15 +94,6 @@
       "price": "740.00",
       "status": "3"
     },
-    "PAEG|59261|20261218|XTRA LEGROOM": {
-      "venue": "Gurugram Pepsi PVR Ambience",
-      "time": "11:55 PM",
-      "date": "20261218",
-      "format": "MS - Infinity Vision",
-      "cat": "XTRA LEGROOM",
-      "price": "980.00",
-      "status": "3"
-    },
     "PAEG|59261|20261218|PICTURE PERFECT": {
       "venue": "Gurugram Pepsi PVR Ambience",
       "time": "11:55 PM",
@@ -111,6 +102,15 @@
       "cat": "PICTURE PERFECT",
       "price": "980.00",
       "status": "2"
+    },
+    "PAEG|59261|20261218|XTRA LEGROOM": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "11:55 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "XTRA LEGROOM",
+      "price": "980.00",
+      "status": "3"
     },
     "PAEG|59261|20261218|SUPERIOR": {
       "venue": "Gurugram Pepsi PVR Ambience",
@@ -326,7 +326,7 @@
       "format": "MS - Infinity Vision",
       "cat": "PRIME ROWS",
       "price": "640.00",
-      "status": "2"
+      "status": "3"
     },
     "PVKS|23620|20261218|CLASSIC ROWS": {
       "venue": "PVR: Anupam Saket, Delhi",
@@ -559,7 +559,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "XTRA LEGROOM",
-      "price": "840.00",
+      "price": "890.00",
       "status": "2"
     },
     "DTYN|37485|20261218|PRIME": {
@@ -784,7 +784,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
-      "price": "930.00",
+      "price": "990.00",
       "status": "2"
     },
     "PPGV|39236|20261218|CLASSIC ROWS": {
@@ -949,15 +949,6 @@
       "price": "1170.00",
       "status": "0"
     },
-    "PCSN|29769|20261218|PRIME PLUS ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "05:05 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME PLUS ROWS",
-      "price": "920.00",
-      "status": "0"
-    },
     "PCSN|29769|20261218|PRIME ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "05:05 PM",
@@ -966,6 +957,15 @@
       "cat": "PRIME ROWS",
       "price": "920.00",
       "status": "2"
+    },
+    "PCSN|29769|20261218|PRIME PLUS ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME PLUS ROWS",
+      "price": "920.00",
+      "status": "0"
     },
     "PCSN|29769|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -985,15 +985,6 @@
       "price": "1370.00",
       "status": "0"
     },
-    "PCSN|29770|20261218|PRIME PLUS ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME PLUS ROWS",
-      "price": "1020.00",
-      "status": "0"
-    },
     "PCSN|29770|20261218|PRIME ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "08:30 PM",
@@ -1002,6 +993,15 @@
       "cat": "PRIME ROWS",
       "price": "1020.00",
       "status": "2"
+    },
+    "PCSN|29770|20261218|PRIME PLUS ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME PLUS ROWS",
+      "price": "1020.00",
+      "status": "0"
     },
     "PCSN|29770|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -1379,7 +1379,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM PLUS",
       "price": "570.00",
-      "status": "3"
+      "status": "2"
     },
     "CEST|8152|20261218|RECLINER": {
       "venue": "Cinepolis: V3S East Centre (New)",
@@ -1487,7 +1487,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "EXECUTIVE",
       "price": "530.00",
-      "status": "2"
+      "status": "3"
     },
     "ISMG|46140|20261218|CLASSIC": {
       "venue": "INOX: Shipra Mall, Ghaziabad",
@@ -1585,7 +1585,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER ROWS",
-      "price": "910.00",
+      "price": "1110.00",
       "status": "2"
     },
     "INWM|49574|20261218|PICTURE PERFECT": {
@@ -1685,6 +1685,141 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
       "price": "430.00",
+      "status": "3"
+    },
+    "IAJS|55774|20261218|RECLINER ROWS": {
+      "venue": "INOX: AIPL Joy Street, Gurgaon",
+      "time": "04:50 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "RECLINER ROWS",
+      "price": "880.00",
+      "status": "3"
+    },
+    "IAJS|55774|20261218|PICTURE PERFECT": {
+      "venue": "INOX: AIPL Joy Street, Gurgaon",
+      "time": "04:50 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PICTURE PERFECT",
+      "price": "540.00",
+      "status": "3"
+    },
+    "IAJS|55774|20261218|EXTRA LEGROOM ROWS": {
+      "venue": "INOX: AIPL Joy Street, Gurgaon",
+      "time": "04:50 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXTRA LEGROOM ROWS",
+      "price": "530.00",
+      "status": "3"
+    },
+    "IAJS|55774|20261218|PRIME ROWS": {
+      "venue": "INOX: AIPL Joy Street, Gurgaon",
+      "time": "04:50 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "510.00",
+      "status": "3"
+    },
+    "IAJS|55774|20261218|CLASSIC ROWS": {
+      "venue": "INOX: AIPL Joy Street, Gurgaon",
+      "time": "04:50 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC ROWS",
+      "price": "490.00",
+      "status": "3"
+    },
+    "IAJS|55775|20261218|RECLINER ROWS": {
+      "venue": "INOX: AIPL Joy Street, Gurgaon",
+      "time": "08:15 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "RECLINER ROWS",
+      "price": "880.00",
+      "status": "3"
+    },
+    "IAJS|55775|20261218|PICTURE PERFECT": {
+      "venue": "INOX: AIPL Joy Street, Gurgaon",
+      "time": "08:15 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PICTURE PERFECT",
+      "price": "540.00",
+      "status": "3"
+    },
+    "IAJS|55775|20261218|EXTRA LEGROOM ROWS": {
+      "venue": "INOX: AIPL Joy Street, Gurgaon",
+      "time": "08:15 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXTRA LEGROOM ROWS",
+      "price": "530.00",
+      "status": "3"
+    },
+    "IAJS|55775|20261218|PRIME ROWS": {
+      "venue": "INOX: AIPL Joy Street, Gurgaon",
+      "time": "08:15 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "510.00",
+      "status": "3"
+    },
+    "IAJS|55775|20261218|CLASSIC ROWS": {
+      "venue": "INOX: AIPL Joy Street, Gurgaon",
+      "time": "08:15 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC ROWS",
+      "price": "490.00",
+      "status": "3"
+    },
+    "IAJS|55776|20261218|RECLINER ROWS": {
+      "venue": "INOX: AIPL Joy Street, Gurgaon",
+      "time": "11:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "RECLINER ROWS",
+      "price": "880.00",
+      "status": "3"
+    },
+    "IAJS|55776|20261218|PICTURE PERFECT": {
+      "venue": "INOX: AIPL Joy Street, Gurgaon",
+      "time": "11:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PICTURE PERFECT",
+      "price": "540.00",
+      "status": "3"
+    },
+    "IAJS|55776|20261218|EXTRA LEGROOM ROWS": {
+      "venue": "INOX: AIPL Joy Street, Gurgaon",
+      "time": "11:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXTRA LEGROOM ROWS",
+      "price": "530.00",
+      "status": "3"
+    },
+    "IAJS|55776|20261218|PRIME ROWS": {
+      "venue": "INOX: AIPL Joy Street, Gurgaon",
+      "time": "11:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "510.00",
+      "status": "3"
+    },
+    "IAJS|55776|20261218|CLASSIC ROWS": {
+      "venue": "INOX: AIPL Joy Street, Gurgaon",
+      "time": "11:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC ROWS",
+      "price": "490.00",
       "status": "3"
     },
     "CPMF|9324|20261218|NORMAL": {

@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-17 11:30:42",
+  "last_checked": "2026-11-17 11:45:54",
   "shows": {
     "CIPS|11999|20261218|NORMAL": {
       "venue": "Cinepolis: DLF Avenue, Saket",
@@ -46,7 +46,7 @@
       "date": "20261218",
       "format": "MS - Infinity Vision",
       "cat": "SUPERIOR",
-      "price": "880.00",
+      "price": "930.00",
       "status": "2"
     },
     "PAEG|59259|20261218|CLASSIC": {
@@ -58,15 +58,6 @@
       "price": "720.00",
       "status": "3"
     },
-    "PAEG|59260|20261218|PICTURE PERFECT": {
-      "venue": "Gurugram Pepsi PVR Ambience",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS - Infinity Vision",
-      "cat": "PICTURE PERFECT",
-      "price": "980.00",
-      "status": "2"
-    },
     "PAEG|59260|20261218|XTRA LEGROOM": {
       "venue": "Gurugram Pepsi PVR Ambience",
       "time": "08:30 PM",
@@ -75,6 +66,15 @@
       "cat": "XTRA LEGROOM",
       "price": "980.00",
       "status": "3"
+    },
+    "PAEG|59260|20261218|PICTURE PERFECT": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "PICTURE PERFECT",
+      "price": "980.00",
+      "status": "2"
     },
     "PAEG|59260|20261218|SUPERIOR": {
       "venue": "Gurugram Pepsi PVR Ambience",
@@ -326,7 +326,7 @@
       "format": "MS - Infinity Vision",
       "cat": "PRIME ROWS",
       "price": "640.00",
-      "status": "3"
+      "status": "2"
     },
     "PVKS|23620|20261218|CLASSIC ROWS": {
       "venue": "PVR: Anupam Saket, Delhi",
@@ -712,7 +712,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLA SUPERIOR",
-      "price": "850.00",
+      "price": "900.00",
       "status": "2"
     },
     "PTCW|36369|20261218|CLASSIC": {
@@ -739,7 +739,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLA SUPERIOR",
-      "price": "850.00",
+      "price": "900.00",
       "status": "2"
     },
     "PTCW|36370|20261218|CLASSIC": {
@@ -785,7 +785,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
       "price": "990.00",
-      "status": "2"
+      "status": "1"
     },
     "PPGV|39236|20261218|CLASSIC ROWS": {
       "venue": "PVR: Promenade, Vasant Kunj",
@@ -949,15 +949,6 @@
       "price": "1170.00",
       "status": "0"
     },
-    "PCSN|29769|20261218|PRIME ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "05:05 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "920.00",
-      "status": "2"
-    },
     "PCSN|29769|20261218|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "05:05 PM",
@@ -966,6 +957,15 @@
       "cat": "PRIME PLUS ROWS",
       "price": "920.00",
       "status": "0"
+    },
+    "PCSN|29769|20261218|PRIME ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "920.00",
+      "status": "2"
     },
     "PCSN|29769|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -1523,6 +1523,114 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC",
       "price": "450.00",
+      "status": "3"
+    },
+    "SCND|96150|20261218|XTRA LEGROOM": {
+      "venue": "INOX: Nehru Place",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "XTRA LEGROOM",
+      "price": "720.00",
+      "status": "3"
+    },
+    "SCND|96150|20261218|Royal": {
+      "venue": "INOX: Nehru Place",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "Royal",
+      "price": "600.00",
+      "status": "3"
+    },
+    "SCND|96150|20261218|Club": {
+      "venue": "INOX: Nehru Place",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "Club",
+      "price": "600.00",
+      "status": "3"
+    },
+    "SCND|96150|20261218|Executive": {
+      "venue": "INOX: Nehru Place",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "Executive",
+      "price": "570.00",
+      "status": "3"
+    },
+    "SCND|96151|20261218|XTRA LEGROOM": {
+      "venue": "INOX: Nehru Place",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "XTRA LEGROOM",
+      "price": "840.00",
+      "status": "3"
+    },
+    "SCND|96151|20261218|Royal": {
+      "venue": "INOX: Nehru Place",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "Royal",
+      "price": "700.00",
+      "status": "3"
+    },
+    "SCND|96151|20261218|Club": {
+      "venue": "INOX: Nehru Place",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "Club",
+      "price": "700.00",
+      "status": "3"
+    },
+    "SCND|96151|20261218|Executive": {
+      "venue": "INOX: Nehru Place",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "Executive",
+      "price": "620.00",
+      "status": "3"
+    },
+    "SCND|96152|20261218|XTRA LEGROOM": {
+      "venue": "INOX: Nehru Place",
+      "time": "11:55 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "XTRA LEGROOM",
+      "price": "840.00",
+      "status": "3"
+    },
+    "SCND|96152|20261218|Royal": {
+      "venue": "INOX: Nehru Place",
+      "time": "11:55 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "Royal",
+      "price": "700.00",
+      "status": "3"
+    },
+    "SCND|96152|20261218|Club": {
+      "venue": "INOX: Nehru Place",
+      "time": "11:55 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "Club",
+      "price": "700.00",
+      "status": "3"
+    },
+    "SCND|96152|20261218|Executive": {
+      "venue": "INOX: Nehru Place",
+      "time": "11:55 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "Executive",
+      "price": "620.00",
       "status": "3"
     },
     "IAJS|55774|20261218|RECLINER ROWS": {

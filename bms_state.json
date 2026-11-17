@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-17 08:30:53",
+  "last_checked": "2026-11-17 08:45:37",
   "shows": {
     "CIPS|11999|20261218|NORMAL": {
       "venue": "Cinepolis: DLF Avenue, Saket",
@@ -443,7 +443,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER",
       "price": "1300.00",
-      "status": "3"
+      "status": "2"
     },
     "DTYN|37483|20261218|XTRA LEGROOM": {
       "venue": "PVR: Superplex Mall Of India, Noida",
@@ -460,7 +460,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME",
-      "price": "670.00",
+      "price": "720.00",
       "status": "1"
     },
     "DTYN|37483|20261218|CLASSIC": {
@@ -577,7 +577,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER",
-      "price": "1300.00",
+      "price": "1700.00",
       "status": "2"
     },
     "PTCW|36370|20261218|CLA SUPERIOR": {
@@ -740,7 +740,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
       "price": "820.00",
-      "status": "2"
+      "status": "3"
     },
     "PCSN|29769|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -1099,7 +1099,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "NORMAL",
-      "price": "500.00",
+      "price": "410.00",
       "status": "3"
     },
     "CUNT|7739|20261218|EXECUTIVE": {
@@ -1108,7 +1108,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "EXECUTIVE",
-      "price": "540.00",
+      "price": "450.00",
       "status": "3"
     },
     "CUNT|7739|20261218|PREMIUM": {
@@ -1117,7 +1117,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM",
-      "price": "580.00",
+      "price": "510.00",
       "status": "3"
     },
     "CUNT|7739|20261218|PREMIUM XL": {
@@ -1126,7 +1126,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM XL",
-      "price": "620.00",
+      "price": "550.00",
       "status": "2"
     },
     "CUNT|7739|20261218|PREMIUM PLUS": {
@@ -1135,7 +1135,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM PLUS",
-      "price": "600.00",
+      "price": "530.00",
       "status": "2"
     },
     "CUNT|7739|20261218|RECLINER": {
@@ -1144,7 +1144,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER",
-      "price": "1300.00",
+      "price": "900.00",
       "status": "2"
     },
     "CUNT|7763|20261218|NORMAL": {

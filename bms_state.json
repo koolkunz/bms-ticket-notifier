@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-17 07:00:53",
+  "last_checked": "2026-11-17 07:15:36",
   "shows": {
     "CIPS|11999|20261218|NORMAL": {
       "venue": "Cinepolis: DLF Avenue, Saket",
@@ -22,22 +22,22 @@
       "price": "1000.00",
       "status": "3"
     },
-    "PAEG|59259|20261218|PICTURE PERFECT": {
-      "venue": "Gurugram Pepsi PVR Ambience",
-      "time": "05:05 PM",
-      "date": "20261218",
-      "format": "MS - Infinity Vision",
-      "cat": "PICTURE PERFECT",
-      "price": "810.00",
-      "status": "3"
-    },
     "PAEG|59259|20261218|XTRA LEGROOM": {
       "venue": "Gurugram Pepsi PVR Ambience",
       "time": "05:05 PM",
       "date": "20261218",
       "format": "MS - Infinity Vision",
       "cat": "XTRA LEGROOM",
-      "price": "810.00",
+      "price": "860.00",
+      "status": "3"
+    },
+    "PAEG|59259|20261218|PICTURE PERFECT": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "PICTURE PERFECT",
+      "price": "860.00",
       "status": "3"
     },
     "PAEG|59259|20261218|SUPERIOR": {
@@ -46,7 +46,7 @@
       "date": "20261218",
       "format": "MS - Infinity Vision",
       "cat": "SUPERIOR",
-      "price": "680.00",
+      "price": "730.00",
       "status": "3"
     },
     "PAEG|59259|20261218|CLASSIC": {
@@ -55,16 +55,7 @@
       "date": "20261218",
       "format": "MS - Infinity Vision",
       "cat": "CLASSIC",
-      "price": "570.00",
-      "status": "3"
-    },
-    "PAEG|59260|20261218|PICTURE PERFECT": {
-      "venue": "Gurugram Pepsi PVR Ambience",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS - Infinity Vision",
-      "cat": "PICTURE PERFECT",
-      "price": "830.00",
+      "price": "620.00",
       "status": "3"
     },
     "PAEG|59260|20261218|XTRA LEGROOM": {
@@ -73,7 +64,16 @@
       "date": "20261218",
       "format": "MS - Infinity Vision",
       "cat": "XTRA LEGROOM",
-      "price": "830.00",
+      "price": "880.00",
+      "status": "3"
+    },
+    "PAEG|59260|20261218|PICTURE PERFECT": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "PICTURE PERFECT",
+      "price": "880.00",
       "status": "3"
     },
     "PAEG|59260|20261218|SUPERIOR": {
@@ -82,7 +82,7 @@
       "date": "20261218",
       "format": "MS - Infinity Vision",
       "cat": "SUPERIOR",
-      "price": "700.00",
+      "price": "750.00",
       "status": "3"
     },
     "PAEG|59260|20261218|CLASSIC": {
@@ -91,16 +91,7 @@
       "date": "20261218",
       "format": "MS - Infinity Vision",
       "cat": "CLASSIC",
-      "price": "590.00",
-      "status": "3"
-    },
-    "PAEG|59261|20261218|PICTURE PERFECT": {
-      "venue": "Gurugram Pepsi PVR Ambience",
-      "time": "11:55 PM",
-      "date": "20261218",
-      "format": "MS - Infinity Vision",
-      "cat": "PICTURE PERFECT",
-      "price": "830.00",
+      "price": "640.00",
       "status": "3"
     },
     "PAEG|59261|20261218|XTRA LEGROOM": {
@@ -109,7 +100,16 @@
       "date": "20261218",
       "format": "MS - Infinity Vision",
       "cat": "XTRA LEGROOM",
-      "price": "830.00",
+      "price": "880.00",
+      "status": "3"
+    },
+    "PAEG|59261|20261218|PICTURE PERFECT": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "11:55 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "PICTURE PERFECT",
+      "price": "880.00",
       "status": "3"
     },
     "PAEG|59261|20261218|SUPERIOR": {
@@ -118,7 +118,7 @@
       "date": "20261218",
       "format": "MS - Infinity Vision",
       "cat": "SUPERIOR",
-      "price": "700.00",
+      "price": "750.00",
       "status": "3"
     },
     "PAEG|59261|20261218|CLASSIC": {
@@ -127,7 +127,7 @@
       "date": "20261218",
       "format": "MS - Infinity Vision",
       "cat": "CLASSIC",
-      "price": "590.00",
+      "price": "640.00",
       "status": "3"
     },
     "FNLN|8198|20261218|NORMAL": {
@@ -289,7 +289,7 @@
       "date": "20261218",
       "format": "MS - Infinity Vision",
       "cat": "RECLINER ROWS",
-      "price": "1160.00",
+      "price": "1190.00",
       "status": "1"
     },
     "PVKS|23619|20261218|PRIME ROWS": {
@@ -299,7 +299,7 @@
       "format": "MS - Infinity Vision",
       "cat": "PRIME ROWS",
       "price": "640.00",
-      "status": "3"
+      "status": "2"
     },
     "PVKS|23619|20261218|CLASSIC ROWS": {
       "venue": "PVR: Anupam Saket, Delhi",
@@ -316,7 +316,7 @@
       "date": "20261218",
       "format": "MS - Infinity Vision",
       "cat": "RECLINER ROWS",
-      "price": "1130.00",
+      "price": "1160.00",
       "status": "2"
     },
     "PVKS|23620|20261218|PRIME ROWS": {
@@ -452,7 +452,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "XTRA LEGROOM",
       "price": "720.00",
-      "status": "3"
+      "status": "1"
     },
     "DTYN|37483|20261218|PRIME": {
       "venue": "PVR: Superplex Mall Of India, Noida",
@@ -461,7 +461,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME",
       "price": "620.00",
-      "status": "2"
+      "status": "1"
     },
     "DTYN|37483|20261218|CLASSIC": {
       "venue": "PVR: Superplex Mall Of India, Noida",
@@ -533,7 +533,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME",
       "price": "690.00",
-      "status": "3"
+      "status": "2"
     },
     "DTYN|37485|20261218|CLASSIC": {
       "venue": "PVR: Superplex Mall Of India, Noida",
@@ -542,6 +542,96 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC",
       "price": "670.00",
+      "status": "3"
+    },
+    "PPGV|39236|20261218|PRIME ROWS": {
+      "venue": "PVR: Promenade, Vasant Kunj",
+      "time": "04:50 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "930.00",
+      "status": "2"
+    },
+    "PPGV|39236|20261218|CLASSIC ROWS": {
+      "venue": "PVR: Promenade, Vasant Kunj",
+      "time": "04:50 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC ROWS",
+      "price": "880.00",
+      "status": "3"
+    },
+    "PPGV|39237|20261218|PRIME ROWS": {
+      "venue": "PVR: Promenade, Vasant Kunj",
+      "time": "08:15 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "930.00",
+      "status": "2"
+    },
+    "PPGV|39237|20261218|CLASSIC ROWS": {
+      "venue": "PVR: Promenade, Vasant Kunj",
+      "time": "08:15 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC ROWS",
+      "price": "880.00",
+      "status": "3"
+    },
+    "PPGV|39238|20261218|PRIME ROWS": {
+      "venue": "PVR: Promenade, Vasant Kunj",
+      "time": "11:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "930.00",
+      "status": "3"
+    },
+    "PPGV|39238|20261218|CLASSIC ROWS": {
+      "venue": "PVR: Promenade, Vasant Kunj",
+      "time": "11:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC ROWS",
+      "price": "880.00",
+      "status": "3"
+    },
+    "SPIA|15164|20261218|NORMAL": {
+      "venue": "Cinepolis: Modi Mall (Formerly Spice Mall)",
+      "time": "07:15 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "NORMAL",
+      "price": "600.00",
+      "status": "3"
+    },
+    "SPIA|15164|20261218|EXECUTIVE": {
+      "venue": "Cinepolis: Modi Mall (Formerly Spice Mall)",
+      "time": "07:15 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXECUTIVE",
+      "price": "600.00",
+      "status": "3"
+    },
+    "SPIA|15164|20261218|PREMIUM XL": {
+      "venue": "Cinepolis: Modi Mall (Formerly Spice Mall)",
+      "time": "07:15 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PREMIUM XL",
+      "price": "640.00",
+      "status": "3"
+    },
+    "SPIA|15164|20261218|PREMIUM": {
+      "venue": "Cinepolis: Modi Mall (Formerly Spice Mall)",
+      "time": "07:15 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PREMIUM",
+      "price": "620.00",
       "status": "3"
     },
     "PCSN|29769|20261218|RECLINER ROWS": {
@@ -559,7 +649,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
-      "price": "820.00",
+      "price": "920.00",
       "status": "0"
     },
     "PCSN|29769|20261218|PRIME ROWS": {
@@ -589,6 +679,15 @@
       "price": "1370.00",
       "status": "0"
     },
+    "PCSN|29770|20261218|PRIME ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "1020.00",
+      "status": "2"
+    },
     "PCSN|29770|20261218|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "08:30 PM",
@@ -597,15 +696,6 @@
       "cat": "PRIME PLUS ROWS",
       "price": "1020.00",
       "status": "0"
-    },
-    "PCSN|29770|20261218|PRIME ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "920.00",
-      "status": "2"
     },
     "PCSN|29770|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -650,42 +740,6 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
       "price": "770.00",
-      "status": "3"
-    },
-    "SPIA|15164|20261218|NORMAL": {
-      "venue": "Cinepolis: Modi Mall (Formerly Spice Mall)",
-      "time": "07:15 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "NORMAL",
-      "price": "600.00",
-      "status": "3"
-    },
-    "SPIA|15164|20261218|EXECUTIVE": {
-      "venue": "Cinepolis: Modi Mall (Formerly Spice Mall)",
-      "time": "07:15 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "EXECUTIVE",
-      "price": "600.00",
-      "status": "3"
-    },
-    "SPIA|15164|20261218|PREMIUM XL": {
-      "venue": "Cinepolis: Modi Mall (Formerly Spice Mall)",
-      "time": "07:15 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PREMIUM XL",
-      "price": "640.00",
-      "status": "3"
-    },
-    "SPIA|15164|20261218|PREMIUM": {
-      "venue": "Cinepolis: Modi Mall (Formerly Spice Mall)",
-      "time": "07:15 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PREMIUM",
-      "price": "620.00",
       "status": "3"
     },
     "PMMS|22473|20261218|PRIME ROWS": {
@@ -902,7 +956,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER",
       "price": "900.00",
-      "status": "3"
+      "status": "2"
     },
     "CUNT|7740|20261218|NORMAL": {
       "venue": "Cinepolis: City Centre Dwarka,Delhi (Newly Opened)",
@@ -956,51 +1010,6 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER",
       "price": "900.00",
-      "status": "3"
-    },
-    "PPMF|31608|20261218|RECLINER ROWS": {
-      "venue": "PVR: Pacific Mall (The Mall of Faridabad NIT)",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "RECLINER ROWS",
-      "price": "1280.00",
-      "status": "2"
-    },
-    "PPMF|31608|20261218|EXTRA LEGROOM ROWS": {
-      "venue": "PVR: Pacific Mall (The Mall of Faridabad NIT)",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "EXTRA LEGROOM ROWS",
-      "price": "610.00",
-      "status": "3"
-    },
-    "PPMF|31608|20261218|PICTURE PERFECT": {
-      "venue": "PVR: Pacific Mall (The Mall of Faridabad NIT)",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PICTURE PERFECT",
-      "price": "590.00",
-      "status": "3"
-    },
-    "PPMF|31608|20261218|PRIME ROWS": {
-      "venue": "PVR: Pacific Mall (The Mall of Faridabad NIT)",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "530.00",
-      "status": "3"
-    },
-    "PPMF|31608|20261218|CLASSIC ROWS": {
-      "venue": "PVR: Pacific Mall (The Mall of Faridabad NIT)",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "CLASSIC ROWS",
-      "price": "510.00",
       "status": "3"
     },
     "CEST|8152|20261218|NORMAL": {
@@ -1109,6 +1118,51 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER",
       "price": "1140.00",
+      "status": "3"
+    },
+    "PPMF|31608|20261218|RECLINER ROWS": {
+      "venue": "PVR: Pacific Mall (The Mall of Faridabad NIT)",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "RECLINER ROWS",
+      "price": "1280.00",
+      "status": "2"
+    },
+    "PPMF|31608|20261218|EXTRA LEGROOM ROWS": {
+      "venue": "PVR: Pacific Mall (The Mall of Faridabad NIT)",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXTRA LEGROOM ROWS",
+      "price": "610.00",
+      "status": "3"
+    },
+    "PPMF|31608|20261218|PICTURE PERFECT": {
+      "venue": "PVR: Pacific Mall (The Mall of Faridabad NIT)",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PICTURE PERFECT",
+      "price": "590.00",
+      "status": "3"
+    },
+    "PPMF|31608|20261218|PRIME ROWS": {
+      "venue": "PVR: Pacific Mall (The Mall of Faridabad NIT)",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "530.00",
+      "status": "3"
+    },
+    "PPMF|31608|20261218|CLASSIC ROWS": {
+      "venue": "PVR: Pacific Mall (The Mall of Faridabad NIT)",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC ROWS",
+      "price": "510.00",
       "status": "3"
     },
     "ISMG|46139|20261218|LOUNGE": {
@@ -1487,7 +1541,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM XL",
       "price": "750.00",
-      "status": "2"
+      "status": "3"
     },
     "CNVG|9363|20261218|RECLINER": {
       "venue": "Cinepolis: Grand View High Street, Gurugram",
@@ -1545,13 +1599,6 @@
     }
   },
   "dates": {
-    "20261117": "NOT_OPEN",
-    "20261118": "NOT_OPEN",
-    "20261119": "NOT_OPEN",
-    "20261120": "NOT_OPEN",
-    "20261121": "NOT_OPEN",
-    "20261122": "NOT_OPEN",
-    "20261123": "NOT_OPEN",
     "20261217": "BOOKABLE",
     "20261218": "AVAILABLE",
     "20261219": "AVAILABLE",

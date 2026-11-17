@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-17 04:00:50",
+  "last_checked": "2026-11-17 04:15:34",
   "shows": {
     "PVKS|23619|20261218|RECLINER ROWS": {
       "venue": "PVR: Anupam Saket, Delhi",
@@ -119,7 +119,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
       "price": "920.00",
-      "status": "1"
+      "status": "0"
     },
     "PCSN|29770|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -506,7 +506,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM XL",
       "price": "510.00",
-      "status": "3"
+      "status": "2"
     },
     "CUNT|7739|20261218|PREMIUM PLUS": {
       "venue": "Cinepolis: City Centre Dwarka,Delhi (Newly Opened)",

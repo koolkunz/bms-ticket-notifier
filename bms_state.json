@@ -2,8 +2,53 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-17 05:00:47",
+  "last_checked": "2026-11-17 05:15:35",
   "shows": {
+    "FNLN|8198|20261218|NORMAL": {
+      "venue": "Cinepolis: V3S Mall, Laxmi Nagar",
+      "time": "07:50 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "NORMAL",
+      "price": "440.00",
+      "status": "3"
+    },
+    "FNLN|8198|20261218|EXECUTIVE": {
+      "venue": "Cinepolis: V3S Mall, Laxmi Nagar",
+      "time": "07:50 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "EXECUTIVE",
+      "price": "460.00",
+      "status": "3"
+    },
+    "FNLN|8198|20261218|EXECUTIVE XL": {
+      "venue": "Cinepolis: V3S Mall, Laxmi Nagar",
+      "time": "07:50 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "EXECUTIVE XL",
+      "price": "480.00",
+      "status": "3"
+    },
+    "FNLN|8198|20261218|PREMIUM": {
+      "venue": "Cinepolis: V3S Mall, Laxmi Nagar",
+      "time": "07:50 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "PREMIUM",
+      "price": "500.00",
+      "status": "3"
+    },
+    "FNLN|8198|20261218|PREMIUM PLUS": {
+      "venue": "Cinepolis: V3S Mall, Laxmi Nagar",
+      "time": "07:50 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "PREMIUM PLUS",
+      "price": "540.00",
+      "status": "3"
+    },
     "PVKS|23619|20261218|RECLINER ROWS": {
       "venue": "PVR: Anupam Saket, Delhi",
       "time": "07:55 PM",
@@ -121,15 +166,6 @@
       "price": "1170.00",
       "status": "0"
     },
-    "PCSN|29769|20261218|PRIME ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "05:05 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "820.00",
-      "status": "3"
-    },
     "PCSN|29769|20261218|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "05:05 PM",
@@ -138,6 +174,15 @@
       "cat": "PRIME PLUS ROWS",
       "price": "820.00",
       "status": "1"
+    },
+    "PCSN|29769|20261218|PRIME ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "820.00",
+      "status": "3"
     },
     "PCSN|29769|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -157,15 +202,6 @@
       "price": "1370.00",
       "status": "0"
     },
-    "PCSN|29770|20261218|PRIME ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "1020.00",
-      "status": "2"
-    },
     "PCSN|29770|20261218|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "08:30 PM",
@@ -174,6 +210,15 @@
       "cat": "PRIME PLUS ROWS",
       "price": "1020.00",
       "status": "0"
+    },
+    "PCSN|29770|20261218|PRIME ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "1020.00",
+      "status": "2"
     },
     "PCSN|29770|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -920,7 +965,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM XL",
       "price": "750.00",
-      "status": "2"
+      "status": "3"
     },
     "CNVG|9362|20261218|RECLINER": {
       "venue": "Cinepolis: Grand View High Street, Gurugram",

@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-17 10:15:35",
+  "last_checked": "2026-11-17 10:30:43",
   "shows": {
     "CIPS|11999|20261218|NORMAL": {
       "venue": "Cinepolis: DLF Avenue, Saket",
@@ -22,15 +22,6 @@
       "price": "1000.00",
       "status": "3"
     },
-    "PAEG|59259|20261218|PICTURE PERFECT": {
-      "venue": "Gurugram Pepsi PVR Ambience",
-      "time": "05:05 PM",
-      "date": "20261218",
-      "format": "MS - Infinity Vision",
-      "cat": "PICTURE PERFECT",
-      "price": "960.00",
-      "status": "2"
-    },
     "PAEG|59259|20261218|XTRA LEGROOM": {
       "venue": "Gurugram Pepsi PVR Ambience",
       "time": "05:05 PM",
@@ -39,6 +30,15 @@
       "cat": "XTRA LEGROOM",
       "price": "960.00",
       "status": "3"
+    },
+    "PAEG|59259|20261218|PICTURE PERFECT": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "PICTURE PERFECT",
+      "price": "960.00",
+      "status": "2"
     },
     "PAEG|59259|20261218|SUPERIOR": {
       "venue": "Gurugram Pepsi PVR Ambience",
@@ -94,15 +94,6 @@
       "price": "740.00",
       "status": "3"
     },
-    "PAEG|59261|20261218|XTRA LEGROOM": {
-      "venue": "Gurugram Pepsi PVR Ambience",
-      "time": "11:55 PM",
-      "date": "20261218",
-      "format": "MS - Infinity Vision",
-      "cat": "XTRA LEGROOM",
-      "price": "980.00",
-      "status": "3"
-    },
     "PAEG|59261|20261218|PICTURE PERFECT": {
       "venue": "Gurugram Pepsi PVR Ambience",
       "time": "11:55 PM",
@@ -111,6 +102,15 @@
       "cat": "PICTURE PERFECT",
       "price": "980.00",
       "status": "2"
+    },
+    "PAEG|59261|20261218|XTRA LEGROOM": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "11:55 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "XTRA LEGROOM",
+      "price": "980.00",
+      "status": "3"
     },
     "PAEG|59261|20261218|SUPERIOR": {
       "venue": "Gurugram Pepsi PVR Ambience",
@@ -479,7 +479,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER",
       "price": "1500.00",
-      "status": "2"
+      "status": "1"
     },
     "DTYN|37483|20261218|XTRA LEGROOM": {
       "venue": "PVR: Superplex Mall Of India, Noida",
@@ -524,7 +524,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "XTRA LEGROOM",
       "price": "890.00",
-      "status": "0"
+      "status": "1"
     },
     "DTYN|37484|20261218|PRIME": {
       "venue": "PVR: Superplex Mall Of India, Noida",
@@ -569,7 +569,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME",
       "price": "740.00",
-      "status": "2"
+      "status": "1"
     },
     "DTYN|37485|20261218|CLASSIC": {
       "venue": "PVR: Superplex Mall Of India, Noida",
@@ -587,7 +587,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER",
       "price": "820.00",
-      "status": "2"
+      "status": "3"
     },
     "PGND|44744|20261218|PRIME": {
       "venue": "PVR: Gaur City, Greater Noida",
@@ -704,7 +704,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER",
       "price": "1700.00",
-      "status": "3"
+      "status": "2"
     },
     "PTCW|36369|20261218|CLA SUPERIOR": {
       "venue": "PVR: Select City Walk, Delhi",
@@ -767,7 +767,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLA SUPERIOR",
       "price": "800.00",
-      "status": "3"
+      "status": "2"
     },
     "PTCW|36371|20261218|CLASSIC": {
       "venue": "PVR: Select City Walk, Delhi",
@@ -875,7 +875,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM XL",
       "price": "680.00",
-      "status": "0"
+      "status": "1"
     },
     "CRGM|16674|20261218|PREMIUM PLUS": {
       "venue": "Cinepolis: Airia Mall, Sohna Road, Gurgaon",
@@ -964,7 +964,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
-      "price": "820.00",
+      "price": "920.00",
       "status": "2"
     },
     "PCSN|29769|20261218|CLASSIC ROWS": {
@@ -985,15 +985,6 @@
       "price": "1370.00",
       "status": "0"
     },
-    "PCSN|29770|20261218|PRIME ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "1020.00",
-      "status": "2"
-    },
     "PCSN|29770|20261218|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "08:30 PM",
@@ -1002,6 +993,15 @@
       "cat": "PRIME PLUS ROWS",
       "price": "1020.00",
       "status": "0"
+    },
+    "PCSN|29770|20261218|PRIME ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "1020.00",
+      "status": "2"
     },
     "PCSN|29770|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -2101,21 +2101,21 @@
       "price": "650.00",
       "status": "3"
     },
-    "INSG|40932|20261218|EXTRA LEGROOM ROWS": {
-      "venue": "INOX Sapphire 90 Mall: Gurugram",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "EXTRA LEGROOM ROWS",
-      "price": "490.00",
-      "status": "3"
-    },
     "INSG|40932|20261218|PICTURE PERFECT": {
       "venue": "INOX Sapphire 90 Mall: Gurugram",
       "time": "08:30 PM",
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PICTURE PERFECT",
+      "price": "490.00",
+      "status": "3"
+    },
+    "INSG|40932|20261218|EXTRA LEGROOM ROWS": {
+      "venue": "INOX Sapphire 90 Mall: Gurugram",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXTRA LEGROOM ROWS",
       "price": "490.00",
       "status": "3"
     },

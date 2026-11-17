@@ -2,8 +2,26 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-17 06:15:39",
+  "last_checked": "2026-11-17 06:30:55",
   "shows": {
+    "CIPS|11999|20261218|NORMAL": {
+      "venue": "Cinepolis: DLF Avenue, Saket",
+      "time": "08:05 PM",
+      "date": "20261218",
+      "format": "MS - Inf Vsn 4DX 3D",
+      "cat": "NORMAL",
+      "price": "1000.00",
+      "status": "3"
+    },
+    "CIPS|12000|20261218|NORMAL": {
+      "venue": "Cinepolis: DLF Avenue, Saket",
+      "time": "11:30 PM",
+      "date": "20261218",
+      "format": "MS - Inf Vsn 4DX 3D",
+      "cat": "NORMAL",
+      "price": "1000.00",
+      "status": "3"
+    },
     "FNLN|8198|20261218|NORMAL": {
       "venue": "Cinepolis: V3S Mall, Laxmi Nagar",
       "time": "07:50 PM",
@@ -236,7 +254,7 @@
       "format": "MS - Infinity Vision",
       "cat": "RECLINER ROWS",
       "price": "1130.00",
-      "status": "3"
+      "status": "2"
     },
     "PVKS|23620|20261218|PRIME ROWS": {
       "venue": "PVR: Anupam Saket, Delhi",
@@ -254,6 +272,60 @@
       "format": "MS - Infinity Vision",
       "cat": "CLASSIC ROWS",
       "price": "590.00",
+      "status": "3"
+    },
+    "PNAD|23471|20261218|PRIME PLUS ROWS": {
+      "venue": "PVR: Naraina, Delhi",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "PRIME PLUS ROWS",
+      "price": "490.00",
+      "status": "3"
+    },
+    "PNAD|23471|20261218|PRIME ROWS": {
+      "venue": "PVR: Naraina, Delhi",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "PRIME ROWS",
+      "price": "470.00",
+      "status": "3"
+    },
+    "PNAD|23471|20261218|CLASSIC ROWS": {
+      "venue": "PVR: Naraina, Delhi",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "CLASSIC ROWS",
+      "price": "440.00",
+      "status": "3"
+    },
+    "PNAD|23472|20261218|PRIME PLUS ROWS": {
+      "venue": "PVR: Naraina, Delhi",
+      "time": "11:55 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "PRIME PLUS ROWS",
+      "price": "490.00",
+      "status": "3"
+    },
+    "PNAD|23472|20261218|PRIME ROWS": {
+      "venue": "PVR: Naraina, Delhi",
+      "time": "11:55 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "PRIME ROWS",
+      "price": "470.00",
+      "status": "3"
+    },
+    "PNAD|23472|20261218|CLASSIC ROWS": {
+      "venue": "PVR: Naraina, Delhi",
+      "time": "11:55 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "CLASSIC ROWS",
+      "price": "440.00",
       "status": "3"
     },
     "PCSN|29769|20261218|RECLINER ROWS": {
@@ -685,7 +757,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "EXECUTIVE",
-      "price": "440.00",
+      "price": "450.00",
       "status": "3"
     },
     "CUNT|7739|20261218|PREMIUM": {
@@ -694,7 +766,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM",
-      "price": "470.00",
+      "price": "510.00",
       "status": "3"
     },
     "CUNT|7739|20261218|PREMIUM XL": {
@@ -703,7 +775,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM XL",
-      "price": "510.00",
+      "price": "550.00",
       "status": "2"
     },
     "CUNT|7739|20261218|PREMIUM PLUS": {
@@ -712,7 +784,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM PLUS",
-      "price": "490.00",
+      "price": "530.00",
       "status": "2"
     },
     "CUNT|7739|20261218|RECLINER": {
@@ -721,7 +793,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER",
-      "price": "850.00",
+      "price": "900.00",
       "status": "3"
     },
     "CUNT|7740|20261218|NORMAL": {
@@ -856,7 +928,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "LOUNGE",
-      "price": "1020.00",
+      "price": "1120.00",
       "status": "2"
     },
     "ISMG|46140|20261218|EXECUTIVE": {
@@ -1036,7 +1108,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
-      "price": "730.00",
+      "price": "770.00",
       "status": "2"
     },
     "PECD|16618|20261218|CLASSIC ROWS": {
@@ -1154,7 +1226,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM XL",
       "price": "750.00",
-      "status": "3"
+      "status": "2"
     },
     "CNVG|9362|20261218|RECLINER": {
       "venue": "Cinepolis: Grand View High Street, Gurugram",
@@ -1199,7 +1271,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM XL",
       "price": "750.00",
-      "status": "2"
+      "status": "3"
     },
     "CNVG|9363|20261218|RECLINER": {
       "venue": "Cinepolis: Grand View High Street, Gurugram",

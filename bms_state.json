@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-17 11:15:36",
+  "last_checked": "2026-11-17 11:30:42",
   "shows": {
     "CIPS|11999|20261218|NORMAL": {
       "venue": "Cinepolis: DLF Avenue, Saket",
@@ -22,15 +22,6 @@
       "price": "1000.00",
       "status": "3"
     },
-    "PAEG|59259|20261218|PICTURE PERFECT": {
-      "venue": "Gurugram Pepsi PVR Ambience",
-      "time": "05:05 PM",
-      "date": "20261218",
-      "format": "MS - Infinity Vision",
-      "cat": "PICTURE PERFECT",
-      "price": "960.00",
-      "status": "2"
-    },
     "PAEG|59259|20261218|XTRA LEGROOM": {
       "venue": "Gurugram Pepsi PVR Ambience",
       "time": "05:05 PM",
@@ -39,6 +30,15 @@
       "cat": "XTRA LEGROOM",
       "price": "960.00",
       "status": "3"
+    },
+    "PAEG|59259|20261218|PICTURE PERFECT": {
+      "venue": "Gurugram Pepsi PVR Ambience",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "PICTURE PERFECT",
+      "price": "960.00",
+      "status": "2"
     },
     "PAEG|59259|20261218|SUPERIOR": {
       "venue": "Gurugram Pepsi PVR Ambience",
@@ -892,7 +892,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "NORMAL",
-      "price": "600.00",
+      "price": "560.00",
       "status": "3"
     },
     "CRGM|16703|20261218|EXECUTIVE": {
@@ -901,7 +901,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "EXECUTIVE",
-      "price": "620.00",
+      "price": "580.00",
       "status": "3"
     },
     "CRGM|16703|20261218|EXECUTIVE XL": {
@@ -910,7 +910,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "EXECUTIVE XL",
-      "price": "660.00",
+      "price": "620.00",
       "status": "3"
     },
     "CRGM|16703|20261218|PREMIUM": {
@@ -919,7 +919,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM",
-      "price": "640.00",
+      "price": "600.00",
       "status": "3"
     },
     "CRGM|16703|20261218|PREMIUM XL": {
@@ -928,7 +928,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM XL",
-      "price": "680.00",
+      "price": "640.00",
       "status": "3"
     },
     "CRGM|16703|20261218|PREMIUM PLUS": {
@@ -937,7 +937,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM PLUS",
-      "price": "660.00",
+      "price": "620.00",
       "status": "3"
     },
     "PCSN|29769|20261218|RECLINER ROWS": {
@@ -985,15 +985,6 @@
       "price": "1370.00",
       "status": "0"
     },
-    "PCSN|29770|20261218|PRIME ROWS": {
-      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "1020.00",
-      "status": "2"
-    },
     "PCSN|29770|20261218|PRIME PLUS ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "08:30 PM",
@@ -1002,6 +993,15 @@
       "cat": "PRIME PLUS ROWS",
       "price": "1020.00",
       "status": "0"
+    },
+    "PCSN|29770|20261218|PRIME ROWS": {
+      "venue": "PVR: Pacific, Subhash Nagar, Delhi",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME ROWS",
+      "price": "1020.00",
+      "status": "2"
     },
     "PCSN|29770|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -1235,7 +1235,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM PLUS",
       "price": "600.00",
-      "status": "2"
+      "status": "1"
     },
     "CUNT|7739|20261218|RECLINER": {
       "venue": "Cinepolis: City Centre Dwarka,Delhi (Newly Opened)",
@@ -1379,7 +1379,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM PLUS",
       "price": "570.00",
-      "status": "2"
+      "status": "3"
     },
     "CEST|8152|20261218|RECLINER": {
       "venue": "Cinepolis: V3S East Centre (New)",
@@ -1523,168 +1523,6 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC",
       "price": "450.00",
-      "status": "3"
-    },
-    "INWM|49573|20261218|RECLINER ROWS": {
-      "venue": "INOX: World Mark, Gurugram",
-      "time": "05:05 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "RECLINER ROWS",
-      "price": "910.00",
-      "status": "3"
-    },
-    "INWM|49573|20261218|PICTURE PERFECT": {
-      "venue": "INOX: World Mark, Gurugram",
-      "time": "05:05 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PICTURE PERFECT",
-      "price": "570.00",
-      "status": "3"
-    },
-    "INWM|49573|20261218|EXTRA LEGROOM ROWS": {
-      "venue": "INOX: World Mark, Gurugram",
-      "time": "05:05 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "EXTRA LEGROOM ROWS",
-      "price": "540.00",
-      "status": "3"
-    },
-    "INWM|49573|20261218|PRIME ROWS": {
-      "venue": "INOX: World Mark, Gurugram",
-      "time": "05:05 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "520.00",
-      "status": "3"
-    },
-    "INWM|49573|20261218|CLASSIC PLUS ROWS": {
-      "venue": "INOX: World Mark, Gurugram",
-      "time": "05:05 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "CLASSIC PLUS ROWS",
-      "price": "480.00",
-      "status": "3"
-    },
-    "INWM|49573|20261218|CLASSIC ROWS": {
-      "venue": "INOX: World Mark, Gurugram",
-      "time": "05:05 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "CLASSIC ROWS",
-      "price": "430.00",
-      "status": "3"
-    },
-    "INWM|49574|20261218|RECLINER ROWS": {
-      "venue": "INOX: World Mark, Gurugram",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "RECLINER ROWS",
-      "price": "1110.00",
-      "status": "2"
-    },
-    "INWM|49574|20261218|PICTURE PERFECT": {
-      "venue": "INOX: World Mark, Gurugram",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PICTURE PERFECT",
-      "price": "570.00",
-      "status": "3"
-    },
-    "INWM|49574|20261218|EXTRA LEGROOM ROWS": {
-      "venue": "INOX: World Mark, Gurugram",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "EXTRA LEGROOM ROWS",
-      "price": "540.00",
-      "status": "3"
-    },
-    "INWM|49574|20261218|PRIME ROWS": {
-      "venue": "INOX: World Mark, Gurugram",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "520.00",
-      "status": "3"
-    },
-    "INWM|49574|20261218|CLASSIC PLUS ROWS": {
-      "venue": "INOX: World Mark, Gurugram",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "CLASSIC PLUS ROWS",
-      "price": "480.00",
-      "status": "3"
-    },
-    "INWM|49574|20261218|CLASSIC ROWS": {
-      "venue": "INOX: World Mark, Gurugram",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "CLASSIC ROWS",
-      "price": "430.00",
-      "status": "3"
-    },
-    "INWM|49575|20261218|RECLINER ROWS": {
-      "venue": "INOX: World Mark, Gurugram",
-      "time": "11:55 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "RECLINER ROWS",
-      "price": "910.00",
-      "status": "3"
-    },
-    "INWM|49575|20261218|PICTURE PERFECT": {
-      "venue": "INOX: World Mark, Gurugram",
-      "time": "11:55 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PICTURE PERFECT",
-      "price": "570.00",
-      "status": "3"
-    },
-    "INWM|49575|20261218|EXTRA LEGROOM ROWS": {
-      "venue": "INOX: World Mark, Gurugram",
-      "time": "11:55 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "EXTRA LEGROOM ROWS",
-      "price": "540.00",
-      "status": "3"
-    },
-    "INWM|49575|20261218|PRIME ROWS": {
-      "venue": "INOX: World Mark, Gurugram",
-      "time": "11:55 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "520.00",
-      "status": "3"
-    },
-    "INWM|49575|20261218|CLASSIC PLUS ROWS": {
-      "venue": "INOX: World Mark, Gurugram",
-      "time": "11:55 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "CLASSIC PLUS ROWS",
-      "price": "480.00",
-      "status": "3"
-    },
-    "INWM|49575|20261218|CLASSIC ROWS": {
-      "venue": "INOX: World Mark, Gurugram",
-      "time": "11:55 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "CLASSIC ROWS",
-      "price": "430.00",
       "status": "3"
     },
     "IAJS|55774|20261218|RECLINER ROWS": {
@@ -2182,21 +2020,21 @@
       "price": "650.00",
       "status": "3"
     },
-    "INSG|40931|20261218|PICTURE PERFECT": {
-      "venue": "INOX Sapphire 90 Mall: Gurugram",
-      "time": "05:05 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PICTURE PERFECT",
-      "price": "490.00",
-      "status": "3"
-    },
     "INSG|40931|20261218|EXTRA LEGROOM ROWS": {
       "venue": "INOX Sapphire 90 Mall: Gurugram",
       "time": "05:05 PM",
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "EXTRA LEGROOM ROWS",
+      "price": "490.00",
+      "status": "3"
+    },
+    "INSG|40931|20261218|PICTURE PERFECT": {
+      "venue": "INOX Sapphire 90 Mall: Gurugram",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PICTURE PERFECT",
       "price": "490.00",
       "status": "3"
     },
@@ -2290,21 +2128,21 @@
       "price": "650.00",
       "status": "3"
     },
-    "INSG|40933|20261218|EXTRA LEGROOM ROWS": {
-      "venue": "INOX Sapphire 90 Mall: Gurugram",
-      "time": "11:55 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "EXTRA LEGROOM ROWS",
-      "price": "490.00",
-      "status": "3"
-    },
     "INSG|40933|20261218|PICTURE PERFECT": {
       "venue": "INOX Sapphire 90 Mall: Gurugram",
       "time": "11:55 PM",
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PICTURE PERFECT",
+      "price": "490.00",
+      "status": "3"
+    },
+    "INSG|40933|20261218|EXTRA LEGROOM ROWS": {
+      "venue": "INOX Sapphire 90 Mall: Gurugram",
+      "time": "11:55 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXTRA LEGROOM ROWS",
       "price": "490.00",
       "status": "3"
     },

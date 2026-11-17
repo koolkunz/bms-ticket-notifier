@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-17 05:30:37",
+  "last_checked": "2026-11-17 05:45:31",
   "shows": {
     "FNLN|8198|20261218|NORMAL": {
       "venue": "Cinepolis: V3S Mall, Laxmi Nagar",
@@ -157,13 +157,58 @@
       "price": "1600.00",
       "status": "3"
     },
+    "CTEE|12568|20261218|NORMAL": {
+      "venue": "Cinepolis: The Esplanade, Gurugram",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "NORMAL",
+      "price": "340.00",
+      "status": "3"
+    },
+    "CTEE|12568|20261218|EXECUTIVE": {
+      "venue": "Cinepolis: The Esplanade, Gurugram",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "EXECUTIVE",
+      "price": "410.00",
+      "status": "3"
+    },
+    "CTEE|12568|20261218|PREMIUM": {
+      "venue": "Cinepolis: The Esplanade, Gurugram",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "PREMIUM",
+      "price": "470.00",
+      "status": "3"
+    },
+    "CTEE|12568|20261218|PREMIUM XL": {
+      "venue": "Cinepolis: The Esplanade, Gurugram",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "PREMIUM XL",
+      "price": "510.00",
+      "status": "3"
+    },
+    "CTEE|12568|20261218|PREMIUM PLUS": {
+      "venue": "Cinepolis: The Esplanade, Gurugram",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS - Infinity Vision",
+      "cat": "PREMIUM PLUS",
+      "price": "490.00",
+      "status": "3"
+    },
     "PVKS|23619|20261218|RECLINER ROWS": {
       "venue": "PVR: Anupam Saket, Delhi",
       "time": "07:55 PM",
       "date": "20261218",
       "format": "MS - Infinity Vision",
       "cat": "RECLINER ROWS",
-      "price": "1130.00",
+      "price": "1160.00",
       "status": "2"
     },
     "PVKS|23619|20261218|PRIME ROWS": {
@@ -326,7 +371,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
       "price": "1020.00",
-      "status": "2"
+      "status": "3"
     },
     "PCSN|29770|20261218|CLASSIC ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
@@ -605,7 +650,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM XL",
       "price": "510.00",
-      "status": "3"
+      "status": "2"
     },
     "CUNT|7739|20261218|PREMIUM PLUS": {
       "venue": "Cinepolis: City Centre Dwarka,Delhi (Newly Opened)",
@@ -688,6 +733,15 @@
       "price": "1080.00",
       "status": "3"
     },
+    "PPMF|31608|20261218|EXTRA LEGROOM ROWS": {
+      "venue": "PVR: Pacific Mall (The Mall of Faridabad NIT)",
+      "time": "08:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXTRA LEGROOM ROWS",
+      "price": "610.00",
+      "status": "3"
+    },
     "PPMF|31608|20261218|PICTURE PERFECT": {
       "venue": "PVR: Pacific Mall (The Mall of Faridabad NIT)",
       "time": "08:30 PM",
@@ -695,15 +749,6 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PICTURE PERFECT",
       "price": "590.00",
-      "status": "3"
-    },
-    "PPMF|31608|20261218|EXTRA LEGROOM ROWS": {
-      "venue": "PVR: Pacific Mall (The Mall of Faridabad NIT)",
-      "time": "08:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "EXTRA LEGROOM ROWS",
-      "price": "580.00",
       "status": "3"
     },
     "PPMF|31608|20261218|PRIME ROWS": {
@@ -913,6 +958,96 @@
       "price": "450.00",
       "status": "3"
     },
+    "CPMF|9324|20261218|NORMAL": {
+      "venue": "Cinepolis: Pacific Mall, Faridabad",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "NORMAL",
+      "price": "440.00",
+      "status": "3"
+    },
+    "CPMF|9324|20261218|EXECUTIVE": {
+      "venue": "Cinepolis: Pacific Mall, Faridabad",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXECUTIVE",
+      "price": "480.00",
+      "status": "3"
+    },
+    "CPMF|9324|20261218|PREMIUM": {
+      "venue": "Cinepolis: Pacific Mall, Faridabad",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PREMIUM",
+      "price": "500.00",
+      "status": "3"
+    },
+    "CPMF|9324|20261218|PREMIUM XL": {
+      "venue": "Cinepolis: Pacific Mall, Faridabad",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PREMIUM XL",
+      "price": "540.00",
+      "status": "3"
+    },
+    "CPMF|9324|20261218|RECLINER": {
+      "venue": "Cinepolis: Pacific Mall, Faridabad",
+      "time": "05:05 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "RECLINER",
+      "price": "1040.00",
+      "status": "3"
+    },
+    "CPMF|9326|20261218|NORMAL": {
+      "venue": "Cinepolis: Pacific Mall, Faridabad",
+      "time": "11:55 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "NORMAL",
+      "price": "440.00",
+      "status": "3"
+    },
+    "CPMF|9326|20261218|EXECUTIVE": {
+      "venue": "Cinepolis: Pacific Mall, Faridabad",
+      "time": "11:55 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXECUTIVE",
+      "price": "480.00",
+      "status": "3"
+    },
+    "CPMF|9326|20261218|PREMIUM": {
+      "venue": "Cinepolis: Pacific Mall, Faridabad",
+      "time": "11:55 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PREMIUM",
+      "price": "500.00",
+      "status": "3"
+    },
+    "CPMF|9326|20261218|PREMIUM XL": {
+      "venue": "Cinepolis: Pacific Mall, Faridabad",
+      "time": "11:55 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PREMIUM XL",
+      "price": "540.00",
+      "status": "3"
+    },
+    "CPMF|9326|20261218|RECLINER": {
+      "venue": "Cinepolis: Pacific Mall, Faridabad",
+      "time": "11:55 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "RECLINER",
+      "price": "1040.00",
+      "status": "3"
+    },
     "PECD|16617|20261218|PRIME PLUS ROWS": {
       "venue": "PVR: ECX Chanakyapuri, Delhi",
       "time": "05:05 PM",
@@ -974,7 +1109,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME PLUS ROWS",
       "price": "740.00",
-      "status": "3"
+      "status": "2"
     },
     "PECD|16619|20261218|PRIME ROWS": {
       "venue": "PVR: ECX Chanakyapuri, Delhi",
@@ -992,7 +1127,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
       "price": "640.00",
-      "status": "3"
+      "status": "2"
     },
     "IOTG|11786|20261218|Recliners": {
       "venue": "PVR: Opulent, Ghaziabad",
@@ -1118,7 +1253,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM XL",
       "price": "750.00",
-      "status": "3"
+      "status": "2"
     },
     "CNVG|9363|20261218|RECLINER": {
       "venue": "Cinepolis: Grand View High Street, Gurugram",

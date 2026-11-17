@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-17 05:45:31",
+  "last_checked": "2026-11-17 06:00:58",
   "shows": {
     "FNLN|8198|20261218|NORMAL": {
       "venue": "Cinepolis: V3S Mall, Laxmi Nagar",
@@ -256,60 +256,6 @@
       "price": "590.00",
       "status": "3"
     },
-    "PPGV|39236|20261218|PRIME ROWS": {
-      "venue": "PVR: Promenade, Vasant Kunj",
-      "time": "04:50 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "750.00",
-      "status": "2"
-    },
-    "PPGV|39236|20261218|CLASSIC ROWS": {
-      "venue": "PVR: Promenade, Vasant Kunj",
-      "time": "04:50 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "CLASSIC ROWS",
-      "price": "700.00",
-      "status": "3"
-    },
-    "PPGV|39237|20261218|PRIME ROWS": {
-      "venue": "PVR: Promenade, Vasant Kunj",
-      "time": "08:15 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "750.00",
-      "status": "2"
-    },
-    "PPGV|39237|20261218|CLASSIC ROWS": {
-      "venue": "PVR: Promenade, Vasant Kunj",
-      "time": "08:15 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "CLASSIC ROWS",
-      "price": "700.00",
-      "status": "3"
-    },
-    "PPGV|39238|20261218|PRIME ROWS": {
-      "venue": "PVR: Promenade, Vasant Kunj",
-      "time": "11:40 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME ROWS",
-      "price": "750.00",
-      "status": "3"
-    },
-    "PPGV|39238|20261218|CLASSIC ROWS": {
-      "venue": "PVR: Promenade, Vasant Kunj",
-      "time": "11:40 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "CLASSIC ROWS",
-      "price": "700.00",
-      "status": "3"
-    },
     "PCSN|29769|20261218|RECLINER ROWS": {
       "venue": "PVR: Pacific, Subhash Nagar, Delhi",
       "time": "05:05 PM",
@@ -370,7 +316,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME ROWS",
-      "price": "1020.00",
+      "price": "920.00",
       "status": "3"
     },
     "PCSN|29770|20261218|CLASSIC ROWS": {
@@ -418,42 +364,6 @@
       "price": "770.00",
       "status": "3"
     },
-    "SPIA|15164|20261218|NORMAL": {
-      "venue": "Cinepolis: Modi Mall (Formerly Spice Mall)",
-      "time": "07:15 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "NORMAL",
-      "price": "600.00",
-      "status": "3"
-    },
-    "SPIA|15164|20261218|EXECUTIVE": {
-      "venue": "Cinepolis: Modi Mall (Formerly Spice Mall)",
-      "time": "07:15 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "EXECUTIVE",
-      "price": "600.00",
-      "status": "3"
-    },
-    "SPIA|15164|20261218|PREMIUM XL": {
-      "venue": "Cinepolis: Modi Mall (Formerly Spice Mall)",
-      "time": "07:15 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PREMIUM XL",
-      "price": "640.00",
-      "status": "3"
-    },
-    "SPIA|15164|20261218|PREMIUM": {
-      "venue": "Cinepolis: Modi Mall (Formerly Spice Mall)",
-      "time": "07:15 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PREMIUM",
-      "price": "620.00",
-      "status": "3"
-    },
     "PMMS|22473|20261218|PRIME ROWS": {
       "venue": "PVR: Shalimar Bagh",
       "time": "08:05 PM",
@@ -488,6 +398,42 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
       "price": "590.00",
+      "status": "3"
+    },
+    "SPIA|15164|20261218|NORMAL": {
+      "venue": "Cinepolis: Modi Mall (Formerly Spice Mall)",
+      "time": "07:15 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "NORMAL",
+      "price": "600.00",
+      "status": "3"
+    },
+    "SPIA|15164|20261218|EXECUTIVE": {
+      "venue": "Cinepolis: Modi Mall (Formerly Spice Mall)",
+      "time": "07:15 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXECUTIVE",
+      "price": "600.00",
+      "status": "3"
+    },
+    "SPIA|15164|20261218|PREMIUM XL": {
+      "venue": "Cinepolis: Modi Mall (Formerly Spice Mall)",
+      "time": "07:15 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PREMIUM XL",
+      "price": "640.00",
+      "status": "3"
+    },
+    "SPIA|15164|20261218|PREMIUM": {
+      "venue": "Cinepolis: Modi Mall (Formerly Spice Mall)",
+      "time": "07:15 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PREMIUM",
+      "price": "620.00",
       "status": "3"
     },
     "CRGM|16674|20261218|NORMAL": {
@@ -614,6 +560,114 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER",
       "price": "960.00",
+      "status": "3"
+    },
+    "CEST|8152|20261218|NORMAL": {
+      "venue": "Cinepolis: V3S East Centre (New)",
+      "time": "04:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "NORMAL",
+      "price": "490.00",
+      "status": "3"
+    },
+    "CEST|8152|20261218|EXECUTIVE": {
+      "venue": "Cinepolis: V3S East Centre (New)",
+      "time": "04:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXECUTIVE",
+      "price": "510.00",
+      "status": "3"
+    },
+    "CEST|8152|20261218|PREMIUM": {
+      "venue": "Cinepolis: V3S East Centre (New)",
+      "time": "04:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PREMIUM",
+      "price": "530.00",
+      "status": "3"
+    },
+    "CEST|8152|20261218|PREMIUM XL": {
+      "venue": "Cinepolis: V3S East Centre (New)",
+      "time": "04:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PREMIUM XL",
+      "price": "550.00",
+      "status": "3"
+    },
+    "CEST|8152|20261218|PREMIUM PLUS": {
+      "venue": "Cinepolis: V3S East Centre (New)",
+      "time": "04:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PREMIUM PLUS",
+      "price": "570.00",
+      "status": "3"
+    },
+    "CEST|8152|20261218|RECLINER": {
+      "venue": "Cinepolis: V3S East Centre (New)",
+      "time": "04:40 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "RECLINER",
+      "price": "1140.00",
+      "status": "3"
+    },
+    "CEST|8153|20261218|NORMAL": {
+      "venue": "Cinepolis: V3S East Centre (New)",
+      "time": "11:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "NORMAL",
+      "price": "490.00",
+      "status": "3"
+    },
+    "CEST|8153|20261218|EXECUTIVE": {
+      "venue": "Cinepolis: V3S East Centre (New)",
+      "time": "11:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "EXECUTIVE",
+      "price": "510.00",
+      "status": "3"
+    },
+    "CEST|8153|20261218|PREMIUM": {
+      "venue": "Cinepolis: V3S East Centre (New)",
+      "time": "11:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PREMIUM",
+      "price": "530.00",
+      "status": "3"
+    },
+    "CEST|8153|20261218|PREMIUM XL": {
+      "venue": "Cinepolis: V3S East Centre (New)",
+      "time": "11:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PREMIUM XL",
+      "price": "550.00",
+      "status": "3"
+    },
+    "CEST|8153|20261218|PREMIUM PLUS": {
+      "venue": "Cinepolis: V3S East Centre (New)",
+      "time": "11:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PREMIUM PLUS",
+      "price": "570.00",
+      "status": "3"
+    },
+    "CEST|8153|20261218|RECLINER": {
+      "venue": "Cinepolis: V3S East Centre (New)",
+      "time": "11:30 PM",
+      "date": "20261218",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "RECLINER",
+      "price": "1140.00",
       "status": "3"
     },
     "CUNT|7739|20261218|NORMAL": {
@@ -767,114 +821,6 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLASSIC ROWS",
       "price": "510.00",
-      "status": "3"
-    },
-    "CEST|8152|20261218|NORMAL": {
-      "venue": "Cinepolis: V3S East Centre (New)",
-      "time": "04:40 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "NORMAL",
-      "price": "490.00",
-      "status": "3"
-    },
-    "CEST|8152|20261218|EXECUTIVE": {
-      "venue": "Cinepolis: V3S East Centre (New)",
-      "time": "04:40 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "EXECUTIVE",
-      "price": "510.00",
-      "status": "3"
-    },
-    "CEST|8152|20261218|PREMIUM": {
-      "venue": "Cinepolis: V3S East Centre (New)",
-      "time": "04:40 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PREMIUM",
-      "price": "530.00",
-      "status": "3"
-    },
-    "CEST|8152|20261218|PREMIUM XL": {
-      "venue": "Cinepolis: V3S East Centre (New)",
-      "time": "04:40 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PREMIUM XL",
-      "price": "550.00",
-      "status": "3"
-    },
-    "CEST|8152|20261218|PREMIUM PLUS": {
-      "venue": "Cinepolis: V3S East Centre (New)",
-      "time": "04:40 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PREMIUM PLUS",
-      "price": "570.00",
-      "status": "3"
-    },
-    "CEST|8152|20261218|RECLINER": {
-      "venue": "Cinepolis: V3S East Centre (New)",
-      "time": "04:40 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "RECLINER",
-      "price": "1140.00",
-      "status": "3"
-    },
-    "CEST|8153|20261218|NORMAL": {
-      "venue": "Cinepolis: V3S East Centre (New)",
-      "time": "11:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "NORMAL",
-      "price": "490.00",
-      "status": "3"
-    },
-    "CEST|8153|20261218|EXECUTIVE": {
-      "venue": "Cinepolis: V3S East Centre (New)",
-      "time": "11:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "EXECUTIVE",
-      "price": "510.00",
-      "status": "3"
-    },
-    "CEST|8153|20261218|PREMIUM": {
-      "venue": "Cinepolis: V3S East Centre (New)",
-      "time": "11:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PREMIUM",
-      "price": "530.00",
-      "status": "3"
-    },
-    "CEST|8153|20261218|PREMIUM XL": {
-      "venue": "Cinepolis: V3S East Centre (New)",
-      "time": "11:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PREMIUM XL",
-      "price": "550.00",
-      "status": "3"
-    },
-    "CEST|8153|20261218|PREMIUM PLUS": {
-      "venue": "Cinepolis: V3S East Centre (New)",
-      "time": "11:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PREMIUM PLUS",
-      "price": "570.00",
-      "status": "3"
-    },
-    "CEST|8153|20261218|RECLINER": {
-      "venue": "Cinepolis: V3S East Centre (New)",
-      "time": "11:30 PM",
-      "date": "20261218",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "RECLINER",
-      "price": "1140.00",
       "status": "3"
     },
     "ISMG|46139|20261218|LOUNGE": {
@@ -1136,7 +1082,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "Recliners",
       "price": "875.00",
-      "status": "1"
+      "status": "2"
     },
     "IOTG|11786|20261218|Prime": {
       "venue": "PVR: Opulent, Ghaziabad",
@@ -1262,7 +1208,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER",
       "price": "1500.00",
-      "status": "1"
+      "status": "0"
     },
     "CNVG|9364|20261218|NORMAL": {
       "venue": "Cinepolis: Grand View High Street, Gurugram",
@@ -1298,7 +1244,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM XL",
       "price": "700.00",
-      "status": "3"
+      "status": "2"
     },
     "CNVG|9364|20261218|RECLINER": {
       "venue": "Cinepolis: Grand View High Street, Gurugram",

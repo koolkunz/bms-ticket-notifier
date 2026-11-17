@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-17 06:00:58",
+  "last_checked": "2026-11-17 06:15:39",
   "shows": {
     "FNLN|8198|20261218|NORMAL": {
       "venue": "Cinepolis: V3S Mall, Laxmi Nagar",
@@ -442,7 +442,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "NORMAL",
-      "price": "560.00",
+      "price": "600.00",
       "status": "3"
     },
     "CRGM|16674|20261218|EXECUTIVE": {
@@ -451,7 +451,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "EXECUTIVE",
-      "price": "580.00",
+      "price": "620.00",
       "status": "3"
     },
     "CRGM|16674|20261218|EXECUTIVE XL": {
@@ -460,7 +460,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "EXECUTIVE XL",
-      "price": "620.00",
+      "price": "660.00",
       "status": "3"
     },
     "CRGM|16674|20261218|PREMIUM": {
@@ -469,7 +469,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM",
-      "price": "600.00",
+      "price": "640.00",
       "status": "3"
     },
     "CRGM|16674|20261218|PREMIUM XL": {
@@ -478,7 +478,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM XL",
-      "price": "640.00",
+      "price": "680.00",
       "status": "2"
     },
     "CRGM|16674|20261218|PREMIUM PLUS": {
@@ -487,7 +487,7 @@
       "date": "20261218",
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM PLUS",
-      "price": "620.00",
+      "price": "660.00",
       "status": "3"
     },
     "FNSD|6951|20261218|NORMAL": {
@@ -1082,7 +1082,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "Recliners",
       "price": "875.00",
-      "status": "2"
+      "status": "1"
     },
     "IOTG|11786|20261218|Prime": {
       "venue": "PVR: Opulent, Ghaziabad",
@@ -1208,7 +1208,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "RECLINER",
       "price": "1500.00",
-      "status": "0"
+      "status": "1"
     },
     "CNVG|9364|20261218|NORMAL": {
       "venue": "Cinepolis: Grand View High Street, Gurugram",
@@ -1244,7 +1244,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PREMIUM XL",
       "price": "700.00",
-      "status": "2"
+      "status": "3"
     },
     "CNVG|9364|20261218|RECLINER": {
       "venue": "Cinepolis: Grand View High Street, Gurugram",

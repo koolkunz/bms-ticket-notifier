@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-20 10:00:47",
+  "last_checked": "2026-11-20 10:30:41",
   "shows": {
     "PCEL|12531|20261220|RECLINERS": {
       "venue": "PVR: Cinemagic, Unity One Elegante, NSP, Pitampura",
@@ -174,13 +174,6 @@
     "20261220": "AVAILABLE",
     "20261221": "NOT_OPEN",
     "20261222": "NOT_OPEN",
-    "20261223": "NOT_OPEN",
-    "20261120": "NOT_OPEN",
-    "20261121": "NOT_OPEN",
-    "20261122": "NOT_OPEN",
-    "20261123": "NOT_OPEN",
-    "20261124": "NOT_OPEN",
-    "20261125": "NOT_OPEN",
-    "20261126": "NOT_OPEN"
+    "20261223": "NOT_OPEN"
   }
 }

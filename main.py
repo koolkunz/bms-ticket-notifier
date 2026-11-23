@@ -892,16 +892,31 @@ def detect_changes(old_state, new_state, current_event_code=""):
             f"— {s['cat']} ₹{s['price']}"
         )
 
-    # 4. Sold out → Available again
+    # 4. Extra seats released / Sold out → Available again
     for key, new_s in new_shows.items():
         old_s = old_shows.get(key)
-        if old_s and old_s.get("status") == "0" and new_s.get("status") != "0":
-            lbl, ico = AVAIL_STATUS_MAP.get(new_s["status"], ("AVAILABLE", "🟢"))
+        if not old_s:
+            continue
+        try:
+            old_stat = int(old_s.get("status", 0))
+            new_stat = int(new_s.get("status", 0))
+        except (ValueError, TypeError):
+            continue
+
+        if new_stat > old_stat:
+            lbl, ico = AVAIL_STATUS_MAP.get(str(new_stat), ("AVAILABLE", "🟢"))
+            old_lbl, _ = AVAIL_STATUS_MAP.get(str(old_stat), ("UNKNOWN", "⚪"))
             fmt_str = f" [{new_s.get('format')}]" if new_s.get("format") else ""
-            changes.append(
-                f"{ico} TICKETS BACK: {new_s['venue']} {new_s['time']}{fmt_str} "
-                f"[{format_date_human(new_s['date'])}] — {new_s['cat']} → {lbl}"
-            )
+            if old_stat == 0:
+                changes.append(
+                    f"{ico} TICKETS BACK: {new_s['venue']} {new_s['time']}{fmt_str} "
+                    f"[{format_date_human(new_s['date'])}] — {new_s['cat']} → {lbl}"
+                )
+            else:
+                changes.append(
+                    f"🎟️ EXTRA SEATS RELEASED: {new_s['venue']} {new_s['time']}{fmt_str} "
+                    f"[{format_date_human(new_s['date'])}] — {new_s['cat']} ({old_lbl} → {lbl})"
+                )
 
     return changes
 

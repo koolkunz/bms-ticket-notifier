@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-23 10:00:44",
+  "last_checked": "2026-11-23 10:03:46",
   "shows": {
     "PVLE|80842|20261220|CLASSIC": {
       "venue": "PVR: Superplex Logix, Noida",
@@ -489,6 +489,168 @@
       "cat": "PRIME",
       "price": "1000.00",
       "status": "1"
+    },
+    "PTCW|36378|20261220|RECLINER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:15 AM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "RECLINER",
+      "price": "1700.00",
+      "status": "0"
+    },
+    "PTCW|36378|20261220|CLA SUPERIOR": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:15 AM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLA SUPERIOR",
+      "price": "750.00",
+      "status": "2"
+    },
+    "PTCW|36378|20261220|CLASSIC": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "07:15 AM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC",
+      "price": "610.00",
+      "status": "3"
+    },
+    "PTCW|36379|20261220|RECLINER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "10:15 AM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "RECLINER",
+      "price": "1700.00",
+      "status": "0"
+    },
+    "PTCW|36379|20261220|CLA SUPERIOR": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "10:15 AM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLA SUPERIOR",
+      "price": "850.00",
+      "status": "1"
+    },
+    "PTCW|36379|20261220|CLASSIC": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "10:15 AM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC",
+      "price": "700.00",
+      "status": "3"
+    },
+    "PTCW|36380|20261220|RECLINER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "01:40 PM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "RECLINER",
+      "price": "1800.00",
+      "status": "0"
+    },
+    "PTCW|36380|20261220|CLA SUPERIOR": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "01:40 PM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLA SUPERIOR",
+      "price": "900.00",
+      "status": "1"
+    },
+    "PTCW|36380|20261220|CLASSIC": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "01:40 PM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC",
+      "price": "800.00",
+      "status": "3"
+    },
+    "PTCW|36381|20261220|RECLINER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "05:05 PM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "RECLINER",
+      "price": "1800.00",
+      "status": "0"
+    },
+    "PTCW|36381|20261220|CLA SUPERIOR": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "05:05 PM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLA SUPERIOR",
+      "price": "900.00",
+      "status": "1"
+    },
+    "PTCW|36381|20261220|CLASSIC": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "05:05 PM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC",
+      "price": "800.00",
+      "status": "3"
+    },
+    "PTCW|36382|20261220|RECLINER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "08:30 PM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "RECLINER",
+      "price": "1800.00",
+      "status": "0"
+    },
+    "PTCW|36382|20261220|CLA SUPERIOR": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "08:30 PM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLA SUPERIOR",
+      "price": "900.00",
+      "status": "1"
+    },
+    "PTCW|36382|20261220|CLASSIC": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "08:30 PM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC",
+      "price": "750.00",
+      "status": "3"
+    },
+    "PTCW|36383|20261220|RECLINER": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:55 PM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "RECLINER",
+      "price": "1800.00",
+      "status": "1"
+    },
+    "PTCW|36383|20261220|CLA SUPERIOR": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:55 PM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLA SUPERIOR",
+      "price": "850.00",
+      "status": "2"
+    },
+    "PTCW|36383|20261220|CLASSIC": {
+      "venue": "PVR: Select City Walk, Delhi",
+      "time": "11:55 PM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "CLASSIC",
+      "price": "750.00",
+      "status": "3"
     },
     "PCEL|12531|20261220|RECLINERS": {
       "venue": "PVR: Cinemagic, Unity One Elegante, NSP, Pitampura",

@@ -2,8 +2,35 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-23 03:30:39",
+  "last_checked": "2026-11-23 04:00:45",
   "shows": {
+    "PVLE|80842|20261220|CLASSIC": {
+      "venue": "PVR: Superplex Logix, Noida",
+      "time": "10:15 AM",
+      "date": "20261220",
+      "format": "MS - Inf Vsn 4DX 3D",
+      "cat": "CLASSIC",
+      "price": "1300.00",
+      "status": "3"
+    },
+    "PVLE|80843|20261220|CLASSIC": {
+      "venue": "PVR: Superplex Logix, Noida",
+      "time": "01:40 PM",
+      "date": "20261220",
+      "format": "MS - Inf Vsn 4DX 3D",
+      "cat": "CLASSIC",
+      "price": "1500.00",
+      "status": "3"
+    },
+    "PVLE|80845|20261220|CLASSIC": {
+      "venue": "PVR: Superplex Logix, Noida",
+      "time": "08:30 PM",
+      "date": "20261220",
+      "format": "MS - Inf Vsn 4DX 3D",
+      "cat": "CLASSIC",
+      "price": "1600.00",
+      "status": "3"
+    },
     "PCEL|12531|20261220|RECLINERS": {
       "venue": "PVR: Cinemagic, Unity One Elegante, NSP, Pitampura",
       "time": "07:15 AM",
@@ -74,7 +101,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME",
       "price": "1600.00",
-      "status": "3"
+      "status": "2"
     },
     "PCEL|12533|20261220|CLASSIC": {
       "venue": "PVR: Cinemagic, Unity One Elegante, NSP, Pitampura",

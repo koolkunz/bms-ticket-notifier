@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-24 05:00:46",
+  "last_checked": "2026-11-24 05:30:39",
   "shows": {
     "PVLE|80842|20261220|CLASSIC": {
       "venue": "PVR: Superplex Logix, Noida",
@@ -67,15 +67,6 @@
       "price": "2200.00",
       "status": "0"
     },
-    "DTYN|37491|20261220|XTRA LEGROOM": {
-      "venue": "PVR: Superplex Mall Of India, Noida",
-      "time": "10:15 AM",
-      "date": "20261220",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "XTRA LEGROOM",
-      "price": "1000.00",
-      "status": "1"
-    },
     "DTYN|37491|20261220|CLASSIC": {
       "venue": "PVR: Superplex Mall Of India, Noida",
       "time": "10:15 AM",
@@ -93,6 +84,15 @@
       "cat": "PRIME",
       "price": "1000.00",
       "status": "0"
+    },
+    "DTYN|37491|20261220|XTRA LEGROOM": {
+      "venue": "PVR: Superplex Mall Of India, Noida",
+      "time": "10:15 AM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "XTRA LEGROOM",
+      "price": "1000.00",
+      "status": "1"
     },
     "DTYN|37656|20261220|RECLINER": {
       "venue": "PVR: Superplex Mall Of India, Noida",
@@ -137,7 +137,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "XTRA LEGROOM",
       "price": "860.00",
-      "status": "1"
+      "status": "0"
     },
     "DTYN|37671|20261220|PRIME": {
       "venue": "PVR: Superplex Mall Of India, Noida",
@@ -463,15 +463,6 @@
       "price": "2200.00",
       "status": "3"
     },
-    "DTYN|37495|20261220|PRIME": {
-      "venue": "PVR: Superplex Mall Of India, Noida",
-      "time": "11:55 PM",
-      "date": "20261220",
-      "format": "MS-Infinity Vsn 3d",
-      "cat": "PRIME",
-      "price": "1000.00",
-      "status": "1"
-    },
     "DTYN|37495|20261220|XTRA LEGROOM": {
       "venue": "PVR: Superplex Mall Of India, Noida",
       "time": "11:55 PM",
@@ -489,6 +480,15 @@
       "cat": "CLASSIC",
       "price": "1000.00",
       "status": "3"
+    },
+    "DTYN|37495|20261220|PRIME": {
+      "venue": "PVR: Superplex Mall Of India, Noida",
+      "time": "11:55 PM",
+      "date": "20261220",
+      "format": "MS-Infinity Vsn 3d",
+      "cat": "PRIME",
+      "price": "1000.00",
+      "status": "1"
     },
     "PTCW|36378|20261220|RECLINER": {
       "venue": "PVR: Select City Walk, Delhi",
@@ -641,7 +641,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLA SUPERIOR",
       "price": "850.00",
-      "status": "2"
+      "status": "3"
     },
     "PTCW|36383|20261220|CLASSIC": {
       "venue": "PVR: Select City Walk, Delhi",

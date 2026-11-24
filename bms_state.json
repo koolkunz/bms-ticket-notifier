@@ -2,7 +2,7 @@
   "event_code": "ET00439706",
   "movie": "Avengers: Doomsday",
   "waiting_for_release": false,
-  "last_checked": "2026-11-24 01:54:56",
+  "last_checked": "2026-11-24 02:00:47",
   "shows": {
     "PVLE|80842|20261220|CLASSIC": {
       "venue": "PVR: Superplex Logix, Noida",
@@ -47,7 +47,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "PRIME",
       "price": "660.00",
-      "status": "2"
+      "status": "1"
     },
     "DTYN|37670|20261220|CLASSIC": {
       "venue": "PVR: Superplex Mall Of India, Noida",
@@ -641,7 +641,7 @@
       "format": "MS-Infinity Vsn 3d",
       "cat": "CLA SUPERIOR",
       "price": "850.00",
-      "status": "2"
+      "status": "3"
     },
     "PTCW|36383|20261220|CLASSIC": {
       "venue": "PVR: Select City Walk, Delhi",
